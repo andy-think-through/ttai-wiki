@@ -130,3 +130,16 @@
 - Pages created: clients/steve-tipson.md, clients/tippercrete.md
 - Contradictions found: overview.md Q2 must-hit section still lists 15 April Mercia go-live (now slipped) — flagged for Andy, not retroactively rewritten
 - Key changes: Two conversions in one day (JDW £500 setup + £200/mo; Tonic £1,750 first paid build). Mercia remains blocked on Outlook/Entra. New SEO prospect via Assisted (Steve Tipson) and new Mark-Lite groundworks prospect (Tippercrete, Warwickshire). Agent Browser pivoting toward atomic-actions model — candidate principle "capabilities before workflows".
+
+## 2026-04-15 wiki-agent | Scheduled scan (routine)
+- Sources scanned: inbox/, operations/fred-reports/, key strategy pages
+- Pages updated:
+  - betting-rules/predicted-loser-rule.md — Updated record from 0/9 to 0/18 (NBA 8/8, Tennis 10/10); reflected Fred's 2026-04-14 formalisation recommendation; decision flagged for Andy
+  - betting-rules/never-back-predicted-loser.md — Same record + progress update (18/20 bets)
+  - betting-rules/active-rules.md — Updated summary + status columns to match 18/18 reality
+  - index.md — Refreshed predicted-loser summary lines and bumped date
+- Pages created: none
+- Inbox: moved 2026-04-12-agent-browser-prompt-caching-and-optimisation-research.md to inbox/processed/ (content was already ingested in the 2026-04-12 log entries; file had not been moved)
+- Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
+- Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
+- Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).

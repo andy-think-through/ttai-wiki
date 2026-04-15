@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-14
+> Last updated: 2026-04-15
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
@@ -91,6 +91,6 @@
 - [[active-rules]] — All current rules in one place
 - [[injury-veto-80pct]] — Only skip if player in 80%+ of games
 - [[away-team-threshold]] — 20%+ edge required for away underdogs
-- [[never-back-predicted-loser]] — 0/6 paper record, approaching formalisation
+- [[never-back-predicted-loser]] — 0/18 paper record, formalisation recommended by Fred, pending Andy
 - [[grass-veto]] — Tennis: no bets on grass (pending implementation before June)
-- [[predicted-loser-rule]] — Paper tracking toward 20-bet formalisation threshold
+- [[predicted-loser-rule]] — 18/20 paper bets complete, 2 short of formal threshold

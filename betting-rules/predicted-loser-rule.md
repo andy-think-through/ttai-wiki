@@ -1,9 +1,9 @@
 # Rule: Predicted Loser (Paper Tracking)
-> Never back the model's predicted loser. Paper experiment at 0/6 bets, approaching formalisation at 20.
-> Last updated: 2026-04-10
+> Never back the model's predicted loser. Paper experiment at 0/18 bets, formalisation decision flagged for Andy.
+> Last updated: 2026-04-15
 
 ## Status
-**Paper tracking** — currently logging results but not yet a formal rule. Will formalise when reaching 20 bets with 0% win rate.
+**Paper tracking** — currently logging results but not yet a formal rule. Combined record now 0/18 across NBA and Tennis. Fred recommended formalising on 2026-04-14; decision pending Andy.
 
 ## Experiment Design
 ### Hypothesis
@@ -18,20 +18,20 @@ Track every bet where:
 ### Results
 | Domain | Bets | Wins | Win Rate |
 |--------|------|------|----------|
-| NBA | 6 | 0 | 0% |
-| Tennis | 3 | 0 | 0% |
-| **Total** | **9** | **0** | **0%** |
+| NBA | 8 | 0 | 0% |
+| Tennis | 10 | 0 | 0% |
+| **Total** | **18** | **0** | **0%** |
 
-**Confidence**: Strengthening. NBA pred-loser paper record confirmed 6/6 losses (Apr 6-10 daily ops). Matches tennis 0/10 pattern noted in earlier analysis. At 20 bets with 0% win rate, formalise as permanent rule.
+**Confidence**: Strong. NBA 8/8, Tennis 10/10, combined 18/18 as of 2026-04-14. 2 bets away from the 20-bet formalisation threshold. Fred recommended early formalisation in his 2026-04-14 NBA regular-season close update — at 18/18 the 95% CI on a 0% win rate is already well below any plausible edge threshold.
 
 ## Interpretation
 The pattern suggests backing the predicted loser systematically extracts value from the weaker tail of the model's decision boundary. Even with superficial edge logic, the model's asymmetric confidence makes this unprofitable.
 
 ## Formalisation Threshold
 - **Target**: 20 bets
-- **Current**: 9 bets
-- **Remaining**: 11 bets
-- **Expected timeline**: Q2 2026
+- **Current**: 18 bets
+- **Remaining**: 2 bets (or early formalisation per Andy)
+- **Expected timeline**: Imminent
 - **Trigger**: When 20 bets reached with ≤5% win rate (95% CI on 0%), formalise and apply across all sports
 
 ## Implementation Plan
@@ -47,6 +47,7 @@ Once formalised:
 - [[autostrategy]]
 
 ## Decision Log
+- 2026-04-14: NBA regular-season close — NBA 8/8, Tennis 10/10, Combined 18/18. Fred recommended formalisation. Decision flagged for Andy.
 - 2026-04-10: NBA record updated to 0/6. Total now 0/9 across all sports. Strong case for early formalisation building.
 - 2026-04-08: Added to [[active-rules]] with formalisation path
 - 2026-03-20: Tennis added (0/3)
