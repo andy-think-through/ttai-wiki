@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -227,6 +227,24 @@ Value betting (+£47.43 this year, +£38.90 in NBA) is small but real. It:
 - Teaches systematic thinking → transferable to Mark and Agent Browser
 
 Not a primary focus, but meaningful diversification if Mark or Hike experience seasonality.
+
+---
+
+## Infrastructure
+
+### Autonomous Employee Platform
+
+As of April 2026, TTAI runs three autonomous AI employees on a combination of platforms:
+
+| Component | What | Status |
+|-----------|------|--------|
+| **Claude Code Routines** | Cloud execution platform for scheduled + API-triggered employee runs | Live (Wiki migrated 2026-04-15) |
+| **Slack #ttai-employees** | Shared reporting channel for all employees + Andy | Live |
+| **TTAI Slack Bridge** | Node.js bot on Railway free tier; routes Andy's Slack replies to correct employee routine | Live |
+| **GitHub repos** | Persistent memory for each employee (wiki, autostrategy, mark-lite) | Live (wiki repo) |
+| **Cowork** | Legacy scheduled task platform; being phased out for scheduled employees | Phase-out in progress |
+
+**Migration status:** Wiki is fully on Routines. Fred and Mark-Lite are still Cowork-based and need migration. The architecture pattern is proven and repeatable -- see [[employee-framework]] and [[wiki-agent-SKILL]] for the target state.
 
 ---
 

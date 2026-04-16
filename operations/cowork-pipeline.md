@@ -1,8 +1,15 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of Claude Code Routines for scheduled employees.
+> Last updated: 2026-04-16
 
-## Architecture
+## Phase-Out Status
+
+> **As of April 2026, Cowork scheduled tasks are being replaced by [[claude-code-routines]] for autonomous employees.** Wiki has migrated (2026-04-15). Fred and Mark-Lite migrations are pending. Cowork remains valid for on-demand batch work that doesn't require scheduling.
+>
+> Successor system: [[claude-code-routines]] + [[ttai-slack-bridge]] + individual employee SKILL files
+> See [[employee-framework]] for the current architecture.
+
+## Architecture (Legacy)
 ```
 Cowork (orchestrator)
   ↓
@@ -94,11 +101,16 @@ Manual bet placement (Andy reviews → places bets)
 - raw/autostrategy/daily-skill-lessons-learned.md
 - raw/autostrategy/autostrategy_STATUS.md
 - raw/autostrategy/AutoStrategy_Paper_v6.md
+- Wiki Agent migration conversation (2026-04-15)
 
 ## Links
+- [[claude-code-routines]] — Successor platform for scheduled employees
+- [[employee-framework]] — Current employee operating model
+- [[ttai-slack-bridge]] — Slack routing for Routines-based employees
 - [[autostrategy]] — Strategy optimization framework
 - [[betting-portfolio]] — Portfolio container
 - [[scheduled-tasks-need-zero-intervention]] — Operational principle
+- [[connectors-beat-computer-use]] — Why connectors replaced Computer Use
 - [[tool-routing]] — Tool selection guide
 - [[known-failure-modes]] — Failure mode mitigation
 - [[compound-evaluation]] — Evaluation framework (metrics tracked)

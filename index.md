@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-15
+> Last updated: 2026-04-16
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
@@ -64,6 +64,8 @@
 - [[execution-cost-varies-by-selection]] — Underdog spreads 2-8x wider than favourites; paper P&L overstates real performance
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
+- [[connectors-beat-computer-use]] — Default to API connectors over browser automation for agent data access
+- [[repos-are-employee-memory]] — On ephemeral infrastructure, persistent state lives in repos/trackers, not conversation memory
 
 ## Operations
 - [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
@@ -72,9 +74,12 @@
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
 - [[browser-agent-arch]] — Claude Code → Computer Use → Min browser architecture pattern
-- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
-- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
+- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred); updated for Routines platform
+- [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines, live)
+- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
+- [[claude-code-routines]] — Claude Code Routines platform documentation (schedule + API triggers)
+- [[ttai-slack-bridge]] — Node.js Slack Bolt bridge routing Andy's replies to employee routines (Railway)
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules
