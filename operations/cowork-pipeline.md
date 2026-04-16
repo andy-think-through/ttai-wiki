@@ -1,6 +1,6 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of Claude Code Routines.
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -89,6 +89,21 @@ Manual bet placement (Andy reviews → places bets)
 - **Weekly:** Audit ROI by sport, check for systematic issues (e.g., model drift)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
+
+## Phase-Out Status (April 2026)
+
+Cowork scheduled tasks are being replaced by [[claude-code-routines]] for autonomous employee operations. See [[connectors-beat-computer-use]] for the rationale.
+
+| Employee | Previous (Cowork) | Current (Routines) | Migration Status |
+|----------|-------------------|-------------------|------------------|
+| Wiki | Cowork + Computer Use + email reports | Routines + Slack/Drive connectors | **Migrated** (2026-04-15) |
+| Mark-Lite | Cowork + Computer Use + email reports | Routines + Slack/Gmail/Drive connectors | **Migrated** (2026-04-16) |
+| Fred | Cowork + Computer Use + email reports | Pending | **Paused** -- needs migration. 5 changes to SKILL file. |
+
+Cowork remains valid for:
+- On-demand batch work (not scheduled)
+- Tasks that genuinely require Computer Use (no connector available)
+- Fred's operations until Routines migration completes
 
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md

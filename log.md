@@ -143,3 +143,32 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 wiki-agent | Scheduled scan (authoritative recovery)
+- Sources scanned: Slack #ttai-employees (50 messages: 8+ Wiki runs, 4 Mark-Lite runs, Andy's answers), inbox/ (empty), operations/fred-reports/ (no new since 04-13)
+- NOTE: 8+ earlier Wiki runs today posted Slack reports but committed to ephemeral branches that no longer exist. This run is the authoritative recovery -- all work persisted to branch and pushed.
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Wiki Agent Routines job spec (migrated from Cowork)
+  - operations/ttai-slack-bridge.md -- Slack bridge infrastructure (Node.js Bolt app on Railway)
+  - operations/claude-code-routines.md -- Platform documentation for Routines
+  - principles/connectors-beat-computer-use.md -- New principle: default to structured connectors over Computer Use
+  - principles/repos-are-employee-memory.md -- New principle: ephemeral sessions need durable state
+- Pages updated:
+  - betting-rules/predicted-loser-rule.md -- **FORMALISED** by Andy. Status flipped from paper tracking to formalised hard constraint, all sports.
+  - betting-rules/never-back-predicted-loser.md -- Same formalisation. All sports scope.
+  - betting-rules/active-rules.md -- Updated status columns to reflect formalisation.
+  - strategy/overview.md -- Revenue fix: total invoiced now £3,188.20 (was £938.20). JDW (£500, TTAI-004) and Tonic (£1,750, INV-003) moved from proposals to invoiced. Must-Hit section updated (JDW + Tonic checked off). Infrastructure section added. Mercia date updated. Fred paused noted.
+  - clients/mercia-flooring.md -- Outlook/Entra fix reported by Andy (confirming 17 April). Interaction log updated.
+  - clients/tippercrete.md -- Contact: Daniel Fordham. Status: Warm. CI sample monitoring.
+  - products/mark-lite.md -- Added Construction Intelligence tier (£75/mo). Two-tier funnel model. Re-engagement batch info.
+  - operations/employee-framework.md -- Added Platform section (Routines architecture). Updated Current Employees table with Platform column. Rewrote Reporting, Computer Use, Cross-Employee Awareness, Creating a New Employee sections.
+  - operations/cowork-pipeline.md -- Added Phase-Out Status section.
+  - operations/fred-autostrategy-employee-SKILL.md -- Added migration note (still Cowork, 5 changes needed, paused).
+  - principles/_index.md -- Added Infrastructure & Operations Principles section with 2 new principles.
+  - index.md -- All summaries updated. 3 new operations pages + 2 new principles added.
+- Andy's answers processed (from Slack 20:51):
+  1. Branch strategy: yes (push to main). Noted for future runs.
+  2. Predicted-loser rule: FORMALISED at 18/18. Hard constraint, all sports.
+  3. Mercia: Outlook/Entra fix reported, confirming 17 April.
+  4. Fred: paused, Andy fixing tomorrow. NBA playoffs urgency noted.
+- Key new information: Revenue de-concentration -- KW Bell dropped from 73% to 22% of invoiced without Mercia unblocking. JDW (inbound campaign) + Tonic (friend referral) drove the change. Employee architecture (Routines + Slack + bridge + repos) now documented as repeatable consulting IP. Predicted-loser rule is first to complete the full evidence cycle.

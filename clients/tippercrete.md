@@ -1,15 +1,15 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Danny. Prospecting email drafted with 6 commercial/farm projects around Warwickshire.
-> Last updated: 2026-04-14
+> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Daniel Fordham. Status: Warm -- CI sample delivered, replied twice within 19 min.
+> Last updated: 2026-04-16
 
 ## Lead Profile
 
 - **Company:** Tippercrete
-- **Contact:** Danny
+- **Contact:** Daniel Fordham (Danny)
 - **Trade:** Groundworks
 - **Region:** Warwickshire
-- **Status:** Prospecting \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
+- **Status:** Warm -- replied twice within 19 min. CI sample delivered 14 April; monitoring for response (~72hrs, no reply as of 16 April)
 
 ## Sample Projects Packaged (Drafted 2026-04-14)
 
