@@ -143,3 +143,11 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 follow-up | Mercia go-live update (Andy via Slack)
+- Source: Andy's Slack message
+- Pages created: none
+- Pages updated:
+  - clients/mercia-flooring.md -- Solaas OAuth fix expected 16 April; Andy chasing 17 April; whole week lost for Pete; need Pete's calendar for next week to reschedule go-live
+  - strategy/overview.md -- Resolved stale 15 April go-live references across 7 locations (revenue table, proposals table, pipeline, Q2 priorities, time allocation, risks, client links); also fixed Tonic Health status from "proposal pending" to "ACCEPTED" per 14 April scan data
+- Key new information: Solaas IT should have implemented OAuth fix on 16 April enabling Pete's email connection to Manus/Claude. Andy chasing tomorrow. Go-live targeting w/c 21 April subject to Pete's availability. Previously-flagged contradiction (overview.md 15-April date) now resolved with Andy's input.

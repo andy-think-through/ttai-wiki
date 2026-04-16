@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -19,7 +19,7 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 | Stream | Client | Amount | Status |
 |--------|--------|--------|--------|
 | **Consulting** | [[KW-Bell]] | £688.20 | Audit complete, solution design proposed |
-| **Mark** | [[Mercia-Flooring]] | £250 (setup) | Invoiced 2026-03-XX, go-live 15 April |
+| **Mark** | [[Mercia-Flooring]] | £250 (setup) | Invoiced 2026-03-XX, go-live slipped from 15 April -- Solaas OAuth fix expected 16 Apr, rescheduling w/c 21 April |
 | **Total Invoiced** | — | **£938.20** | **Cash in** |
 
 ### Active Proposals (Next 30-90 Days)
@@ -29,7 +29,7 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 | **Consulting** | [[AccXel]] | £700 | Discovery day 28 April | KW Bell subsidiary, day rate |
 | **Consulting** | [[Tonic-Health]] | £1,750 | Proposal sent | Creative agent work, 5-day engagement |
 | **Mark** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
-| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live 15 April | Schools outreach, seasonal Jan-July, Outlook pending |
+| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live slipped, targeting w/c 21 April | Schools outreach, seasonal Jan-July, Solaas OAuth fix expected 16 Apr |
 | **Mark** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
 | **Mark-Lite Prospects** | [[JDW-Brickwork]] (Josh Warren) | Discovery 14 April | Conversion from campaign | Meeting booked, pricing expectations set |
 | **Total in Proposals** | — | **£2,450+** | — | **Plus £900/mo recurring if all close** |
@@ -47,7 +47,7 @@ Hike SES is contractual stability (directorship income, not detailed in this vie
 
 | Stage | Clients | Notes |
 |-------|---------|-------|
-| **Active** (invoiced or signed) | Hawks, Mercia, Bat Surveys | Mark recurring; Mercia go-live critical |
+| **Active** (invoiced or signed) | Hawks, Mercia, Bat Surveys | Mark recurring; Mercia go-live slipped to w/c 21 April pending Solaas OAuth fix |
 | **Warm** (proposal sent, decision pending) | AccXel, Steve Tipson | Tonic now ACCEPTED |
 | **Hot** (signed/building) | JDW Brickwork (CONVERTED 14 Apr, build 21–25 Apr), IH Group (follow-up scheduled) | JDW first Mark-Lite → Mark conversion |
 | **Pipeline** (prospect, referral warm) | [[MJM-Consulting]], [[Carmen-MacDougall]] | Via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
@@ -112,7 +112,7 @@ Consulting Audit → Uncovers Product Opportunity
 |--------|-----|-------------|--------|
 | [[Malcolm-Freeman]] | [[Oxygen-Elements]] (BNI Master Connector) | IH Group, Carmen, future warm referrals | Warm, recurring touch (monthly coffee) |
 | [[Gareth-Hunt]] | KW Bell (CFO) | AccXel discovery day 28 April; future referrals | Active; first client → best referral source |
-| [[Sunna-van-Kampen]] | [[Tonic-Health]] (CEO, friend) | Creative agent proposal £1,750 sent; Knowledge Assistant prospect | Warm personal relationship; proposal pending |
+| [[Sunna-van-Kampen]] | [[Tonic-Health]] (CEO, friend) | Creative agent £1,750 ACCEPTED; Knowledge Assistant prospect | Warm personal relationship; INV-003 pending |
 | [[Bryn]] | Hike SEO (MD) | Directorship stability + [[Agent-Browser]] integration path | Stable; enables contractual visibility for Hike SES |
 
 ---
@@ -135,7 +135,7 @@ Consulting Audit → Uncovers Product Opportunity
 **Priority shift:** Consulting is highest ROI per hour, but doesn't scale. Mark is the scalable play — every new client adds £200/mo that keeps coming. Agent Browser is the highest-ceiling product if it can be productised beyond Hike.
 
 **Allocation for next 90 days:**
-1. **Mercia go-live (15 April):** Ensure smooth Outlook integration, first batch of school leads, email validation. One week focused effort, then monitoring.
+1. **Mercia go-live (slipped to w/c 21 April):** Solaas IT OAuth fix expected 16 April. Andy chasing 17 April. Need Pete's calendar for next week to lock in go-live date. Then: first batch of school leads, email validation, monitoring.
 2. **Consulting closes:** AccXel (28 April), Tonic (follow-up), IH Group (light touch). These drive case studies for Mark and Agent Browser.
 3. **Mark expansion:** Josh Warren discovery (14 April) — if converted, that's 4 clients. Focus on onboarding repeatability (checklist, templates).
 4. **Agent Browser PoC with KW Bell:** Prove invoice OCR workflow. If successful, opens external commercial path.
@@ -147,7 +147,7 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
-- [ ] [[Mercia-Flooring]] go-live 15 April: Email integration + first school batch live
+- [ ] [[Mercia-Flooring]] go-live (slipped from 15 April, targeting w/c 21 April): Email OAuth integration via Solaas + first school batch live. Andy chasing Solaas 17 April, then needs Pete's calendar for next week.
 - [ ] [[AccXel]] discovery day 28 April: Deliver audit, proposal solution design
 - [ ] [[JDW-Brickwork]] (Josh Warren) conversion: Discovery 14 April → proposal → sign
 - [ ] [[Agent-Browser]] PoC with KW Bell: Invoice OCR workflow proof of concept (cost < £500)
@@ -234,7 +234,7 @@ Not a primary focus, but meaningful diversification if Mark or Hike experience s
 
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
-| **Mercia go-live delays (Outlook IT access)** | £200/mo recurring slips | Contact Martin (Solaas IT) by 8 April; have fallback Gmail approach |
+| **Mercia go-live delays (Outlook IT access)** | £200/mo recurring slips; whole week lost for Pete | Solaas OAuth fix expected 16 April; Andy chasing 17 April; fallback Gmail approach still available |
 | **Mark client churn** | Hawks or Bat Surveys cancel | Monthly touch-base calls, clear reporting, lead quality gates |
 | **Consulting dries up (pipeline empty)** | Cash flow pressure | Malcolm + Gareth referrals are warm; maintain monthly touch |
 | **Agent Browser PoC fails** | Highest-ceiling product doesn't deliver | Scope carefully; start with invoice OCR (narrow, repeatable problem) |
@@ -262,7 +262,7 @@ Not a primary focus, but meaningful diversification if Mark or Hike experience s
 - [[KW-Bell]] — Consulting audit complete; Agent Browser PoC client
 - [[AccXel]] — Consulting discovery day 28 April
 - [[Hawks-Scaffolding]] — Mark client, live, exclusive Warwickshire scaffolding
-- [[Mercia-Flooring]] — Mark client, go-live 15 April, schools focus
+- [[Mercia-Flooring]] — Mark client, go-live slipped to w/c 21 April, schools focus
 - [[Midlands-Bat-Surveys]] — Mark client, planning portal variant, £500/mo
 - [[JDW-Brickwork]] (Josh Warren) — Mark-Lite inbound conversion, discovery 14 April
 - [[Tonic-Health]] — Consulting + Knowledge Assistant prospect; creative agent proposal pending
@@ -283,4 +283,4 @@ The index ([[index]]) lists all pages by category.
 
 ---
 
-**Updated 2026-04-08 | Think Through AI Strategy Synthesis**
+**Updated 2026-04-16 | Think Through AI Strategy Synthesis**
