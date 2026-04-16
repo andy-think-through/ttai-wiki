@@ -1,6 +1,6 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of [[claude-code-routines]] for scheduled employee tasks.
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -89,6 +89,18 @@ Manual bet placement (Andy reviews → places bets)
 - **Weekly:** Audit ROI by sport, check for systematic issues (e.g., model drift)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
+
+## Phase-Out Status (April 2026)
+
+Cowork scheduled tasks are being migrated to [[claude-code-routines]]:
+
+| Employee | Cowork Status | Routines Status |
+|----------|-------------|----------------|
+| Wiki | Retired | Migrated 2026-04-15 |
+| Mark-Lite | Active | Migration pending |
+| Fred (AutoStrategy) | Active (last report 2026-04-13) | Migration pending -- priority due to NBA playoffs |
+
+Cowork remains valid for on-demand batch work and ad-hoc tasks that don't need scheduled triggers.
 
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md

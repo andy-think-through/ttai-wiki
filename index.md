@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-15
+> Last updated: 2026-04-16
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
@@ -31,13 +31,13 @@
 - [[holmes-workholding]] — Mark prospect: reviewing proposal
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — Creative agent prospect: proposal sent £1,750
+- [[tonic-health]] — Creative agent client: ACCEPTED £1,750 (INV-003), build pending
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] — Mark-Lite inbound lead: discovery meeting 14 April (today)
+- [[jdw-brickwork]] — CONVERTED 14 April: £500 setup (TTAI-004), Mark build 21-25 April, £200/mo ongoing
 - [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
-- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample-week email drafted
+- [[tippercrete]] — Mark-Lite warm prospect: Danny Fordham, Construction Intelligence sample delivered 14 April
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
@@ -46,6 +46,8 @@
 - [[bryn]] — Hike SEO MD
 
 ## Principles
+
+### Consulting & Sales
 - [[dont-reveal-methodology-before-paid]] — Protect approach until engagement is paid
 - [[position-next-stage-not-bigger-commitment]] — Reduce friction, build trust incrementally
 - [[let-clients-surface-pain-points]] — Listen; let insight land as their conclusion
@@ -65,6 +67,10 @@
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
 
+### Infrastructure & Operations
+- [[connectors-beat-computer-use]] — Default to structured connectors/APIs over Computer Use browser automation
+- [[repos-are-employee-memory]] — Ephemeral sessions require external persistent state; if it isn't committed, it didn't happen
+
 ## Operations
 - [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
 - [[tool-routing]] — Which tool for which task (Betfair, trackers, models, sheets)
@@ -75,6 +81,13 @@
 - [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
+- [[fred-betfair-exploration-prompt]] — Prompt template for Fred's Betfair market structure exploration
+- [[mark-lite-employee-SKILL]] — Mark-Lite Campaign Manager job spec (Cowork, migration pending)
+- [[mark-lite-decision-log]] — Mark-Lite's append-only reasoning audit trail
+- [[wiki-agent-SKILL]] — Wiki Knowledge Curator job spec (Routines, migrated 2026-04-15)
+- [[ttai-slack-bridge]] — Node.js Slack Bolt app routing replies to employee Routine endpoints
+- [[claude-code-routines]] — Claude Code Routines platform documentation for TTAI employees
+- [[new-employee-briefing]] — Onboarding template for new TTAI autonomous employees
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules

@@ -1,6 +1,6 @@
 # Principles Index
 > All principles with origin and applicability.
-> Last updated: 2026-04-13
+> Last updated: 2026-04-16
 
 ## Consulting & Sales Principles (Phase 1)
 
@@ -40,6 +40,13 @@
 |-----------|--------|------------|
 | [[trust-the-agent-not-dom]] | Agent Browser schema workflow | Any decision about building custom scripts vs using the visual agent |
 
+## Infrastructure & Operations Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[connectors-beat-computer-use]] | Wiki Agent migration to Routines (2026-04-15) | All TTAI employees, Agent Browser optimisation, consulting advice |
+| [[repos-are-employee-memory]] | Routines architecture + 2026-04-16 branch incident | All employees on ephemeral infrastructure |
+
 ## Cross-Principle Links
 
 ### By Domain
@@ -47,7 +54,7 @@
 - **TTAI Sales/Consulting:** [[dont-reveal-methodology-before-paid]] + [[position-next-stage-not-bigger-commitment]] + [[let-clients-surface-pain-points]] + [[email-quality-over-volume]]
 - **Mark (Lead Qualification):** [[strict-trade-matching]] + [[selectivity-is-everything]] + [[trust-the-model-over-punditry]] + [[planning-data-serves-site-trades]]
 - **Agent Browser:** [[trust-the-agent-not-dom]]
-- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]]
+- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]] + [[connectors-beat-computer-use]] + [[repos-are-employee-memory]]
 - **Value Betting (Sports):** [[raw-probabilities-lie]] + [[probability-calibration]] + [[trust-the-model-over-punditry]] + [[selectivity-is-everything]]
 
 ### By Theme

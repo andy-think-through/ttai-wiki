@@ -143,3 +143,31 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 wiki-agent | Scheduled scan (Routines, branch claude/magical-goldberg-IMV8Z)
+- Sources scanned: Slack #ttai-employees, operations/mark-lite-reports/ (3 daily reports), Andy's Slack ingest message (Routines migration)
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Wiki agent job spec for Routines
+  - operations/ttai-slack-bridge.md -- Slack bridge infrastructure docs
+  - operations/claude-code-routines.md -- Routines platform docs
+  - principles/connectors-beat-computer-use.md -- New infrastructure principle
+  - principles/repos-are-employee-memory.md -- New infrastructure principle
+- Pages updated:
+  - products/mark-lite.md -- Added Construction Intelligence tier (£75/month), re-engagement campaign data, updated JDW/Tippercrete status
+  - clients/tippercrete.md -- Danny's full name (Daniel Fordham), engagement timeline, warm status
+  - clients/jdw-brickwork.md -- Invoice number TTAI-004, direction-of-initiation observation
+  - strategy/overview.md -- Revenue fix (£938.20 -> £3,188.20 invoiced), recurring baseline £1,100/mo, Must-Hit updated, Infrastructure section added
+  - operations/employee-framework.md -- Platform section (Routines), updated reporting/data access/cross-employee awareness/creating steps
+  - operations/cowork-pipeline.md -- Phase-out status table
+  - operations/fred-autostrategy-employee-SKILL.md -- Migration note flagged
+  - principles/_index.md -- Added Infrastructure & Operations Principles section
+  - index.md -- Added 8 missing/new operations pages, updated client summaries, added principle subsections
+- Inbox: empty (no new ingest files)
+- Key changes:
+  1. Revenue was 3.4x undercounted (£938.20 shown vs £3,188.20 actual). JDW (£500) and Tonic (£1,750) conversions had been noted in client pages but never propagated to revenue summary.
+  2. Construction Intelligence creates a two-tier funnel (£75/month entry vs £200/month managed). First live test sent 13 April to 12 firms, monitoring window ends 18-19 April.
+  3. Full Routines migration architecture documented (5 new pages). Fred and Mark-Lite flagged for migration.
+  4. Branch proliferation: 8 remote branches exist as of this scan. Earlier runs today committed to different branches. This is a known problem -- see QUESTIONS FOR ANDY.
+- Contradictions:
+  - overview.md Mercia go-live: updated to reflect "blocked" status rather than specific date. Still needs Andy's call on Gmail workaround.
+  - Fred silence: last report 2026-04-13. Unknown if operating on Cowork or paused.

@@ -1,15 +1,15 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Danny. Prospecting email drafted with 6 commercial/farm projects around Warwickshire.
-> Last updated: 2026-04-14
+> [[mark-lite]] warm prospect. Groundworks contractor, Warwickshire. Contact: Daniel Fordham ("Danny"). Replied twice within 19 min of re-engagement email. Construction Intelligence sample delivered 14 April.
+> Last updated: 2026-04-16
 
 ## Lead Profile
 
-- **Company:** Tippercrete
-- **Contact:** Danny
+- **Company:** Tippercrete Concrete
+- **Contact:** Daniel Fordham ("Danny")
 - **Trade:** Groundworks
 - **Region:** Warwickshire
-- **Status:** Prospecting \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
+- **Status:** Warm -- Construction Intelligence sample delivered 14 April. Awaiting response.
 
 ## Sample Projects Packaged (Drafted 2026-04-14)
 
@@ -22,16 +22,29 @@
 | Gospel Oak Farm | Over Whitacre | Large 30\u00d715m barn + hardstanding | Address only |
 | Manor Farm | Kingsbury | Agricultural barn | Address only |
 
+## Engagement Timeline
+
+| Date | Event |
+|------|-------|
+| 13 April | Re-engagement email sent (Construction Intelligence pitch, £75/month) |
+| 13 April | Danny replied twice within 19 min -- asked for sample week of small jobs |
+| 14 April | Andy replied promising sample morning delivery |
+| 14 April | Construction Intelligence sample delivered (6 projects, see above) |
+| 15 April | No reply yet (~27 hours). Normal window. |
+
+**Reply speed note:** Sub-20-min double reply suggests sole-trader-on-phone pattern. Strong engagement signal.
+
 ## Notes
 
-- Email reframed from planning-speak to trade-speak (\"will need groundworks packages\").
-- Two older reply-chain drafts linger in Andy's inbox (r6643235254657497487, r-8974149886039307649) and should be binned.
-- Validates [[planning-data-serves-site-trades]] principle \u2014 Groundworks is a site trade so planning-portal sourcing is the right channel.
+- Email reframed from planning-speak to trade-speak ("will need groundworks packages").
+- First live test of Construction Intelligence product tier.
+- Validates [[planning-data-serves-site-trades]] principle -- Groundworks is a site trade so planning-portal sourcing is the right channel.
 
 ## Next Actions
 
-- **Send:** Danny to review the standalone draft; Andy to send when happy
-- **Follow-up:** If Danny responds warm, convert to [[mark-lite]] Warwickshire campaign subscriber or managed [[mark]] client
+- **Monitor** Danny's response to the Construction Intelligence sample
+- **If warm:** Convert to ongoing Construction Intelligence subscription (£75/month) or managed [[mark]] client
+- **If silent by 18 April:** Follow up once, then park
 
 ## Links
 

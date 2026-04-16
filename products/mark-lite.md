@@ -1,7 +1,7 @@
 # Mark-Lite
 
-> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2).
-> Last updated: 2026-04-12
+> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/month data feed).
+> Last updated: 2026-04-16
 
 ## What Mark-Lite Is
 
@@ -64,8 +64,11 @@ This is a **tactical, time-bounded engagement** rather than an ongoing retainer.
 - Stricter trade matching: Electrical, HVAC, Roofing, Scaffolding, Drainage all explicit-only
 - Tender portal search mandatory for Electrical, Roofing, HVAC, Scaffolding (don't appear in planning data)
 
-**Current Lead:**
-- **Josh Warren (JDW Brickwork)** — Inbound conversion from campaign. Discovery meeting booked: Tuesday 14 April 2026, 9am, Costa Coffee Riverside Retail Park Northampton. Confirmation sent with pricing (£250-£500 setup, £200/month ongoing) + light prep guidance
+**Converted:**
+- **Josh Warren ([[jdw-brickwork]])** — CONVERTED 14 April. £500 setup invoiced (TTAI-004), £200/month ongoing. Mark build 21--25 April. Inbound from campaign Email 1 -- skipped intelligence tier entirely.
+
+**Warm Prospects:**
+- **Daniel Fordham ([[tippercrete]])** — Re-engagement email sent 13 April. Replied twice within 19 min. Construction Intelligence sample delivered 14 April. Monitoring.
 
 **Other Warm Reply:**
 - **Brian Kelly (Hawk Drainage)** — Warm response to planning application lead
@@ -180,7 +183,29 @@ Content: 2 leads, ~80 words. "If you'd like me to set this up properly for your 
 
 Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max one per prospect.
 
+## Construction Intelligence (New Product Tier -- April 2026)
+
+A lower-commitment entry product sitting below the managed Mark service:
+
+- **Price:** £75/month (vs £200/month for managed Mark)
+- **What it is:** Data feed of construction project opportunities in the prospect's region and trade, delivered weekly
+- **What it isn't:** No outreach, no email sequences, no lead contact -- just the intelligence
+- **First live test:** 12-firm re-engagement batch sent 13 April 2026 using this pitch
+- **Monitoring window:** Results expected 18--19 April 2026
+
+**Direction-of-Initiation Hypothesis (1 data point):**
+Cold outreach prospects convert to Construction Intelligence (low commitment) first. Inbound prospects convert straight to managed Mark. Evidence: JDW Brickwork (inbound) skipped the intelligence tier entirely and went straight to £500 setup + £200/month. Needs second data point to confirm -- watch re-engagement batch results.
+
+**Strategic fit:** This is the [[position-next-stage-not-bigger-commitment]] principle applied to product architecture. Cold prospects who didn't respond to the £200/month pitch may convert at £75/month for data only.
+
 ## Pricing & Conversion Path
+
+**Two-tier funnel (from April 2026):**
+
+| Path | Entry Product | Upgrade Path |
+|------|--------------|-------------|
+| Cold outreach (no prior response) | Construction Intelligence £75/month | → Managed Mark £200/month |
+| Inbound / warm referral | Managed Mark direct | £250-£500 setup + £200/month |
 
 **Typical flow for engaged prospects:**
 
@@ -193,8 +218,7 @@ Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max on
 - Inbound lead from Email 1 campaign
 - Showed interest ("I'd like to hear more about this")
 - Scheduled discovery meeting 14 April
-- Sent pricing expectations + prep guidance
-- Next: Demo of Mark system, convert to client
+- **CONVERTED** -- same-day close, £500 setup invoiced (TTAI-004), build 21-25 April
 
 ## Tracker Structure
 
@@ -237,9 +261,24 @@ Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max on
 - [[compound-evaluation]] — L1–L3 framework applied to campaign data
 - [[majority-class-trap]] — Trade segment split mirrors this betting principle
 
+## Re-Engagement Campaign (April 2026)
+
+**Batch details:** 17 re-engagement drafts created (12 April), 12 confirmed sent (13 April). 5 scaffolding drafts not found in Sent/Drafts -- treating as parked.
+
+| Metric | Value |
+|--------|-------|
+| Emails sent | 12 (of 17 drafted) |
+| Monitoring window | 13--19 April |
+| Replies (day 2) | 0 (excl. Danny/Tippercrete handled separately) |
+| Bounces | 0 |
+| Product pitched | Construction Intelligence £75/month |
+
+Office-managed trades (Electrical, HVAC, Roofing, Drainage) formally parked as of 12 April based on 0% engagement rate across 34 firms.
+
 ## Sources
 
 - /sessions/brave-vigilant-gauss/mnt/Projects--Think Through AI/raw/mark/FULL_PROJECT_CONTEXT.md
 - Mark-Lite Warwickshire Skills (SKILL 4, SKILL 5)
 - Mark-Lite Northamptonshire v2 SKILL files
 - Mark-Lite Campaign Analysis April 2026 (tracker data analysis, 2026-04-12)
+- Mark-Lite Daily Reports: 2026-04-12, 2026-04-13, 2026-04-15

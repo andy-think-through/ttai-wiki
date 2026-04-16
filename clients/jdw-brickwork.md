@@ -1,7 +1,7 @@
 # JDW Brickwork
 
-> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced; Mark build scheduled 21–25 April 2026.
-> Last updated: 2026-04-14
+> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build scheduled 21–25 April 2026.
+> Last updated: 2026-04-16
 
 ## Lead Profile
 
@@ -59,8 +59,9 @@ JDW Brickwork is a small brickwork subcontractor in Northamptonshire. Typical pr
 ## Next Actions
 
 - **Before 14 April:** Prepare Mark demo (show Northants tracker, email sequence, sample leads, conversion stories from hawks or others if available) — **DONE**: 4-page JDW-Brickwork-Opportunities-April-2026 (docx + pdf) produced. 7 projects summarised; Stanton Cross (3,650 homes, 10 min from JDW's office) leading. Saved to /Mark/Mark-lite/.
-- **14 April at 9am:** Discovery meeting with Josh — **DONE, converted**. Follow-up email + £500 setup invoice sent. Josh confirmed proceeding.
-- **21–25 April 2026:** Build week — Mark variant tailored for brickwork subcontractors targeting main contractors / developers.
+- **14 April at 9am:** Discovery meeting with Josh -- **DONE, converted**. Follow-up email + £500 setup invoice (TTAI-004) sent same day (21:26). Josh confirmed proceeding.
+- **Direction-of-initiation observation:** Josh converted straight to managed Mark (£500 + £200/month) without seeing the Construction Intelligence tier. He was inbound and self-identified as wanting outreach handled, not data delivered. Supports direction-of-initiation hypothesis (see [[mark-lite]]).
+- **21–25 April 2026:** Build week -- Mark variant tailored for brickwork subcontractors targeting main contractors / developers.
 - **Early build week:** Test batch of leads to Josh for review/feedback before go-live.
 
 ## Build Notes (Josh's Mark Variant)
