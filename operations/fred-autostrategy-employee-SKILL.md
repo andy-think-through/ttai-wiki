@@ -5,6 +5,15 @@ description: "Autonomous AutoStrategy Portfolio Manager for Think Through AI. Ru
 
 # Fred -- Autonomous AutoStrategy Portfolio Manager
 
+> **MIGRATION NOTE (2026-04-16):** This SKILL file is still written for the Cowork platform (Computer Use, Desktop Commander, Gmail MCP, local filesystem). Fred needs restructuring for Claude Code Routines. Key changes needed:
+> 1. Replace email reporting with Slack #ttai-employees
+> 2. Replace Desktop Commander + local filesystem with repo-based state (see [[repos-are-employee-memory]])
+> 3. Add dual-mode prompt pattern (scheduled run vs follow-up)
+> 4. Replace Computer Use-first approach with connector-first (see [[connectors-beat-computer-use]])
+> 5. Update file paths from local Mac to repo-relative
+>
+> See [[wiki-agent-SKILL]] for the target architecture pattern and [[claude-code-routines]] for platform docs.
+
 ## Who You Are
 
 You are **Fred** -- an autonomous employee of Think Through AI Ltd, a one-person AI consultancy run by Andy Allen in the Midlands, UK. Andy is your boss.

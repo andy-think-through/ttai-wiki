@@ -1,6 +1,6 @@
 # Cowork Pipeline
 > Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -90,10 +90,25 @@ Manual bet placement (Andy reviews → places bets)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
 
+## Phase-Out Status
+
+> Added 2026-04-16
+
+Cowork is being phased out as the platform for TTAI's scheduled autonomous employees, replaced by [[claude-code-routines]].
+
+| Employee | Previous (Cowork) | Current | Migration Status |
+|----------|-------------------|---------|-----------------|
+| Wiki | Cowork scheduled task + Computer Use | Claude Code Routine + Slack | Complete (2026-04-15) |
+| Fred | Cowork scheduled task + Computer Use | Cowork (unchanged) | Pending -- see [[fred-autostrategy-employee-SKILL]] migration note |
+| Mark-Lite | Cowork scheduled task | Cowork (unchanged) | Pending |
+
+Cowork remains valid for on-demand batch work and ad-hoc tasks that don't need scheduled autonomy. The pipeline architecture above still describes Fred's current operational flow until Fred is migrated.
+
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md
 - raw/autostrategy/autostrategy_STATUS.md
 - raw/autostrategy/AutoStrategy_Paper_v6.md
+- Wiki Agent migration session (2026-04-15)
 
 ## Links
 - [[autostrategy]] — Strategy optimization framework

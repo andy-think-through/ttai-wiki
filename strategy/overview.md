@@ -283,4 +283,23 @@ The index ([[index]]) lists all pages by category.
 
 ---
 
-**Updated 2026-04-08 | Think Through AI Strategy Synthesis**
+## Infrastructure
+
+> Added 2026-04-16
+
+TTAI's autonomous employees now run on [[claude-code-routines]] (Anthropic cloud), reporting to Slack #ttai-employees. The [[ttai-slack-bridge]] enables two-way interaction.
+
+| Component | Detail | Cost |
+|-----------|--------|------|
+| Claude Code Routines | Employee runtime | Included in Anthropic plan |
+| Slack workspace | Communication + reporting | Free tier |
+| TTAI Slack Bridge | Routes replies to employees | Railway free tier |
+| GitHub repos | Employee state/memory | Free (private repos) |
+
+Total infrastructure cost: approximately zero. This architecture is itself a consulting deliverable -- see [[employee-framework]].
+
+**Migration status:** Wiki is live on Routines. Fred and Mark-Lite remain on Cowork, pending migration. Fred is highest priority (NBA playoffs = time-sensitive).
+
+---
+
+**Updated 2026-04-16 | Think Through AI Strategy Synthesis**

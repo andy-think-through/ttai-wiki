@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-15
+> Last updated: 2026-04-16
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
@@ -64,6 +64,8 @@
 - [[execution-cost-varies-by-selection]] — Underdog spreads 2-8x wider than favourites; paper P&L overstates real performance
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
+- [[connectors-beat-computer-use]] — Default to structured API connectors over visual browser automation
+- [[repos-are-employee-memory]] — Persistent state must live in repos/trackers, not conversation memory
 
 ## Operations
 - [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
@@ -75,6 +77,9 @@
 - [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
+- [[wiki-agent-SKILL]] — Wiki Knowledge Curator job spec (Routines, live since 2026-04-15)
+- [[ttai-slack-bridge]] — Node.js Slack bridge routing Andy's replies to employee routine endpoints
+- [[claude-code-routines]] — Claude Code Routines platform documentation for TTAI employees
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules
