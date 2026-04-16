@@ -27,7 +27,7 @@
 ## Clients
 - [[kw-bell]] — Bell Contracting: audit complete, solution design next
 - [[accxel]] — KW Bell subsidiary: discovery day 28 April
-- [[mercia-flooring]] — Mark agent client: school outreach, setup invoiced
+- [[mercia-flooring]] — Mark agent client: school outreach, setup invoiced. Outlook/Entra fix reported, confirming 17 Apr.
 - [[holmes-workholding]] — Mark prospect: reviewing proposal
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
@@ -96,6 +96,6 @@
 - [[active-rules]] — All current rules in one place
 - [[injury-veto-80pct]] — Only skip if player in 80%+ of games
 - [[away-team-threshold]] — 20%+ edge required for away underdogs
-- [[never-back-predicted-loser]] — 0/18 paper record, formalisation recommended by Fred, pending Andy
+- [[never-back-predicted-loser]] — 0/18 record. Formalised 2026-04-16 by Andy. Hard constraint, all sports.
 - [[grass-veto]] — Tennis: no bets on grass (pending implementation before June)
-- [[predicted-loser-rule]] — 18/20 paper bets complete, 2 short of formal threshold
+- [[predicted-loser-rule]] — Formalised 2026-04-16 at 0/18. Never back model's predicted loser, all sports.

@@ -144,6 +144,22 @@
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
 
+## 2026-04-16 wiki-agent | Follow-up -- Andy's answers to open questions
+- Source: Andy's Slack message (2026-04-16 20:51 BST) answering 4 open questions from the authoritative run
+- Pages updated:
+  - betting-rules/predicted-loser-rule.md -- **FORMALISED**. Status changed from "Paper tracking" to "Formalised". Andy accepted Fred's early formalisation at 18/18. Hard constraint, all sports.
+  - betting-rules/never-back-predicted-loser.md -- Updated to reflect formalisation. Domains expanded from NBA+Tennis to all sports.
+  - betting-rules/active-rules.md -- Status updated to "Active (formalised)" for predicted-loser entries.
+  - clients/mercia-flooring.md -- Updated: Andy reports Outlook/Entra issue "should be fixed". Confirming 17 April. Go-live imminent if verified.
+  - strategy/overview.md -- Mercia Must-Hit updated (fix reported, confirming 17 Apr). Mercia recurring line updated. Fred status: confirmed paused, Andy fixing 17 Apr. Allocation priority reworded.
+  - index.md -- Updated betting-rules entries (formalised) and mercia-flooring summary.
+- Pages created: none
+- Key new information:
+  1. Predicted-loser rule formalised -- first rule to go from paper experiment to hard constraint via the structured evidence process.
+  2. Mercia Outlook/Entra may be unblocked -- Andy confirming tomorrow. If so, school outreach can launch immediately.
+  3. Fred confirmed paused. Andy will fix (likely Routines migration) on 17 April.
+  4. Andy confirmed Wiki should push to main directly. (Cannot action this session due to branch config; applies to future runs.)
+
 ## 2026-04-16 wiki-agent | Scheduled scan (routine) -- authoritative recovery run
 - Sources scanned: Slack #ttai-employees (Andy's Routines ingest message, Mark-Lite daily reports x4, Andy's replies), inbox/ (empty), all key wiki pages
 - Note: 8+ Wiki runs today posted to Slack but committed to ephemeral branches that no longer exist. This run is the authoritative recovery -- all changes persisted to a single branch.

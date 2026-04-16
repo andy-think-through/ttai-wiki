@@ -30,7 +30,7 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 |--------|--------|--------|----------|-------|
 | **Consulting** | [[AccXel]] | £700 | Discovery day 28 April | KW Bell subsidiary, day rate |
 | **Mark** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
-| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live blocked (Outlook/Entra) | Schools outreach, seasonal Jan-July |
+| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live imminent (Outlook/Entra fix reported, confirming 17 Apr) | Schools outreach, seasonal Jan-July |
 | **Mark** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
 | **Mark** | [[JDW-Brickwork]] | £200/mo recurring | Build week 21-25 April | CONVERTED from Mark-Lite campaign |
 | **Total in Proposals** | — | **£700 + £1,100/mo recurring** | — | — |
@@ -138,7 +138,7 @@ Consulting Audit → Uncovers Product Opportunity
 **Priority shift:** Consulting is highest ROI per hour, but doesn't scale. Mark is the scalable play — every new client adds £200/mo that keeps coming. Agent Browser is the highest-ceiling product if it can be productised beyond Hike.
 
 **Allocation for next 90 days:**
-1. **Mercia go-live (15 April):** Ensure smooth Outlook integration, first batch of school leads, email validation. One week focused effort, then monitoring.
+1. **Mercia go-live:** Outlook/Entra fix reported by Andy (16 Apr), confirming 17 Apr. Once verified, launch first school outreach batch immediately.
 2. **Consulting closes:** AccXel (28 April), Tonic (follow-up), IH Group (light touch). These drive case studies for Mark and Agent Browser.
 3. **Mark expansion:** Josh Warren discovery (14 April) — if converted, that's 4 clients. Focus on onboarding repeatability (checklist, templates).
 4. **Agent Browser PoC with KW Bell:** Prove invoice OCR workflow. If successful, opens external commercial path.
@@ -150,7 +150,7 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
-- [ ] [[Mercia-Flooring]] go-live: Outlook/Entra blocker unresolved. Gmail send-as workaround under consideration. Every week of delay eats into Jan-July school selling window.
+- [ ] [[Mercia-Flooring]] go-live: Andy reports Outlook/Entra blocker "should be fixed" (2026-04-16). Confirming 17 April. If verified, go-live is imminent.
 - [ ] [[AccXel]] discovery day 28 April: Deliver audit, proposal solution design
 - [x] [[JDW-Brickwork]] (Josh Warren) conversion: CONVERTED 14 April. £500 setup invoiced (TTAI-004). Build week 21-25 April.
 - [x] [[Tonic-Health]] creative agent: ACCEPTED £1,750 (INV-003). Awaiting Apify/Claude API/Notion access from Sunna.
@@ -296,7 +296,7 @@ The index ([[index]]) lists all pages by category.
 | [[claude-code-routines]] | Live -- Wiki + Mark-Lite |
 | [[ttai-slack-bridge]] | Live -- Railway free tier |
 | Slack #ttai-employees | Live -- all employees post here |
-| [[cowork-pipeline]] | Being phased out (Fred still here) |
+| [[cowork-pipeline]] | Being phased out (Fred paused; Andy fixing 17 Apr) |
 
 This architecture is itself consulting IP -- a documented, repeatable, ~zero-cost template for deploying autonomous AI employees.
 
