@@ -182,3 +182,20 @@
   3. Revenue position stronger than wiki reflected: total invoiced is £3,188.20 (was showing £938.20), recurring baseline £1,100/mo (was £900/mo).
   4. Re-engagement batch (12 firms) is day 2 of monitoring as of 15 April. First meaningful data expected 18-19 April.
   5. Five operations pages existed on disk but weren't catalogued in index.md -- now added.
+
+## 2026-04-16 wiki-agent | Branch consolidation + status propagation
+
+- Sources: 7 remote branches (e4Wxv, ZjpNY, MrW2e, axtC9, mMCHh, ncsvM, pwGY6), Slack #ttai-employees (50 messages)
+- Consolidation performed:
+  - Merged branch e4Wxv (Routines migration: 5 pages created, 7 updated) into claude/magical-goldberg-g508l
+  - Merged branch ZjpNY (Mark-Lite reports + revenue fix: 6 pages updated) into same branch
+  - Resolved 2 merge conflicts (index.md, log.md) -- kept all content from both branches
+  - Identified 5 remaining branches as duplicates (MrW2e = old 04-15 scan; axtC9, mMCHh, ncsvM, pwGY6 = duplicate Routines migration attempts)
+- Status propagation fixes:
+  - index.md: Tonic-Health summary updated from "proposal sent" to "ACCEPTED"
+  - overview.md: JDW and Tonic marked as completed in Must-Hit/Should-Hit sections; revenue forecast rewritten to reflect £3,188.20 already invoiced and £1,100/mo recurring baseline; client links section updated
+- Pages updated: index.md, strategy/overview.md, log.md
+- Pages created: none
+- Inbox: empty (no new ingest files)
+- Slack: No new messages from Andy, Fred, or Mark-Lite since previous runs. Andy reacted with 👀 to all Wiki reports but hasn't replied to any open questions.
+- Key observation: Branch proliferation from today's runs proves repos-are-employee-memory. 7 branches, 2 with unique work, 5 duplicates. This run consolidates the unique work onto one branch. Andy still needs to decide on branch strategy (push to main vs designated wiki branch).

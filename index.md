@@ -31,7 +31,7 @@
 - [[holmes-workholding]] — Mark prospect: reviewing proposal
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — Creative agent prospect: proposal sent £1,750
+- [[tonic-health]] — ACCEPTED: creative agent build £1,750 (INV-003), build starting
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring

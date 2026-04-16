@@ -152,15 +152,15 @@ Consulting Audit → Uncovers Product Opportunity
 
 - [ ] [[Mercia-Flooring]] go-live 15 April: Email integration + first school batch live
 - [ ] [[AccXel]] discovery day 28 April: Deliver audit, proposal solution design
-- [ ] [[JDW-Brickwork]] (Josh Warren) conversion: Discovery 14 April → proposal → sign
+- [x] [[JDW-Brickwork]] (Josh Warren) conversion: CONVERTED 14 April, £500 setup (TTAI-004), build 21-25 April
 - [ ] [[Agent-Browser]] PoC with KW Bell: Invoice OCR workflow proof of concept (cost < £500)
 
-**Impact:** Mercia + AccXel + Josh Warren = +£600/mo recurring + consulting fees + proof of product-market fit for Agent Browser
+**Impact:** Mercia + AccXel = remaining closes. JDW ✓ and Tonic ✓ already converted. Target: +£600/mo recurring + consulting fees + Agent Browser PoC.
 
 ### Should-Hit (By End of June)
 
 - [ ] [[IH-Group]] follow-up conversion (via Malcolm)
-- [ ] [[Tonic-Health]] decision on creative agent (£1,750 proposal pending)
+- [x] [[Tonic-Health]] ACCEPTED creative agent build (£1,750, INV-003). Awaiting Apify/Claude API/Notion access from Sunna.
 - [ ] Mark operations playbook: Repeatable onboarding process for next 2-3 clients
 - [ ] Tennis [[grass-veto]] rule implementation (Wimbledon June prep)
 - [ ] Agent Browser Phase 2: Hike keyword strategy workflow live internally
@@ -175,14 +175,19 @@ Consulting Audit → Uncovers Product Opportunity
 
 ## Revenue Forecast (Q2 2026 End)
 
-**Conservative (closes: Mercia go-live + Josh Warren):**
-- Consulting invoiced: £700 (AccXel) + variable
-- Mark recurring: £900/mo (Hawks + Mercia + Bat Surveys)
-- **Quarterly ARR trajectory: ~£10,800**
+**Already banked (JDW + Tonic converted):**
+- Consulting invoiced: £3,188.20 total (KW Bell + Mercia setup + Tonic + JDW)
+- Mark recurring: £1,100/mo if JDW + Hawks + Mercia + Bat Surveys all stay live
+- **Annualised recurring: £13,200/year**
 
-**Optimistic (closes: Above + Tonic + IH Group):**
-- Consulting invoiced: £2,450+ (AccXel + Tonic + IH Group follow-ups)
-- Mark recurring: £1,200+/mo (add Josh Warren)
+**Conservative (remaining closes: Mercia go-live + AccXel):**
+- Additional consulting: £700 (AccXel)
+- Mark recurring maintained at £1,100/mo
+- **Quarterly ARR trajectory: ~£13,200+**
+
+**Optimistic (above + IH Group + Construction Intelligence uptake):**
+- Additional consulting: £700+ (AccXel + IH Group follow-ups)
+- Mark recurring: £1,175+/mo (add Construction Intelligence subscribers)
 - **Quarterly ARR trajectory: ~£15,000+**
 
 **Agent Browser:** Still building; unknown revenue, but de-risks through KW Bell PoC.
@@ -267,8 +272,8 @@ Not a primary focus, but meaningful diversification if Mark or Hike experience s
 - [[Hawks-Scaffolding]] — Mark client, live, exclusive Warwickshire scaffolding
 - [[Mercia-Flooring]] — Mark client, go-live 15 April, schools focus
 - [[Midlands-Bat-Surveys]] — Mark client, planning portal variant, £500/mo
-- [[JDW-Brickwork]] (Josh Warren) — Mark-Lite inbound conversion, discovery 14 April
-- [[Tonic-Health]] — Consulting + Knowledge Assistant prospect; creative agent proposal pending
+- [[JDW-Brickwork]] (Josh Warren) — CONVERTED 14 April, £500 setup + £200/mo, build 21-25 April
+- [[Tonic-Health]] — ACCEPTED creative agent build (£1,750); Knowledge Assistant still exploring
 - [[IH-Group]] — Pipeline, via Malcolm Freeman
 - [[MJM-Consulting]] — Pipeline, marketing strategy pitch delivered
 
