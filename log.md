@@ -143,3 +143,23 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 ingest | Wiki Agent Migrated to Routines + Slack Bridge Deployed
+- Source: Andy's Slack message in #ttai-employees (2026-04-16 08:46 BST) containing wiki-ingest packaged file
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Routines job spec for Wiki (dual-mode pattern, connector-first, migration comparison table)
+  - operations/ttai-slack-bridge.md -- Node.js Slack Bolt bridge infrastructure (Railway, Socket Mode, employee routing)
+  - operations/claude-code-routines.md -- Platform documentation (trigger types, dual-mode pattern, migration path)
+  - principles/connectors-beat-computer-use.md -- New principle: default to structured connectors over Computer Use
+  - principles/repos-are-employee-memory.md -- New principle: persistent state in repos/trackers, not conversation memory
+- Pages updated:
+  - operations/employee-framework.md -- Added Platform section (Routines, dual-mode pattern, Slack reporting), rewrote Reporting (email -> Slack), Computer Use (-> connectors first), Cross-Employee Awareness (added Slack surface), Creating a New Employee (8-step Routines workflow), updated Current Employees table with Platform column
+  - operations/cowork-pipeline.md -- Added Phase-Out Status section with migration table and comparison
+  - operations/fred-autostrategy-employee-SKILL.md -- Added migration note at top (5 changes needed for Routines)
+  - strategy/overview.md -- Added Infrastructure section (platform, comms, state, migration status, consulting product prototype note)
+  - principles/_index.md -- Added Infrastructure & Operations Principles section, updated By Domain and By Theme cross-links
+  - index.md -- Added 5 new page entries (wiki-agent-SKILL, ttai-slack-bridge, claude-code-routines, connectors-beat-computer-use, repos-are-employee-memory), updated existing entries
+- Key new information: Wiki Agent is the first TTAI employee migrated to Claude Code Routines (2026-04-15). Slack #ttai-employees is the new reporting channel. TTAI Slack Bridge (Node.js on Railway) enables two-way interaction. Two new infrastructure principles captured. Fred and Mark-Lite still on Cowork, pending migration. The employee architecture is now a documented, repeatable pattern -- candidate consulting product.
+- Contradictions still open:
+  - overview.md Mercia go-live date (15 April) still unresolved -- flagged for Andy, not overwritten
+  - Predicted-loser rule formalisation (18/18) still pending Andy's decision

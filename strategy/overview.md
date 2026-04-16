@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -227,6 +227,25 @@ Value betting (+£47.43 this year, +£38.90 in NBA) is small but real. It:
 - Teaches systematic thinking → transferable to Mark and Agent Browser
 
 Not a primary focus, but meaningful diversification if Mark or Hike experience seasonality.
+
+---
+
+## Infrastructure
+
+> Added 2026-04-16. TTAI's autonomous employee infrastructure.
+
+**Platform:** Claude Code Routines (Anthropic cloud). Employees run as scheduled routines with API triggers for two-way interaction. See [[claude-code-routines]].
+
+**Communication:** Slack #ttai-employees. Single channel for all employee reports and Andy's replies. Two-way interaction via [[ttai-slack-bridge]] (Node.js Slack Bolt app on Railway free tier).
+
+**State:** GitHub repos as employee memory. Wiki -> ttai-wiki repo. Fred -> Google Sheets + autostrategy repo. Mark-Lite -> Google Sheets + mark-lite repo. See [[repos-are-employee-memory]].
+
+**Migration status (2026-04-16):**
+- Wiki: **Live on Routines** (migrated 2026-04-15)
+- Fred: Cowork (migration pending -- time-sensitive, NBA playoffs underway)
+- Mark-Lite: Cowork (migration pending)
+
+**Significance:** This infrastructure is itself a consulting product prototype. The architecture (dual-mode prompts, Slack reporting, repos as memory, connector-first data access) is documented and repeatable. If a client asks "can you build us an AI employee?", the answer is documented in [[employee-framework]].
 
 ---
 

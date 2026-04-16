@@ -1,6 +1,6 @@
 # Cowork Pipeline
 > Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -89,6 +89,36 @@ Manual bet placement (Andy reviews → places bets)
 - **Weekly:** Audit ROI by sport, check for systematic issues (e.g., model drift)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
+
+---
+
+## Phase-Out Status
+
+> Added 2026-04-16. Cowork is being replaced by [[claude-code-routines]] for scheduled employees.
+
+**What's changing:** Autonomous employees (Wiki, Fred, Mark-Lite) are migrating from Cowork scheduled tasks to Claude Code Routines. Routines run on Anthropic's cloud, use connectors instead of Computer Use, and report to Slack instead of email. See [[connectors-beat-computer-use]].
+
+**Migration status:**
+
+| Employee | Cowork Status | Routines Status |
+|----------|--------------|----------------|
+| Wiki | Retired | **Live** (2026-04-15) |
+| Fred | Still active | Pending migration |
+| Mark-Lite | Still active | Pending migration |
+
+**What Cowork is still good for:** On-demand batch work, one-off tasks, anything that needs Computer Use as the primary interaction mode. Cowork remains valid for non-scheduled work -- just not for autonomous employees that run on a cadence.
+
+**Key differences:**
+
+| Aspect | Cowork | Routines |
+|--------|--------|----------|
+| Runs on | Andy's machine (must be on) | Anthropic cloud |
+| Information | Computer Use (browser) | Connectors (Slack, Drive, repos) |
+| Reporting | Email | Slack #ttai-employees |
+| Two-way interaction | None | API trigger via [[ttai-slack-bridge]] |
+| State | Local filesystem | GitHub repos + external stores |
+
+---
 
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md
