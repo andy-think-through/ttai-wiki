@@ -6,7 +6,7 @@ Last updated: 2026-04-16
 
 ## Executive Summary
 
-We're at an inflection point. [[Consulting]] has delivered 4 active clients and a strong network referral loop. [[Mark]] is live with 3 managed service clients (Hawks, Mercia planned, Bat Surveys) and [[Mark-Lite]] is generating inbound conversions (Josh Warren discovery call 14 April). [[Betting-Portfolio]] provides passive income (+£49.86 this year). [[Agent-Browser]] is building toward commercial viability with KW Bell as first external client. [[Hike-SES]] provides a stability income stream through directorship.
+We're at an inflection point. [[Consulting]] has delivered 4 active clients and a strong network referral loop. [[Mark]] is live with 3 managed service clients (Hawks, Mercia planned, Bat Surveys) and [[Mark-Lite]] is generating inbound conversions (Josh Warren discovery call 14 April). [[Betting-Portfolio]] provides passive income (+£39.86 this year). [[Agent-Browser]] is building toward commercial viability with KW Bell as first external client. [[Hike-SES]] provides a stability income stream through directorship.
 
 The flywheel is working: consulting uncovers product opportunities, products create recurring revenue, consulting pipeline grows via network effect. Next 90 days are about solidifying Mark's monthly recurring revenue, closing Mercia and AccXel to add £400/month recurring, and proving Agent Browser viability with KW Bell.
 
@@ -52,8 +52,7 @@ Hike SES is contractual stability (directorship income, not detailed in this vie
 | **Active** (invoiced or signed) | Hawks, Mercia, Bat Surveys, JDW Brickwork | Mark recurring; Mercia blocked on Outlook/Entra; JDW build 21-25 Apr |
 | **Building** (accepted, build in progress) | Tonic Health (£1,750 accepted) | Creative agent build, awaiting Sunna's access |
 | **Warm** (proposal sent, decision pending) | AccXel (discovery 28 Apr), Steve Tipson | AccXel via Gareth Hunt |
-| **Pipeline** (prospect, referral warm) | [[IH-Group]], [[Tippercrete]], [[MJM-Consulting]], [[Carmen-MacDougall]] | Tippercrete warm (CI sample sent), IH Group via Malcolm |
-| **Pipeline** (prospect, referral warm) | [[MJM-Consulting]], [[Carmen-MacDougall]] | Via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
+| **Pipeline** (prospect, referral warm) | [[Holmes-Workholding]], [[IH-Group]], [[Tippercrete]], [[MJM-Consulting]], [[Carmen-MacDougall]] | Holmes reviewing proposal (stale since 08 Apr), Tippercrete warm (CI sample sent), IH Group via Malcolm, MJM/Carmen via Malcolm/Gareth |
 
 ---
 
@@ -67,7 +66,7 @@ Hike SES is contractual stability (directorship income, not detailed in this vie
 | [[Mark]] | Active, 3 managed clients | £200-500 setup + £200/mo | £900/mo recurring | [[Hawks-Scaffolding]], [[Mercia-Flooring]], [[Midlands-Bat-Surveys]] |
 | [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns | Varies | Warwickshire (26 firms), Northants (39 firms), 1 inbound (Josh Warren 14 Apr) |
 | [[Hike-SES]] | Directorship income | Retained directorship + contractual visibility | Contractual | Hike SEO client base (~2,000) |
-| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA (+£38.90), Tennis (+£7.96), Snooker (+£3.00) |
+| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£39.86 YTD | NBA (+£28.90), Tennis (+£7.96), Snooker (+£3.00) |
 
 ### Building Products
 

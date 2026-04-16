@@ -169,3 +169,13 @@
   2. Employee architecture now on Routines + Slack + bridge + repos. Documented as consulting IP.
   3. Construction Intelligence tier (£75/mo) creates a two-tier funnel for Mark-Lite. First live test in progress.
   4. 8+ branch proliferation incident validates repos-are-employee-memory principle in real time.
+
+## 2026-04-16 wiki-agent | Follow-up scan (data integrity pass)
+- Sources: Previous run's committed work (merged from claude/magical-goldberg-tSVR5), authoritative domain pages
+- Pages created: none
+- Pages updated:
+  - strategy/overview.md -- Fixed duplicate pipeline row (MJM/Carmen listed twice). Added Holmes-Workholding to pipeline (missing since initial build). Corrected NBA P&L from +£38.90 to +£28.90 (regular season closed with CHI@DAL -£10 loss, per nba.md 04-14). Corrected total betting YTD from +£49.86 to +£39.86.
+  - strategy/opportunities.md -- Updated Pattern 2 revenue concentration figures (73% -> 22%). Flagged priority matrix staleness (items 1, 3 unacted 8 days). Noted CI tier progress on item 9. Updated date.
+  - index.md -- Fixed NBA P&L from +£38.90 to +£28.90. Fixed Tennis P&L from +£5.53 to +£7.96 (per tennis-atp.md 04-10).
+- Contradictions resolved: NBA P&L drift between nba.md (authoritative, +£28.90) and overview.md/index.md (+£38.90). Root cause: 04-14 scan updated nba.md but didn't propagate to overview or index.
+- Key observation: Priority matrix items 1 and 3 from April 8 are 8 days unacted. Consulting pipeline selectivity scoring and darts/crypto removal review remain open. Crypto review due April 24; darts fill-rate test has no deadline.

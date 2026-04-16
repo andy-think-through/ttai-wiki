@@ -1,6 +1,6 @@
 # Cross-Domain Opportunities
 
-> First wiki-wide pattern analysis — April 8, 2026. Updated April 12, 2026.
+> First wiki-wide pattern analysis -- April 8, 2026. Updated April 16, 2026.
 > Method: Read all 64 pages, identify connections that no single project folder could surface.
 
 ---
@@ -27,7 +27,7 @@
 
 ## Pattern 2: Revenue Concentration Mirrors the Majority-Class Trap
 
-**What the wiki says:** [[majority-class-trap]] describes how 92% accuracy can hide a model that never predicts underdogs — it just predicts the common outcome. KW Bell accounts for £688.20 of ~£938.20 invoiced revenue (73%).
+**What the wiki says:** [[majority-class-trap]] describes how 92% accuracy can hide a model that never predicts underdogs -- it just predicts the common outcome. KW Bell was 73% of invoiced revenue at first analysis (£688.20 of ~£938.20). As of April 2026, KW Bell is 22% of £3,188.20 invoiced -- de-concentration happened organically via JDW (inbound) and Tonic (friend referral) converting, not from deliberate diversification.
 
 **What hasn't been connected:** Optimising for KW Bell's needs (OCR invoice correction, browser automation) might not generalise to other clients, just like optimising for accuracy doesn't generalise to profitable bets.
 
@@ -183,10 +183,10 @@ Andy doesn't sell the wiki. He sells decisions made better because the wiki exis
 
 ## Summary: Priority Matrix
 
-### This Week
-1. Score consulting pipeline with selectivity filter (Pattern 5)
-2. Separate pipeline/invoiced revenue tracking (Pattern 2)
-3. Review darts + crypto with removal lens (Pattern 9)
+### This Week (originally set 2026-04-08; staleness flagged 2026-04-16)
+1. Score consulting pipeline with selectivity filter (Pattern 5) -- **unacted 8 days**
+2. Separate pipeline/invoiced revenue tracking (Pattern 2) -- **partially done**: overview.md now tracks invoiced vs proposals separately. Revenue concentration dropped from 73% to 22% organically.
+3. Review darts + crypto with removal lens (Pattern 9) -- **unacted 8 days**; crypto review due 24 April, darts fill-rate test still pending
 4. ~~Run Mark-Lite autoresearch on Northants email data before JDW meeting (Pattern 4)~~ ✅ Done 2026-04-12
 
 ### This Month
@@ -196,7 +196,7 @@ Andy doesn't sell the wiki. He sells decisions made better because the wiki exis
 8. Seasonal revenue calendar (Pattern 8)
 
 ### Q2–Q3 (Bold Bets)
-9. "Construction Intelligence" standalone data subscription (Pattern 3)
+9. "Construction Intelligence" standalone data subscription (Pattern 3) -- **in motion**: Mark-Lite CI tier (£75/mo) added to product. Tippercrete is first CI sample recipient.
 10. Agent Browser as infrastructure offering for consulting clients (Pattern 7)
 11. Productise compound evaluation as consulting methodology (Pattern 1)
 12. Cross-domain decision framework as TTAI's core IP (Pattern 10)

@@ -82,8 +82,8 @@
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
 
 ## Domains
-- [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules
-- [[tennis-atp]] — Live daily betting, +£5.53, clay swing active, grass veto pending
+- [[nba]] — Live daily betting, +£28.90 actual P&L (regular season closed), Elo with injury-aware rules
+- [[tennis-atp]] — Live daily betting, +£7.96, clay swing active, grass veto pending
 - [[snooker]] — Live, first real-money bets, +£3.00, WC Qualifier gap
 - [[darts]] — Floor event liquidity confirmed at £13-54 with 8-10% spreads; practically untradeable. Fill-rate test before parking.
 - [[efl-championship]] — Parked: calibration discovery, awaiting third OOS season
