@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-15
+> Last updated: 2026-04-16
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
@@ -59,6 +59,8 @@
 - [[majority-class-trap]] — Imbalanced domains produce majority-class predictors
 - [[market-efficiency-varies-within-domain]] — Edge is sub-domain specific
 - [[scheduled-tasks-need-zero-intervention]] — Scheduled skills must work unattended
+- [[connectors-beat-computer-use]] — Default to structured connectors over visual browser automation
+- [[repos-are-employee-memory]] — Persistent state in repos, not conversation memory
 - [[strict-trade-matching]] — Prospect-project matches must be trade-specific
 - [[derivative-markets-harder-than-primary]] — Props/secondary markets structurally harder
 - [[execution-cost-varies-by-selection]] — Underdog spreads 2-8x wider than favourites; paper P&L overstates real performance
@@ -66,7 +68,10 @@
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
 
 ## Operations
-- [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
+- [[wiki-agent-SKILL]] — Wiki Agent job spec (Routines architecture, dual-mode prompt)
+- [[ttai-slack-bridge]] — Node.js Slack bridge routing replies to employee Routine endpoints
+- [[claude-code-routines]] — Platform docs: triggers, dual-mode pattern, migration checklist
+- [[cowork-pipeline]] — Daily betting ops orchestration via Cowork (phasing out for employees)
 - [[tool-routing]] — Which tool for which task (Betfair, trackers, models, sheets)
 - [[known-failure-modes]] — Computer Use timeouts, sandbox restrictions, path differences
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach

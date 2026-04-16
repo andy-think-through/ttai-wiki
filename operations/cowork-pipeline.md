@@ -1,6 +1,6 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of [[claude-code-routines]].
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -90,12 +90,33 @@ Manual bet placement (Andy reviews → places bets)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
 
+## Phase-Out Status
+
+> Added 2026-04-16. Cowork is being phased out for scheduled employees in favour of [[claude-code-routines]].
+
+**What's changing:** TTAI's autonomous employees are migrating from Cowork scheduled tasks to Claude Code Routines. Routines run on Anthropic cloud (no local Mac dependency), use MCP connectors instead of Computer Use, and support two-way Slack interaction via the [[ttai-slack-bridge]].
+
+**Migration status:**
+| Employee | Status | Notes |
+|----------|--------|-------|
+| Wiki | Migrated (2026-04-15) | Fully operational on Routines |
+| Fred | Pending | SKILL.md needs restructuring for dual-mode pattern |
+| Mark-Lite | Pending | SKILL.md needs restructuring for dual-mode pattern |
+
+**What Cowork remains valid for:** On-demand batch work, one-off tasks that need Computer Use, and any scenario where interactive desktop access is required. Cowork is not being deprecated entirely -- it's being replaced as the platform for scheduled autonomous employees.
+
+See [[claude-code-routines]] for the target platform documentation and [[employee-framework]] for the updated operating model.
+
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md
 - raw/autostrategy/autostrategy_STATUS.md
 - raw/autostrategy/AutoStrategy_Paper_v6.md
+- Wiki Agent migration session (2026-04-15)
 
 ## Links
+- [[claude-code-routines]] — Successor platform for scheduled employees
+- [[employee-framework]] — Updated universal employee model
+- [[ttai-slack-bridge]] — Two-way interaction infrastructure
 - [[autostrategy]] — Strategy optimization framework
 - [[betting-portfolio]] — Portfolio container
 - [[scheduled-tasks-need-zero-intervention]] — Operational principle

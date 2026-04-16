@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -283,4 +283,25 @@ The index ([[index]]) lists all pages by category.
 
 ---
 
-**Updated 2026-04-08 | Think Through AI Strategy Synthesis**
+## Infrastructure
+
+> Added 2026-04-16.
+
+TTAI's autonomous employees are migrating from Cowork scheduled tasks to **[[claude-code-routines]]** running on Anthropic cloud.
+
+**Current state:**
+- **Wiki** -- Migrated to Routines (2026-04-15). Runs every other day. Reports to Slack #ttai-employees.
+- **Fred** -- Still on Cowork. Migration pending. Last report: 2026-04-13.
+- **Mark-Lite** -- Still on Cowork. Migration pending.
+
+**Infrastructure stack:**
+- [[claude-code-routines]] -- Employee runtime (Anthropic cloud)
+- [[ttai-slack-bridge]] -- Routes Slack replies to employee Routine API endpoints (Node.js on Railway)
+- GitHub repos -- Employee persistent state ([[repos-are-employee-memory]])
+- MCP connectors -- Slack, Google Drive, GitHub ([[connectors-beat-computer-use]])
+
+**Impact:** Removes dependency on Andy's Mac for employee runs. Enables two-way interaction (Andy replies in Slack, employee responds). Reduces runtime and cost vs Computer Use-based Cowork approach.
+
+---
+
+**Updated 2026-04-16 | Think Through AI Strategy Synthesis**
