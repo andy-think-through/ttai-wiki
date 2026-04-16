@@ -1,10 +1,10 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-15
+> Last updated: 2026-04-16
 
 ## Strategy
-- [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
+- [[overview]] — The 100×100 model: £3,188.20 invoiced, £900-1,100/mo recurring, flywheel, Q2 priorities, infrastructure
 - [[opportunities]] — Cross-domain pattern analysis: 10 patterns, 12 actionable opportunities (2 completed 2026-04-12)
 
 ## Methodologies
@@ -18,7 +18,7 @@
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
 - [[mark]] — Productised AI sales agent for construction/trades businesses
-- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants)
+- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). Two-tier: CI £75/mo + managed Mark £200/mo
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
@@ -31,13 +31,13 @@
 - [[holmes-workholding]] — Mark prospect: reviewing proposal
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — Creative agent prospect: proposal sent £1,750
+- [[tonic-health]] — ACCEPTED £1,750 creative agent build. INV-003 pending. Awaiting Sunna's access.
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] — Mark-Lite inbound lead: discovery meeting 14 April (today)
+- [[jdw-brickwork]] — CONVERTED. £500 setup (TTAI-004), £200/mo. Build week 21-25 April
 - [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
-- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample-week email drafted
+- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: Warm (Daniel Fordham). CI sample delivered, monitoring reply.
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
@@ -60,6 +60,8 @@
 - [[market-efficiency-varies-within-domain]] — Edge is sub-domain specific
 - [[scheduled-tasks-need-zero-intervention]] — Scheduled skills must work unattended
 - [[strict-trade-matching]] — Prospect-project matches must be trade-specific
+- [[connectors-beat-computer-use]] — Default to API connectors over Computer Use for agent information gathering
+- [[repos-are-employee-memory]] — Ephemeral sessions need durable state in repos/trackers. If it isn't committed, it didn't happen.
 - [[derivative-markets-harder-than-primary]] — Props/secondary markets structurally harder
 - [[execution-cost-varies-by-selection]] — Underdog spreads 2-8x wider than favourites; paper P&L overstates real performance
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
@@ -72,8 +74,11 @@
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
 - [[browser-agent-arch]] — Claude Code → Computer Use → Min browser architecture pattern
-- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
-- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
+- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred). Routines platform, Slack reporting, connector-first.
+- [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines, every other day)
+- [[ttai-slack-bridge]] — Node.js Slack Bolt app on Railway. Routes Andy's replies to employee Routine endpoints.
+- [[claude-code-routines]] — Platform for autonomous employees. Schedule + API triggers, Anthropic cloud.
+- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
 
 ## Domains

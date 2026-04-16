@@ -1,6 +1,6 @@
 # Principles Index
 > All principles with origin and applicability.
-> Last updated: 2026-04-13
+> Last updated: 2026-04-16
 
 ## Consulting & Sales Principles (Phase 1)
 
@@ -40,14 +40,21 @@
 |-----------|--------|------------|
 | [[trust-the-agent-not-dom]] | Agent Browser schema workflow | Any decision about building custom scripts vs using the visual agent |
 
+## Infrastructure & Operations Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[connectors-beat-computer-use]] | Wiki Agent migration to Routines (2026-04-15) | All agents: default to API connectors over Computer Use. Agent Browser Layer 2 is the product equivalent. |
+| [[repos-are-employee-memory]] | Routines architecture design (2026-04-15) | All employees on ephemeral infrastructure. Wiki -> repo, Fred -> Sheets + repo, Mark-Lite -> Sheets + repo. |
+
 ## Cross-Principle Links
 
 ### By Domain
 - **AutoStrategy (Betting):** [[raw-probabilities-lie]] → [[removal-as-valuable-as-addition]] → [[trust-the-model-over-punditry]] → [[phantom-value]] → [[data-leakage-silent-killer]] → [[selectivity-is-everything]] → [[majority-class-trap]] → [[market-efficiency-varies-within-domain]] → [[derivative-markets-harder-than-primary]] → [[execution-cost-varies-by-selection]]
 - **TTAI Sales/Consulting:** [[dont-reveal-methodology-before-paid]] + [[position-next-stage-not-bigger-commitment]] + [[let-clients-surface-pain-points]] + [[email-quality-over-volume]]
 - **Mark (Lead Qualification):** [[strict-trade-matching]] + [[selectivity-is-everything]] + [[trust-the-model-over-punditry]] + [[planning-data-serves-site-trades]]
-- **Agent Browser:** [[trust-the-agent-not-dom]]
-- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]]
+- **Agent Browser:** [[trust-the-agent-not-dom]] + [[connectors-beat-computer-use]] (Layer 2 equivalent)
+- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]] + [[connectors-beat-computer-use]] + [[repos-are-employee-memory]]
 - **Value Betting (Sports):** [[raw-probabilities-lie]] + [[probability-calibration]] + [[trust-the-model-over-punditry]] + [[selectivity-is-everything]]
 
 ### By Theme
@@ -56,6 +63,7 @@
 - **Data quality:** [[data-leakage-silent-killer]] + [[majority-class-trap]]
 - **Stratification matters:** [[market-efficiency-varies-within-domain]] + [[phantom-value]] + [[planning-data-serves-site-trades]]
 - **Trust the system:** [[trust-the-model-over-punditry]] + [[trust-the-agent-not-dom]]
+- **Infrastructure resilience:** [[repos-are-employee-memory]] + [[scheduled-tasks-need-zero-intervention]] + [[connectors-beat-computer-use]]
 
 ## Sources
 - **Consulting:** raw/ttai/claude.md, raw/ttai/TTAI_Project_Instructions.md

@@ -3,6 +3,8 @@ name: fred-autostrategy
 description: "Autonomous AutoStrategy Portfolio Manager for Think Through AI. Runs daily. Manages the value betting portfolio across all live and paper domains (NBA, Tennis, Snooker, Darts, EFL, Crypto). Fetches odds, runs predictions, checks injury/news, places or recommends bets, tracks results, updates P&L, manages rules, and runs calibration diagnostics. This is the 'betting employee' -- 80% executing the daily betting operations loop, 20% exploring model improvements, new domain viability, rule refinement, and cross-domain pattern detection. Trigger this skill on its daily cadence. Do NOT wait for Andy to ask -- this skill runs autonomously."
 ---
 
+> **MIGRATION NOTE (2026-04-16):** Fred is still running on Cowork. Needs migration to [[claude-code-routines]]. Changes needed: (1) Restructure prompt to dual-mode pattern, (2) Replace Computer Use with connectors where possible, (3) Add Slack reporting, (4) Add API trigger endpoint to [[ttai-slack-bridge]], (5) Replace local filesystem refs with repo-relative paths. NBA playoffs make this urgent -- peak volume + liquidity period.
+
 # Fred -- Autonomous AutoStrategy Portfolio Manager
 
 ## Who You Are

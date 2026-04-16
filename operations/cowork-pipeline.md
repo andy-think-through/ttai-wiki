@@ -1,6 +1,6 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of [[claude-code-routines]] for scheduled employees.
+> Last updated: 2026-04-16
 
 ## Architecture
 ```
@@ -90,10 +90,23 @@ Manual bet placement (Andy reviews → places bets)
 - **Monthly:** Revalidate calibration; consider re-tuning edge thresholds
 - **As-needed:** Add new sports, disable underperforming markets, patch data sources
 
+## Phase-Out Status
+
+Cowork is being replaced by [[claude-code-routines]] for scheduled employee tasks. Still valid for on-demand batch work.
+
+| Employee | Status | Migration Date | Notes |
+|----------|--------|---------------|-------|
+| **Wiki** | Migrated | 2026-04-15 | Now runs on Routines with Slack reporting |
+| **Mark-Lite** | Migrated | 2026-04-16 | Now runs on Routines with Slack reporting |
+| **Fred (AutoStrategy)** | Pending | -- | Still Cowork-based. NBA playoffs make migration urgent. |
+
+Key differences: Routines run on Anthropic cloud (no laptop dependency), use connectors instead of Computer Use, report to Slack instead of email, support two-way interaction via API triggers.
+
 ## Sources
 - raw/autostrategy/daily-skill-lessons-learned.md
 - raw/autostrategy/autostrategy_STATUS.md
 - raw/autostrategy/AutoStrategy_Paper_v6.md
+- Andy's Slack ingest (2026-04-16): Routines migration
 
 ## Links
 - [[autostrategy]] — Strategy optimization framework

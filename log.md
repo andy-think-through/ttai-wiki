@@ -143,3 +143,29 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 wiki-agent | Scheduled scan (routine) -- authoritative recovery run
+- Sources scanned: Slack #ttai-employees (Andy's Routines ingest message, Mark-Lite daily reports x4, Andy's replies), inbox/ (empty), all key wiki pages
+- Note: 8+ Wiki runs today posted to Slack but committed to ephemeral branches that no longer exist. This run is the authoritative recovery -- all changes persisted to a single branch.
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Wiki Agent Routines job spec (dual-mode, Slack, connector-first)
+  - operations/ttai-slack-bridge.md -- Node.js Slack Bolt bridge on Railway (routes Andy's replies to Routine endpoints)
+  - operations/claude-code-routines.md -- Platform docs (schedule + API triggers, ephemeral sessions, connector-first)
+  - principles/connectors-beat-computer-use.md -- New principle: default to API connectors over Computer Use
+  - principles/repos-are-employee-memory.md -- New principle: ephemeral sessions need durable state in repos
+- Pages updated:
+  - operations/employee-framework.md -- Added Platform section (Routines architecture), updated Current Employees table with Platform column, rewrote Reporting (Slack), Computer Use (connector-first), Cross-Employee Awareness (shared Slack channel), Creating a New Employee (Routines workflow)
+  - operations/cowork-pipeline.md -- Added Phase-Out Status table (Wiki + Mark-Lite migrated, Fred pending)
+  - operations/fred-autostrategy-employee-SKILL.md -- Migration note added (5 changes needed, NBA playoffs make this urgent)
+  - strategy/overview.md -- Revenue fix: total invoiced £3,188.20 (was £938.20). JDW (£500, TTAI-004) and Tonic (£1,750, INV-003) moved from proposals to invoiced. Recurring baseline updated to £900-1,100/mo. Pipeline by Stage refreshed. Must-Hit updated (JDW + Tonic checked off). Infrastructure section added. Tippercrete added to pipeline.
+  - products/mark-lite.md -- Added Construction Intelligence tier (£75/mo data feed) with two-tier funnel model + direction-of-initiation hypothesis. First CI test: 12-firm re-engagement batch.
+  - clients/tippercrete.md -- Contact updated to Daniel Fordham (Danny). Status: Warm. CI sample delivered 14 April, ~72+ hrs no reply. Interaction log added.
+  - principles/_index.md -- Added Infrastructure & Operations Principles section (connectors-beat-computer-use, repos-are-employee-memory). Updated cross-links.
+  - index.md -- Added 5 new operations/principles pages. Updated summaries for overview, mark-lite, jdw-brickwork (CONVERTED), tonic-health (ACCEPTED), tippercrete (Warm).
+- Inbox: empty (no new ingest files)
+- Contradictions: Mercia 15-April go-live in overview.md reworded to reflect Outlook/Entra blocker. Not overwritten with a new date (Andy's call).
+- Key new information:
+  1. Revenue de-concentration: KW Bell dropped from 73% to 22% of invoiced revenue via JDW + Tonic conversions (not Mercia unblocking).
+  2. Employee architecture now on Routines + Slack + bridge + repos. Documented as consulting IP.
+  3. Construction Intelligence tier (£75/mo) creates a two-tier funnel for Mark-Lite. First live test in progress.
+  4. 8+ branch proliferation incident validates repos-are-employee-memory principle in real time.

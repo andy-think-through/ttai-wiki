@@ -1,15 +1,16 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Danny. Prospecting email drafted with 6 commercial/farm projects around Warwickshire.
-> Last updated: 2026-04-14
+> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Daniel Fordham. Status: Warm -- CI sample delivered, monitoring reply.
+> Last updated: 2026-04-16
 
 ## Lead Profile
 
 - **Company:** Tippercrete
-- **Contact:** Danny
+- **Contact:** Daniel Fordham (Danny)
 - **Trade:** Groundworks
 - **Region:** Warwickshire
-- **Status:** Prospecting \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
+- **Status:** Warm \u2014 CI sample delivered 14 April, monitoring reply. Replied twice within 19 min of original send. No response to sample as of 16 April (~72+ hrs).
+- **Previous status:** Prospecting \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
 
 ## Sample Projects Packaged (Drafted 2026-04-14)
 
@@ -28,10 +29,18 @@
 - Two older reply-chain drafts linger in Andy's inbox (r6643235254657497487, r-8974149886039307649) and should be binned.
 - Validates [[planning-data-serves-site-trades]] principle \u2014 Groundworks is a site trade so planning-portal sourcing is the right channel.
 
+## Interaction Log
+
+| Date | Summary |
+|------|---------|
+| 2026-04-13 | Danny replied warm to outreach -- twice within 19 minutes. Very engaged. |
+| 2026-04-14 | Andy sent Construction Intelligence sample (groundworks jobs in Warwickshire). Subject: "Sample week of groundworks jobs in Warwickshire". |
+| 2026-04-16 | ~72+ hours since CI sample. No reply to sample yet. Mark-Lite monitoring. |
+
 ## Next Actions
 
-- **Send:** Danny to review the standalone draft; Andy to send when happy
-- **Follow-up:** If Danny responds warm, convert to [[mark-lite]] Warwickshire campaign subscriber or managed [[mark]] client
+- **Monitor:** CI sample reply. If Danny engages, convert to £75/mo Construction Intelligence subscriber or £200/mo managed [[mark]] client.
+- **If no reply by ~7 days:** Follow up with a brief check-in. Danny was warm enough to reply twice unprompted -- silence on sample may mean timing, not rejection.
 
 ## Links
 
