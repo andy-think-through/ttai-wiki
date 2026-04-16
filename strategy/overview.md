@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -167,6 +167,21 @@ Consulting Audit → Uncovers Product Opportunity
 - [ ] Knowledge Assistant: Scope with Tonic if opportunity arises
 - [ ] [[Carmen-MacDougall]] workshop dates finalised (skill swap collaboration)
 - [ ] Darts betting go-live (currently paper; rules developed but not live capital deployed)
+
+---
+
+## Infrastructure: Autonomous Employees
+
+As of 2026-04-15, TTAI's autonomous employees run on **Claude Code Routines** (Anthropic cloud) and report to **Slack #ttai-employees**. This replaces the previous Cowork + email architecture.
+
+| Component | What | Status |
+|-----------|------|--------|
+| [[claude-code-routines]] | Execution platform (schedule + API triggers) | Live |
+| [[ttai-slack-bridge]] | Routes Andy's Slack replies to employee routine endpoints | Live (Railway free tier) |
+| Slack #ttai-employees | Single monitoring surface for all employees | Live |
+| Wiki repo on GitHub | `andy-think-through/ttai-wiki` -- Wiki Agent's persistent state | Live |
+
+**Migration status:** Wiki migrated (2026-04-15). Fred and Mark-Lite still on Cowork, pending migration. See [[employee-framework]] for details.
 
 ---
 

@@ -1,7 +1,7 @@
 # TTAI Employee Framework
 
 > Universal operating model for Think Through AI's autonomous AI employees. Every employee inherits these traits. Domain-specific behaviours are layered on top via individual SKILL.md files.
-> Last updated: 2026-04-12
+> Last updated: 2026-04-16
 
 ## What This Is
 
@@ -13,11 +13,11 @@ This document defines that shared DNA. When creating a new employee, start here,
 
 ## Current Employees
 
-| Employee | Domain | Cadence | SKILL.md Location |
-|---|---|---|---|
-| **Wiki** | Cross-domain knowledge base maintenance + pattern spotting | Every other day | wiki/operations/wiki-agent-SKILL.md |
-| **Mark-Lite** | Construction lead generation campaigns + prospect conversion | Daily | wiki/operations/mark-lite-employee-SKILL.md |
-| **Fred (AutoStrategy)** | Value betting portfolio management + model improvement | Daily | wiki/operations/fred-autostrategy-employee-SKILL.md |
+| Employee | Domain | Cadence | Platform | SKILL.md Location |
+|---|---|---|---|---|
+| **Wiki** | Cross-domain knowledge base maintenance + pattern spotting | Every other day | **Routine** (live) | [[wiki-agent-SKILL]] |
+| **Mark-Lite** | Construction lead generation campaigns + prospect conversion | Daily | Cowork (migration pending) | [[mark-lite-employee-SKILL]] |
+| **Fred (AutoStrategy)** | Value betting portfolio management + model improvement | Daily | Cowork (migration pending) | [[fred-autostrategy-employee-SKILL]] |
 
 ---
 
@@ -67,13 +67,17 @@ Every employee maintains two layers of state:
 
 ### 4. Reporting
 
+**Primary channel: Slack #ttai-employees** (migrated from email on 2026-04-15)
+
+All employee reports post to the same Slack channel. Andy monitors one feed. Thread-based replies trigger follow-up runs via the [[ttai-slack-bridge]].
+
 **Daily summary (after every run):**
-- Channel 1: Email to Andy — brief, structured, scannable
-- Channel 2: Wiki note — same content plus full decision log entry, written to `wiki/operations/[employee]-reports/[date]-daily.md`
+- Channel 1: Slack #ttai-employees -- brief, structured, scannable
+- Channel 2: Wiki note -- same content plus full decision log entry, written to `wiki/operations/[employee]-reports/[date]-daily.md`
+- Fallback: If Slack unavailable, write to `strategy/agent-reports/[date]-[employee]-report.md`
 
 **Escalation (when Andy's input is needed):**
-- Separate email (never bundled into the daily summary)
-- Clear subject line: `⚠️ [Employee Name] — ACTION NEEDED: [specific issue]`
+- Post to Slack with clear prefix: `[Employee Name] -- ACTION NEEDED: [specific issue]`
 - Sent immediately, not held until end of run
 
 ### 5. Computer Use (Available, Not Default)
@@ -99,8 +103,15 @@ Domain-specific principles are defined in each employee's SKILL.md.
 
 ### 7. Cross-Employee Awareness
 
-Employees don't interact with each other directly, but they share the wiki as common ground:
+Employees share two surfaces for cross-awareness:
 
+**Slack #ttai-employees** (primary, real-time):
+- All employees post reports to the same channel
+- Employees can read each other's recent reports via the Slack connector
+- Andy's replies are visible to all employees (each reads the channel on their run)
+- This is the architectural payoff of a shared channel vs per-employee channels
+
+**Wiki (persistent, structured):**
 - Wiki maintains the knowledge base that all employees benefit from
 - Each employee's decision log and daily reports are written to the wiki
 - Discoveries in one domain (e.g., "planning data serves site trades") get captured as principles that other employees can reference
@@ -132,6 +143,18 @@ Every employee feeds back into the system:
 
 ---
 
+## Platform
+
+**Current platform: Claude Code Routines** (migrated from Cowork on 2026-04-15). See [[claude-code-routines]] for full details.
+
+Key architectural decisions:
+- **Routines run on Anthropic cloud** -- no dependency on Andy's laptop
+- **Dual-mode prompt pattern** -- every employee checks for a `text` field: empty = scheduled run, present = follow-up from Slack. This is universal across all employees.
+- **GitHub repos are employee memory** -- routine sessions are ephemeral. Persistent state lives in connected repos, Google Sheets, or other external stores. See [[repos-are-employee-memory]].
+- **Connectors replace Computer Use** -- information gathering via Slack, Google Drive, and repo connectors. Computer Use is fallback only. See [[connectors-beat-computer-use]].
+
+Fred and Mark-Lite are still on Cowork and pending migration to Routines. Their SKILL files need restructuring to the dual-mode prompt pattern.
+
 ## Creating a New Employee
 
 1. Read this framework document
@@ -145,19 +168,26 @@ Every employee feeds back into the system:
    - What are the domain-specific autonomy boundaries?
    - What does their operational source of truth look like?
    - What is their first mission?
-4. Write the SKILL.md following the established structure
-5. Create the supporting infrastructure (decision log, reports folder)
-6. Run the first mission manually, then schedule
+4. Write the SKILL.md following the established structure (include dual-mode prompt pattern)
+5. Create the supporting infrastructure (decision log, reports folder, connected repo)
+6. Create the routine on Anthropic with schedule + API triggers
+7. Add employee's API endpoint and token to [[ttai-slack-bridge]]
+8. Test end-to-end: scheduled run posts to Slack; Slack reply triggers follow-up
 
 ---
 
 ## Links
 
-- [[mark-lite-employee-SKILL]] — Mark-Lite Campaign Manager job spec
-- [[fred-autostrategy-employee-SKILL]] — Fred AutoStrategy Portfolio Manager job spec
-- [[wiki-agent-SKILL]] — Wiki Agent job spec
-- [[autostrategy]] — AutoStrategy methodology (basis for the 80/20 split)
-- [[overview]] — TTAI business strategy overview
+- [[wiki-agent-SKILL]] -- Wiki Agent job spec (Routine, live)
+- [[fred-autostrategy-employee-SKILL]] -- Fred AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
+- [[mark-lite-employee-SKILL]] -- Mark-Lite Campaign Manager job spec (Cowork, migration pending)
+- [[claude-code-routines]] -- Platform that runs employees
+- [[ttai-slack-bridge]] -- Routes Slack replies to employee API endpoints
+- [[cowork-pipeline]] -- Predecessor platform (being phased out for scheduled employees)
+- [[autostrategy]] -- AutoStrategy methodology (basis for the 80/20 split)
+- [[overview]] -- TTAI business strategy overview
+- [[connectors-beat-computer-use]] -- Principle: connectors > browser automation
+- [[repos-are-employee-memory]] -- Principle: ephemeral sessions need external state
 
 ## Sources
 
@@ -165,3 +195,4 @@ Every employee feeds back into the system:
 - Mark-Lite Employee SKILL.md (2026-04-12)
 - Fred AutoStrategy Employee SKILL.md (2026-04-12)
 - AutoStrategy exploitation/exploration methodology
+- Wiki Agent migration session (2026-04-15)

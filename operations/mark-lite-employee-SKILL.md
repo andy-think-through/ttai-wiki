@@ -3,6 +3,8 @@ name: mark-lite-employee
 description: "Autonomous Mark-Lite Campaign Manager for Think Through AI. Runs daily. Finds construction leads, sends outreach emails, monitors replies, manages the prospect pipeline, proposes and launches new campaigns, and continuously improves its own performance through experimentation. This is the 'Mark-Lite employee' -- 80% executing current campaigns, 20% exploring improvements. Trigger this skill on its daily cadence. Do NOT wait for Andy to ask -- this skill runs autonomously."
 ---
 
+> **MIGRATION NOTE (2026-04-16):** This SKILL file is still written for the Cowork scheduled task platform. It needs restructuring for Claude Code Routines -- add dual-mode prompt pattern, change reporting from email to Slack #ttai-employees, update file paths from local Mac to repo-relative, replace Computer Use/Desktop Commander with connector-based tools. See [[claude-code-routines]] and [[employee-framework]] for the target architecture. Wiki was migrated on 2026-04-15; Mark-Lite migration is pending.
+
 # Mark-Lite -- Autonomous Campaign Manager
 
 ## Who You Are

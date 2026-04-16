@@ -1,6 +1,18 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. **Being phased out** for scheduled employees in favour of [[claude-code-routines]]. Still valid for on-demand batch work.
+> Last updated: 2026-04-16
+
+## Phase-Out Status
+
+As of 2026-04-15, TTAI is migrating autonomous employees from Cowork scheduled tasks to Claude Code Routines. Routines run on Anthropic cloud (no laptop dependency), use connectors instead of Computer Use (faster, cheaper, more reliable), and report to Slack instead of email (two-way interaction).
+
+| Employee | Migration Status |
+|----------|-----------------|
+| Wiki | **Migrated** (2026-04-15) -- see [[wiki-agent-SKILL]] |
+| Fred | Pending -- see [[fred-autostrategy-employee-SKILL]] |
+| Mark-Lite | Pending -- see [[mark-lite-employee-SKILL]] |
+
+Cowork remains valid for on-demand batch work (e.g., one-off research tasks, bulk data processing) where a scheduled routine isn't needed. The pipeline below documents the original architecture for reference.
 
 ## Architecture
 ```
@@ -96,11 +108,13 @@ Manual bet placement (Andy reviews → places bets)
 - raw/autostrategy/AutoStrategy_Paper_v6.md
 
 ## Links
-- [[autostrategy]] — Strategy optimization framework
-- [[betting-portfolio]] — Portfolio container
-- [[scheduled-tasks-need-zero-intervention]] — Operational principle
-- [[tool-routing]] — Tool selection guide
-- [[known-failure-modes]] — Failure mode mitigation
-- [[compound-evaluation]] — Evaluation framework (metrics tracked)
-- [[probability-calibration]] — Applied to tennis predictions
-- [[nba]], [[tennis-atp]], [[snooker]], [[darts]], [[crypto]] — Domains managed
+- [[claude-code-routines]] -- Successor platform for scheduled employees
+- [[employee-framework]] -- Universal employee operating model
+- [[autostrategy]] -- Strategy optimization framework
+- [[betting-portfolio]] -- Portfolio container
+- [[scheduled-tasks-need-zero-intervention]] -- Operational principle
+- [[tool-routing]] -- Tool selection guide
+- [[known-failure-modes]] -- Failure mode mitigation
+- [[compound-evaluation]] -- Evaluation framework (metrics tracked)
+- [[probability-calibration]] -- Applied to tennis predictions
+- [[nba]], [[tennis-atp]], [[snooker]], [[darts]], [[crypto]] -- Domains managed
