@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -14,32 +14,35 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 
 ## Revenue Status
 
-### Current Invoiced (Q1 2026 FY)
+### Current Invoiced (Q1-Q2 2026 FY)
 
-| Stream | Client | Amount | Status |
-|--------|--------|--------|--------|
-| **Consulting** | [[KW-Bell]] | £688.20 | Audit complete, solution design proposed |
-| **Mark** | [[Mercia-Flooring]] | £250 (setup) | Invoiced 2026-03-XX, go-live 15 April |
-| **Total Invoiced** | — | **£938.20** | **Cash in** |
+| Stream | Client | Amount | Invoice | Status |
+|--------|--------|--------|---------|--------|
+| **Consulting** | [[KW-Bell]] | £688.20 | INV-001 | Audit complete, solution design proposed |
+| **Mark** | [[Mercia-Flooring]] | £250 (setup) | INV-002 | Go-live blocked on Outlook/Entra OAuth |
+| **Consulting** | [[Tonic-Health]] | £1,750 | INV-003 | ACCEPTED, creative agent build |
+| **Mark** | [[JDW-Brickwork]] | £500 (setup) | TTAI-004 | CONVERTED 14 Apr, build 21-25 April |
+| **Total Invoiced** | -- | **£3,188.20** | -- | **Cash in** |
 
 ### Active Proposals (Next 30-90 Days)
 
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
 | **Consulting** | [[AccXel]] | £700 | Discovery day 28 April | KW Bell subsidiary, day rate |
-| **Consulting** | [[Tonic-Health]] | £1,750 | Proposal sent | Creative agent work, 5-day engagement |
 | **Mark** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
-| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live 15 April | Schools outreach, seasonal Jan-July, Outlook pending |
+| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Blocked -- Outlook/Entra OAuth | Schools outreach, seasonal Jan-July |
 | **Mark** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
-| **Mark-Lite Prospects** | [[JDW-Brickwork]] (Josh Warren) | Discovery 14 April | Conversion from campaign | Meeting booked, pricing expectations set |
-| **Total in Proposals** | — | **£2,450+** | — | **Plus £900/mo recurring if all close** |
+| **Mark** | [[JDW-Brickwork]] | £200/mo recurring | Build 21-25 April | First Mark-Lite to managed Mark conversion |
+| **Mark-Lite** | [[Tippercrete]] | £75/mo (Construction Intelligence) | Sample delivered, monitoring | Warm groundworks prospect, Warwickshire |
+| **Total in Proposals** | -- | **£700 one-off + £1,175/mo recurring** | -- | **If all close** |
 
 ### Recurring Revenue Baseline
 
-**If Mercia, Hawks, and Bat Surveys all stay live:**
-- Mark £200 × 2 (Hawks + Mercia) = £400/mo
+**If Mercia, Hawks, Bat Surveys, and JDW all stay live:**
+- Mark £200 x 3 (Hawks + Mercia + JDW) = £600/mo
 - Bat Surveys £500/mo = £500/mo
-- **Total Mark recurring: £900/mo = £10,800/year**
+- **Total Mark recurring: £1,100/mo = £13,200/year**
+- Plus potential Construction Intelligence subscriptions (£75/mo each) from re-engagement batch
 
 Hike SES is contractual stability (directorship income, not detailed in this view).
 
