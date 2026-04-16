@@ -18,7 +18,7 @@
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
 - [[mark]] — Productised AI sales agent for construction/trades businesses
-- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants)
+- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). Now includes Construction Intelligence data feed (£75/month)
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
@@ -35,9 +35,9 @@
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] — Mark-Lite inbound lead: discovery meeting 14 April (today)
+- [[jdw-brickwork]] — CONVERTED 14 April: £500 setup (TTAI-004), Mark build 21-25 April, £200/month ongoing
 - [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
-- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample-week email drafted
+- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample delivered 14 April, monitoring for response
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
@@ -80,6 +80,10 @@
 - [[wiki-agent-SKILL]] — Wiki Knowledge Curator job spec (Routines, live since 2026-04-15)
 - [[ttai-slack-bridge]] — Node.js Slack bridge routing Andy's replies to employee routine endpoints
 - [[claude-code-routines]] — Claude Code Routines platform documentation for TTAI employees
+- [[fred-betfair-exploration-prompt]] — One-time Betfair exploration session prompt for Fred
+- [[mark-lite-employee-SKILL]] — Mark-Lite autonomous employee job spec (Cowork-based, migration pending)
+- [[mark-lite-decision-log]] — Mark-Lite's append-only reasoning audit trail
+- [[new-employee-briefing]] — Template briefing doc for creating new TTAI employees
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules

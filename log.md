@@ -162,3 +162,23 @@
   - log.md -- This entry
 - Note: Four earlier Wiki runs today (08:55, 09:06, 09:14, 09:17) posted reports to Slack claiming these changes but committed to different branches. This run is on branch claude/magical-goldberg-e4Wxv and actually persists the work. Validates repos-are-employee-memory in real time.
 - Key new information: TTAI employee architecture migrated from Cowork (Computer Use, local filesystem, email reporting) to Claude Code Routines (Anthropic cloud, connectors, Slack reporting). Wiki is first migrated employee. Fred and Mark-Lite migration pending. Infrastructure cost ~zero. Two new principles captured: connectors-beat-computer-use and repos-are-employee-memory.
+
+## 2026-04-16 wiki-agent | Scheduled scan (routine) -- Mark-Lite reports + revenue alignment
+
+- Sources scanned: operations/mark-lite-reports/ (3 daily reports: 2026-04-12, 2026-04-13, 2026-04-15), Slack #ttai-employees, all wiki pages on this branch
+- Pages updated:
+  - products/mark-lite.md -- Added Construction Intelligence product tier (£75/month), re-engagement batch section with 12-firm breakdown, two-tier pricing model, direction-of-initiation hypothesis
+  - clients/tippercrete.md -- Updated Danny's full name (Daniel Fordham), status from "drafted" to "sample delivered 14 April", added engagement history with reply-speed data
+  - clients/jdw-brickwork.md -- Added invoice number TTAI-004, added direction-of-initiation observation section
+  - strategy/overview.md -- Fixed revenue tables: moved JDW (£500, TTAI-004) and Tonic (£1,750, INV-003) from proposals to invoiced. Total invoiced now £3,188.20. Updated recurring baseline to £1,100/mo (£13,200/year) with JDW. Added Tippercrete/Construction Intelligence to proposals.
+  - index.md -- Updated JDW summary (CONVERTED), Tippercrete summary (sample delivered), mark-lite summary (Construction Intelligence). Added 5 previously uncatalogued operations pages.
+- Pages created: none
+- Inbox: empty (no new ingest files)
+- Branch note: This run operates on branch claude/magical-goldberg-ZjpNY. A separate run (09:14 today) committed Routines migration work to claude/magical-goldberg-pwGY6. Both branches have diverged from main. Branch consolidation needed.
+- Uncatalogued pages found: mark-lite-employee-SKILL, mark-lite-decision-log, fred-betfair-exploration-prompt, new-employee-briefing (added to index). Also found empty stubs at root: Computer Use.md, browser-agent.md (1 line each, likely artifacts).
+- Key new information:
+  1. Construction Intelligence is a new product tier at £75/month -- first live test via 12-firm re-engagement batch sent 13 April. Monitoring window ends 18-19 April.
+  2. Direction-of-initiation hypothesis: cold outreach converts to intelligence product first, inbound converts to managed Mark direct. One data point (JDW), needs confirmation.
+  3. Revenue position stronger than wiki reflected: total invoiced is £3,188.20 (was showing £938.20), recurring baseline £1,100/mo (was £900/mo).
+  4. Re-engagement batch (12 firms) is day 2 of monitoring as of 15 April. First meaningful data expected 18-19 April.
+  5. Five operations pages existed on disk but weren't catalogued in index.md -- now added.

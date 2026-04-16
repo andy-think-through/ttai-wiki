@@ -1,7 +1,7 @@
 # Mark-Lite
 
-> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2).
-> Last updated: 2026-04-12
+> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence data feed (£75/month) as lower-commitment entry product.
+> Last updated: 2026-04-16
 
 ## What Mark-Lite Is
 
@@ -180,21 +180,63 @@ Content: 2 leads, ~80 words. "If you'd like me to set this up properly for your 
 
 Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max one per prospect.
 
+## Construction Intelligence (New Product Tier -- April 2026)
+
+Weekly planning data feed filtered by trade relevance. Lower commitment than managed Mark, designed for prospects who want leads but not managed outreach.
+
+- **Price:** £75/month (range £50-100/month depending on trade/region)
+- **What they get:** Weekly email with filtered planning application data relevant to their trade and region, with named contacts where available
+- **First live test:** 12 re-engagement emails sent 13 April using Construction Intelligence pitch at £75/month
+- **Target audience:** Site-trade firms (Groundworks, Brickwork, Civil Engineering) who engage with planning data but aren't ready for managed outreach
+- **Relationship to Mark:** Entry-level product. Prospects can upgrade to managed [[mark]] (£200/month) once they see the value of the data stream.
+
 ## Pricing & Conversion Path
 
-**Typical flow for engaged prospects:**
+**Two-tier model (updated April 2026):**
 
+| Product | Setup | Monthly | Commitment | Best For |
+|---------|-------|---------|------------|----------|
+| Construction Intelligence | None | £75/month | Low | Data-curious, cold outreach converts |
+| Managed Mark | £250-500 | £200/month | Medium | Inbound leads, warm referrals |
+
+**Cold outreach flow (typical):**
 1. Week 1-4: Email + LinkedIn sequence (value prop: consistent lead stream)
 2. Week 4 Email 3: Introduction to Mark and offer for ongoing service
-3. Warm reply or inbound meeting request → Discovery call
-4. Transition to managed [[mark]] contract (£250-£500 setup + £200/month ongoing)
+3. Warm reply → Offer Construction Intelligence as entry (£75/month)
+4. Upgrade path to managed [[mark]] contract once value proven
 
-**Josh Warren (JDW Brickwork) flow:**
-- Inbound lead from Email 1 campaign
-- Showed interest ("I'd like to hear more about this")
-- Scheduled discovery meeting 14 April
-- Sent pricing expectations + prep guidance
-- Next: Demo of Mark system, convert to client
+**Inbound/warm flow (JDW pattern):**
+- Inbound lead from campaign → Discovery meeting → managed Mark direct (skip intelligence tier)
+- Josh Warren converted straight to managed Mark (£500 setup + £200/month) without seeing the intelligence product
+
+**Emerging hypothesis (1 data point -- needs confirmation):** The split between Construction Intelligence and managed Mark may be direction-of-initiation-based, not price-based. Cold outreach → intelligence first. Inbound → managed Mark direct. Flagged by Mark-Lite 15 April report.
+
+## Re-Engagement Batch (April 2026)
+
+First batch using Construction Intelligence product pitch:
+
+- **17 drafts created** 12 April (12 site trades + 5 scaffolding)
+- **12 sent** 13 April by Andy. 5 scaffolding drafts parked (not found in Sent/Drafts -- treating as deliberately skipped)
+- **Monitoring window:** 5-7 days, expect meaningful reply data by 18-19 April
+- **Day 2 status (15 April):** Zero replies, zero bounces. Normal for this stage.
+- **Warm prospect from batch:** Danny Fordham / [[tippercrete]] -- replied twice within 19 min, Construction Intelligence sample delivered 14 April
+
+### Batch Breakdown
+
+| # | Company | Contact | Trade | Region |
+|---|---------|---------|-------|--------|
+| 1 | [[tippercrete]] | Daniel Fordham | Groundworks | Warwickshire |
+| 2 | Coventry Bricklayers | Mitchell | Brickwork | Warwickshire |
+| 3 | Kimben | David | Brickwork | Warwickshire |
+| 4 | A Valley Plant | John | Groundworks | Warwickshire |
+| 5 | NR Groundworks | Nigel | Groundworks | Northants |
+| 6 | Hewlett & Sons | John | Groundworks | Northants |
+| 7 | L4 Civils | Steven | Civil Eng | Northants |
+| 8 | Prestige Civil | Mark | Civil Eng | Northants |
+| 9 | T&C Civils | Tom | Civil Eng | Northants |
+| 10 | Gladstone Construction | Lee | Civil Eng | Northants |
+| 11 | MMK Civils | Kieran | Civil Eng | Northants |
+| 12 | Bliss Brickwork | Mick | Brickwork | Northants |
 
 ## Tracker Structure
 
