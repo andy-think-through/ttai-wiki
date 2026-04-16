@@ -143,3 +143,33 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 scan | Scheduled scan (Routines, authoritative)
+- Sources: Slack #ttai-employees (30+ messages from Wiki, Mark-Lite, Andy on 2026-04-16), Andy's ingest file (Routines migration), Andy's decisions (20:51), Andy's Mercia update (22:35)
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Routines job spec for Wiki agent
+  - operations/ttai-slack-bridge.md -- Slack bridge infrastructure page
+  - operations/claude-code-routines.md -- Routines platform documentation
+  - principles/connectors-beat-computer-use.md -- New principle: default to connectors over Computer Use
+  - principles/repos-are-employee-memory.md -- New principle: commit state early, ephemeral sessions lose everything
+- Pages updated:
+  - strategy/overview.md -- Revenue fix: total invoiced £3,188.20 (was £938.20). JDW (£500, TTAI-004) and Tonic (£1,750, INV-003) moved from proposals to invoiced. Infrastructure section added. Must-Hit/Should-Hit rewritten to reflect conversions.
+  - betting-rules/predicted-loser-rule.md -- FORMALISED per Andy's instruction (2026-04-16). Hard constraint, all sports.
+  - betting-rules/never-back-predicted-loser.md -- FORMALISED. Status flipped from paper tracking.
+  - betting-rules/active-rules.md -- Updated to reflect formalisation.
+  - clients/mercia-flooring.md -- Solaas IT fix reported 16 April, Andy confirming 17 April. Go-live imminent.
+  - clients/tippercrete.md -- Contact is Daniel Fordham, status Warm, CI sample ~96hrs no reply.
+  - clients/jdw-brickwork.md -- Invoice TTAI-004 added to summary.
+  - products/mark-lite.md -- Construction Intelligence tier (£75/mo) added with two-tier funnel model and direction-of-initiation hypothesis.
+  - operations/employee-framework.md -- Platform section (Routines), updated Current Employees table with Platform column, reporting/cross-employee awareness rewritten for Slack, connector-first access, creating-new-employee steps updated.
+  - operations/cowork-pipeline.md -- Phase-out status table added.
+  - operations/fred-autostrategy-employee-SKILL.md -- Migration note added (5 changes needed for Routines).
+  - principles/_index.md -- Infrastructure & Operations Principles section added.
+  - index.md -- All new pages catalogued, status lines refreshed.
+- Key new information:
+  1. Revenue de-concentration: KW Bell dropped from 73% to 22% of invoiced revenue through JDW (inbound) and Tonic (friend referral) converting.
+  2. Predicted-loser rule formalised -- first rule to complete full evidence cycle.
+  3. Employee infrastructure migrated to Routines + Slack (Wiki + Mark-Lite live, Fred pending).
+  4. Mercia OAuth fix reportedly implemented by Solaas IT on 16 April -- if confirmed 17 April, school outreach launches immediately.
+  5. Construction Intelligence tier creates two-tier funnel for Mark-Lite (£75 CI -> £200 Mark).
+  6. 8+ earlier Wiki runs on 16 April committed to ephemeral branches that no longer exist -- proving repos-are-employee-memory principle. This run is the authoritative recovery.

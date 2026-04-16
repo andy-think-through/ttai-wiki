@@ -1,6 +1,18 @@
 # Cowork Pipeline
-> Daily betting operations orchestration and current implementation.
-> Last updated: 2026-04-08
+> Daily betting operations orchestration. Being phased out in favour of [[claude-code-routines]].
+> Last updated: 2026-04-16
+
+## Phase-Out Status
+
+Cowork scheduled tasks are being replaced by Claude Code Routines. See [[claude-code-routines]] and [[employee-framework]].
+
+| Employee | Cowork Status | Routines Status |
+|----------|--------------|-----------------|
+| Wiki | Retired | Live (2026-04-15) |
+| Mark-Lite | Retired | Live (2026-04-16) |
+| Fred | Active (paused) | Migration pending |
+
+Cowork remains valid for on-demand batch work and tasks requiring Computer Use. The scheduled employee use case is migrating to Routines.
 
 ## Architecture
 ```
