@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-16
 
 ## Executive Summary
 
@@ -14,32 +14,33 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 
 ## Revenue Status
 
-### Current Invoiced (Q1 2026 FY)
+### Current Invoiced (2026 to Date)
 
-| Stream | Client | Amount | Status |
-|--------|--------|--------|--------|
-| **Consulting** | [[KW-Bell]] | £688.20 | Audit complete, solution design proposed |
-| **Mark** | [[Mercia-Flooring]] | £250 (setup) | Invoiced 2026-03-XX, go-live 15 April |
-| **Total Invoiced** | — | **£938.20** | **Cash in** |
+| Stream | Client | Amount | Invoice | Status |
+|--------|--------|--------|---------|--------|
+| **Consulting** | [[KW-Bell]] | £688.20 | — | Audit complete, solution design proposed |
+| **Mark** | [[Mercia-Flooring]] | £250 (setup) | INV-002 | Invoiced; go-live blocked on Outlook/Entra |
+| **Mark** | [[JDW-Brickwork]] | £500 (setup) | TTAI-004 | CONVERTED 14 Apr; build 21-25 April |
+| **Consulting** | [[Tonic-Health]] | £1,750 | INV-003 | ACCEPTED 14 Apr; build starting |
+| **Total Invoiced** | — | **£3,188.20** | — | **Cash in** |
 
 ### Active Proposals (Next 30-90 Days)
 
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
 | **Consulting** | [[AccXel]] | £700 | Discovery day 28 April | KW Bell subsidiary, day rate |
-| **Consulting** | [[Tonic-Health]] | £1,750 | Proposal sent | Creative agent work, 5-day engagement |
 | **Mark** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
-| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live 15 April | Schools outreach, seasonal Jan-July, Outlook pending |
+| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Blocked on Outlook/Entra | Schools outreach, seasonal Jan-July |
 | **Mark** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
-| **Mark-Lite Prospects** | [[JDW-Brickwork]] (Josh Warren) | Discovery 14 April | Conversion from campaign | Meeting booked, pricing expectations set |
-| **Total in Proposals** | — | **£2,450+** | — | **Plus £900/mo recurring if all close** |
+| **Mark** | [[JDW-Brickwork]] | £200/mo recurring | Build 21-25 April | Brickwork variant, targets main contractors |
+| **Total in Proposals** | — | **£700** | — | **Plus £1,100/mo recurring if all active** |
 
 ### Recurring Revenue Baseline
 
-**If Mercia, Hawks, and Bat Surveys all stay live:**
-- Mark £200 × 2 (Hawks + Mercia) = £400/mo
-- Bat Surveys £500/mo = £500/mo
-- **Total Mark recurring: £900/mo = £10,800/year**
+**Current recurring (Hawks + Bat Surveys + JDW once live):**
+- Hawks £200/mo + Bat Surveys £500/mo + JDW £200/mo (from late April) = **£900-1,100/mo**
+- Mercia £200/mo adds when Outlook unblocks
+- **Target Mark recurring: £1,100/mo = £13,200/year**
 
 Hike SES is contractual stability (directorship income, not detailed in this view).
 
@@ -47,10 +48,11 @@ Hike SES is contractual stability (directorship income, not detailed in this vie
 
 | Stage | Clients | Notes |
 |-------|---------|-------|
-| **Active** (invoiced or signed) | Hawks, Mercia, Bat Surveys | Mark recurring; Mercia go-live critical |
-| **Warm** (proposal sent, decision pending) | AccXel, Steve Tipson | Tonic now ACCEPTED |
-| **Hot** (signed/building) | JDW Brickwork (CONVERTED 14 Apr, build 21–25 Apr), IH Group (follow-up scheduled) | JDW first Mark-Lite → Mark conversion |
-| **Pipeline** (prospect, referral warm) | [[MJM-Consulting]], [[Carmen-MacDougall]] | Via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
+| **Active** (invoiced or signed) | Hawks, Bat Surveys, JDW (build 21-25 Apr), Tonic (build starting) | Mark recurring; Tonic one-off |
+| **Blocked** | Mercia (Outlook/Entra OAuth) | Go-live slipped past 15 April |
+| **Warm** (proposal sent, decision pending) | AccXel (28 Apr discovery), Steve Tipson | Pipeline |
+| **Warm** (Mark-Lite prospect) | Tippercrete (CI sample sent, ~53hrs no reply) | Groundworks, Warwickshire |
+| **Pipeline** (prospect, referral warm) | [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]] | Via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
 
 ---
 
@@ -147,20 +149,22 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
-- [ ] [[Mercia-Flooring]] go-live 15 April: Email integration + first school batch live
+- [x] [[JDW-Brickwork]] conversion: CONVERTED 14 April. £500 setup invoiced (TTAI-004). Build 21-25 April.
+- [x] [[Tonic-Health]] creative agent: ACCEPTED 14 April. £1,750 (INV-003). Build starting.
+- [ ] [[JDW-Brickwork]] Mark build: 21-25 April. Brickwork variant targeting main contractors/developers.
 - [ ] [[AccXel]] discovery day 28 April: Deliver audit, proposal solution design
-- [ ] [[JDW-Brickwork]] (Josh Warren) conversion: Discovery 14 April → proposal → sign
+- [ ] [[Mercia-Flooring]] go-live: BLOCKED on Outlook/Entra OAuth. Gmail send-as workaround under consideration. Every week of delay eats into Jan-July school selling window.
 - [ ] [[Agent-Browser]] PoC with KW Bell: Invoice OCR workflow proof of concept (cost < £500)
 
-**Impact:** Mercia + AccXel + Josh Warren = +£600/mo recurring + consulting fees + proof of product-market fit for Agent Browser
+**Impact:** JDW + Tonic already closed (+£2,250 invoiced). Mercia unblock + AccXel close = +£400/mo recurring + consulting fees.
 
 ### Should-Hit (By End of June)
 
 - [ ] [[IH-Group]] follow-up conversion (via Malcolm)
-- [ ] [[Tonic-Health]] decision on creative agent (£1,750 proposal pending)
 - [ ] Mark operations playbook: Repeatable onboarding process for next 2-3 clients
 - [ ] Tennis [[grass-veto]] rule implementation (Wimbledon June prep)
 - [ ] Agent Browser Phase 2: Hike keyword strategy workflow live internally
+- [ ] Fred migration to [[claude-code-routines]] (NBA playoffs make this time-sensitive)
 
 ### Nice-to-Have (If Time Permits)
 
@@ -172,17 +176,32 @@ Consulting Audit → Uncovers Product Opportunity
 
 ## Revenue Forecast (Q2 2026 End)
 
-**Conservative (closes: Mercia go-live + Josh Warren):**
-- Consulting invoiced: £700 (AccXel) + variable
-- Mark recurring: £900/mo (Hawks + Mercia + Bat Surveys)
-- **Quarterly ARR trajectory: ~£10,800**
+**Already banked:** £3,188.20 invoiced (KW Bell + Mercia setup + JDW setup + Tonic).
 
-**Optimistic (closes: Above + Tonic + IH Group):**
-- Consulting invoiced: £2,450+ (AccXel + Tonic + IH Group follow-ups)
-- Mark recurring: £1,200+/mo (add Josh Warren)
-- **Quarterly ARR trajectory: ~£15,000+**
+**Conservative (Mercia stays blocked, no new closes):**
+- Recurring: £900/mo (Hawks + Bat Surveys + JDW from late April)
+- Consulting: £700 (AccXel if closed)
+- **Q2 total: ~£3,888 invoiced + £2,700 recurring (3 months)**
+
+**Optimistic (Mercia unblocks + AccXel + IH Group):**
+- Recurring: £1,100/mo (add Mercia)
+- Consulting: £700+ (AccXel + IH Group)
+- **Q2 total: ~£3,888 invoiced + £3,300 recurring + consulting**
 
 **Agent Browser:** Still building; unknown revenue, but de-risks through KW Bell PoC.
+
+---
+
+## Infrastructure
+
+**Autonomous employee platform** migrated from Cowork to [[claude-code-routines]] in April 2026. Three employees (Wiki, Fred, Mark-Lite) operate from Slack #ttai-employees. Andy monitors one feed. Two-way interaction via [[ttai-slack-bridge]].
+
+| Component | Status |
+|-----------|--------|
+| [[claude-code-routines]] | Live (Wiki + Mark-Lite) |
+| [[ttai-slack-bridge]] | Live (Railway free tier) |
+| Wiki repo (GitHub) | Live |
+| Fred migration | Pending (priority -- NBA playoffs) |
 
 ---
 
@@ -283,4 +302,4 @@ The index ([[index]]) lists all pages by category.
 
 ---
 
-**Updated 2026-04-08 | Think Through AI Strategy Synthesis**
+**Updated 2026-04-16 | Think Through AI Strategy Synthesis**

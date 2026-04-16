@@ -1,7 +1,7 @@
 # Mark-Lite
 
 > Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2).
-> Last updated: 2026-04-12
+> Last updated: 2026-04-16
 
 ## What Mark-Lite Is
 
@@ -180,21 +180,53 @@ Content: 2 leads, ~80 words. "If you'd like me to set this up properly for your 
 
 Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max one per prospect.
 
+## Construction Intelligence Tier (New -- April 2026)
+
+A lower-friction entry product added to the Mark-Lite funnel:
+
+- **Price:** £75/month
+- **What it is:** Weekly data feed of relevant construction projects in the prospect's area -- no outreach, no Mark agent, just the intelligence
+- **Purpose:** Gives cold prospects a low-commitment way to see the value before upgrading to managed Mark (£200/month)
+- **First live test:** 12-firm re-engagement batch sent 13 April via existing Mark-Lite sequences. Monitoring window ends 18-19 April.
+- **Current results:** Day 3 of 5-7 day window. Zero replies from re-engagement batch. Tippercrete (Daniel Fordham) is warm but hasn't replied to the CI sample yet (~53hrs).
+
+This creates a two-tier funnel: CI (£75) -> managed Mark (£200). Maps to [[position-next-stage-not-bigger-commitment]] applied to product architecture.
+
+**Direction-of-initiation hypothesis (1 data point):** Cold outreach may convert to CI first, while inbound leads convert straight to managed Mark. JDW (inbound) skipped CI entirely. Needs second data point -- watch re-engagement batch results.
+
 ## Pricing & Conversion Path
 
-**Typical flow for engaged prospects:**
+**Two-tier model:**
 
-1. Week 1-4: Email + LinkedIn sequence (value prop: consistent lead stream)
-2. Week 4 Email 3: Introduction to Mark and offer for ongoing service
-3. Warm reply or inbound meeting request → Discovery call
-4. Transition to managed [[mark]] contract (£250-£500 setup + £200/month ongoing)
+| Tier | Price | Entry Point | What They Get |
+|------|-------|-------------|---------------|
+| **Construction Intelligence** | £75/month | Cold outreach (Email 4 / re-engagement) | Weekly data feed, no outreach |
+| **Managed Mark** | £200/month + £250-500 setup | Inbound or CI upgrade | Full Mark agent: lead finding + outreach + tracking |
 
-**Josh Warren (JDW Brickwork) flow:**
+**JDW Brickwork conversion (first Mark-Lite -> Mark conversion):**
 - Inbound lead from Email 1 campaign
-- Showed interest ("I'd like to hear more about this")
-- Scheduled discovery meeting 14 April
-- Sent pricing expectations + prep guidance
-- Next: Demo of Mark system, convert to client
+- Discovery meeting 14 April -> same-day close
+- £500 setup invoiced (TTAI-004), £200/month ongoing
+- Build 21-25 April -- brickwork variant targeting main contractors
+- Skipped CI tier entirely (direction-of-initiation hypothesis)
+
+## Current Pipeline (as of 2026-04-16)
+
+**Warwickshire (26 prospects):**
+- 3 warm/replied: J&M Groundworks, SRK, Tippercrete (Daniel Fordham -- CI sample sent 14 Apr, no reply ~53hrs)
+- 3 re-engagement candidates: A Valley Plant (34d since last email), M Carty (28d), Kimben (36d)
+- 18 supply-chain trade sequences complete (no further action per [[planning-data-serves-site-trades]])
+- 1 opted out (Temp Air Solutions)
+- ~180 blank rows in tracker -- Andy approved deletion
+
+**Northamptonshire (39 prospects):**
+- 4 Groundworks Email 4 drafted (Hewlett, MBH, NR Groundworks, Brennan) -- pending Andy approval
+- 3 Civil Engineering firms stuck at Email 1-2 (no CE leads with named contacts available)
+- 1 warm: R8 Scaffolding (Andy handling)
+- 1 converted to client: JDW Brickwork (TTAI-004)
+- 8 firms in re-engagement monitoring (batch sent 13 Apr, window ends 18-19 Apr)
+
+**Mark-Lite employee status:** Migrated to [[claude-code-routines]] 2026-04-16. Now posting daily reports to Slack #ttai-employees. 4 runs completed on first day.
 
 ## Tracker Structure
 

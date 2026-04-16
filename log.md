@@ -143,3 +143,29 @@
 - Slack: #ttai-employees not reachable via connector — filed agent report at strategy/agent-reports/2026-04-15-wiki-report.md per error-handling rule
 - Contradictions: previously-flagged overview.md 15-April Mercia go-live remains unresolved (go-live date now in the past without update); not overwritten pending Andy's call
 - Key observation: Predicted-loser pages had drifted from the NBA page (authoritative per Fred's 04-14 update). Brought them into alignment; did not change rule status (formalisation is Andy's decision).
+
+## 2026-04-16 wiki-agent | Scheduled scan + Routines migration ingest + Mark-Lite reports
+- Sources scanned: Slack #ttai-employees (full history), inbox/, operations/mark-lite-reports/, operations/fred-reports/
+- Pages created:
+  - operations/wiki-agent-SKILL.md -- Wiki Knowledge Curator job spec for Routines
+  - operations/ttai-slack-bridge.md -- Slack bridge infrastructure page
+  - operations/claude-code-routines.md -- Routines platform documentation
+  - principles/connectors-beat-computer-use.md -- New principle: default to API connectors over Computer Use
+  - principles/repos-are-employee-memory.md -- New principle: ephemeral sessions need durable state
+- Pages updated:
+  - strategy/overview.md -- Revenue fix: total invoiced £3,188.20 (was £938.20). JDW (£500, TTAI-004) and Tonic (£1,750, INV-003) moved from proposals to invoiced. Recurring baseline updated to £900-1,100/mo. Infrastructure section added. Q2 priorities updated (JDW + Tonic marked complete). Pipeline table rewritten.
+  - operations/employee-framework.md -- Added Platform section (Routines, dual-mode, Slack, connectors, repos). Updated Current Employees table with Platform column. Rewrote Reporting, Computer Use, Cross-Employee Awareness sections. Updated Creating a New Employee steps.
+  - operations/cowork-pipeline.md -- Added Phase-Out Status section with migration tracker.
+  - products/mark-lite.md -- Added Construction Intelligence tier (£75/mo). Added direction-of-initiation hypothesis. Added current pipeline status (Warks 26, Northants 39). Updated pricing model to two-tier.
+  - clients/tippercrete.md -- Contact name: Daniel Fordham. Status: Warm. CI sample delivered 14 Apr. Interaction log added.
+  - principles/_index.md -- Added Infrastructure & Operations Principles section with 2 new principles. Updated cross-domain links.
+  - index.md -- Catalogued 5 new pages. Updated JDW (CONVERTED), Tonic (ACCEPTED), Tippercrete (Warm), overview summary.
+- Inbox: empty (no new ingest files)
+- Fred reports: no new report since 2026-04-13. Fred's silence during NBA playoffs flagged again.
+- Key new information:
+  1. Revenue was undercounted by 3.4x (£938.20 vs £3,188.20) because JDW and Tonic conversions were noted in client pages but never propagated to the revenue summary.
+  2. Employee platform migrated: Wiki (live 15 Apr) + Mark-Lite (live 16 Apr) now on Routines. Fred still on Cowork.
+  3. Construction Intelligence tier (£75/mo) creates a two-tier funnel for Mark-Lite.
+  4. Mark-Lite's first day on Routines produced 4 daily runs with comprehensive Slack reports.
+  5. Branch proliferation: 8+ earlier Wiki runs today committed to ephemeral branches that no longer exist on remote. All that work was lost. This run is the authoritative recovery.
+  6. Andy approved: re-engagement emails, blank row deletion, cowork process. Asked "What is CE leads?" (Civil Engineering).
