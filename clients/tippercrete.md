@@ -1,15 +1,15 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Danny. Prospecting email drafted with 6 commercial/farm projects around Warwickshire.
-> Last updated: 2026-04-14
+> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire. Contact: Daniel Fordham. Status: Warm -- CI sample delivered 14 April, no reply after ~96hrs.
+> Last updated: 2026-04-16
 
 ## Lead Profile
 
 - **Company:** Tippercrete
-- **Contact:** Danny
+- **Contact:** Daniel Fordham (Danny)
 - **Trade:** Groundworks
 - **Region:** Warwickshire
-- **Status:** Prospecting \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
+- **Status:** Warm -- CI sample delivered 14 April, replied twice within 19 min of original outreach (very warm signal). No reply to CI sample after ~96hrs as of 16 April. \u2014 sample-week email drafted and saved as standalone draft in Gmail (subject: \"Sample week of groundworks jobs in Warwickshire\")
 
 ## Sample Projects Packaged (Drafted 2026-04-14)
 
@@ -30,8 +30,8 @@
 
 ## Next Actions
 
-- **Send:** Danny to review the standalone draft; Andy to send when happy
-- **Follow-up:** If Danny responds warm, convert to [[mark-lite]] Warwickshire campaign subscriber or managed [[mark]] client
+- **Monitor:** CI sample delivered 14 April, ~96hrs with no reply as of 16 April. Still within monitoring window.
+- **Follow-up:** If Danny responds to CI sample, convert to Construction Intelligence subscriber (£75/mo) or managed [[mark]] client (£200/mo)
 
 ## Links
 

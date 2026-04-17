@@ -1,7 +1,7 @@
 # Mark-Lite
 
-> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2).
-> Last updated: 2026-04-12
+> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/mo).
+> Last updated: 2026-04-16
 
 ## What Mark-Lite Is
 
@@ -180,14 +180,35 @@ Content: 2 leads, ~80 words. "If you'd like me to set this up properly for your 
 
 Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max one per prospect.
 
+## Construction Intelligence Tier (New -- April 2026)
+
+**£75/month data feed** -- a lower-friction entry product for cold prospects who aren't ready for the full managed Mark service.
+
+- Weekly planning data feed of relevant projects matched to the subscriber's trade and region
+- No outreach management, no Mark automation -- just the intelligence
+- First live test: 12-firm re-engagement batch sent 13 April (monitoring window ends 18-19 April)
+- Tippercrete is the first warm prospect for CI tier (sample delivered 14 April)
+
+### Two-Tier Funnel Model
+
+| Tier | Price | What They Get | Conversion Path |
+|------|-------|---------------|-----------------|
+| **Construction Intelligence** | £75/mo | Weekly matched leads, self-serve | Upgrade to managed Mark |
+| **Managed Mark** | £200/mo + setup | Full automation: leads + outreach + tracking | Ongoing retainer |
+
+### Direction-of-Initiation Hypothesis (1 data point)
+
+Cold outreach converts to Construction Intelligence (low commitment) first. Inbound converts straight to managed Mark. JDW skipped the CI tier entirely because he came inbound. If this holds, cold prospects get the £75 offer, not the £200 one. Watch re-engagement batch results (18-19 April) for confirmation.
+
 ## Pricing & Conversion Path
 
 **Typical flow for engaged prospects:**
 
 1. Week 1-4: Email + LinkedIn sequence (value prop: consistent lead stream)
 2. Week 4 Email 3: Introduction to Mark and offer for ongoing service
-3. Warm reply or inbound meeting request → Discovery call
+3. Warm reply or inbound meeting request -- Discovery call
 4. Transition to managed [[mark]] contract (£250-£500 setup + £200/month ongoing)
+5. OR: Construction Intelligence subscription (£75/mo) as stepping stone
 
 **Josh Warren (JDW Brickwork) flow:**
 - Inbound lead from Email 1 campaign

@@ -1,7 +1,7 @@
 # TTAI Employee Framework
 
 > Universal operating model for Think Through AI's autonomous AI employees. Every employee inherits these traits. Domain-specific behaviours are layered on top via individual SKILL.md files.
-> Last updated: 2026-04-12
+> Last updated: 2026-04-16
 
 ## What This Is
 
@@ -11,13 +11,23 @@ This document defines that shared DNA. When creating a new employee, start here,
 
 ---
 
+## Platform
+
+**Claude Code Routines** (migrated from Cowork scheduled tasks, April 2026). See [[claude-code-routines]].
+
+Key architectural decisions:
+- **Dual-mode prompts:** Same prompt handles scheduled runs (no input) and follow-up responses (input text present)
+- **Slack reporting:** All employees post to #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]].
+- **Connector-first:** Use Slack, Google Drive, Gmail connectors. Computer Use is a fallback, not default. See [[connectors-beat-computer-use]].
+- **Repos as memory:** GitHub repos persist state between ephemeral sessions. See [[repos-are-employee-memory]].
+
 ## Current Employees
 
-| Employee | Domain | Cadence | SKILL.md Location |
-|---|---|---|---|
-| **Wiki** | Cross-domain knowledge base maintenance + pattern spotting | Every other day | wiki/operations/wiki-agent-SKILL.md |
-| **Mark-Lite** | Construction lead generation campaigns + prospect conversion | Daily | wiki/operations/mark-lite-employee-SKILL.md |
-| **Fred (AutoStrategy)** | Value betting portfolio management + model improvement | Daily | wiki/operations/fred-autostrategy-employee-SKILL.md |
+| Employee | Domain | Cadence | Platform | SKILL.md Location |
+|---|---|---|---|---|
+| **Wiki** | Cross-domain knowledge base maintenance + pattern spotting | Every other day | Routines (live) | wiki/operations/wiki-agent-SKILL.md |
+| **Mark-Lite** | Construction lead generation campaigns + prospect conversion | Daily | Routines (live) | wiki/operations/mark-lite-employee-SKILL.md |
+| **Fred (AutoStrategy)** | Value betting portfolio management + model improvement | Daily | Cowork (paused, migration pending) | wiki/operations/fred-autostrategy-employee-SKILL.md |
 
 ---
 
@@ -68,22 +78,20 @@ Every employee maintains two layers of state:
 ### 4. Reporting
 
 **Daily summary (after every run):**
-- Channel 1: Email to Andy — brief, structured, scannable
-- Channel 2: Wiki note — same content plus full decision log entry, written to `wiki/operations/[employee]-reports/[date]-daily.md`
+- Post to Slack #ttai-employees in structured format
+- Commit decision log and detailed notes to the employee's repo
 
 **Escalation (when Andy's input is needed):**
-- Separate email (never bundled into the daily summary)
-- Clear subject line: `⚠️ [Employee Name] — ACTION NEEDED: [specific issue]`
-- Sent immediately, not held until end of run
+- Flag in Slack report under "QUESTIONS FOR ANDY"
+- Clear, specific questions that Andy can answer from his phone
 
-### 5. Computer Use (Available, Not Default)
+### 5. Connector-First Access
 
-Every employee has access to Computer Use (visual browser agent) but doesn't use it routinely. The primary path is always API-based tools (Gmail MCP, Google Sheets, filesystem). Computer Use is available for:
+Every employee defaults to structured connectors (Slack, Google Drive, Gmail, GitHub). See [[connectors-beat-computer-use]]. Computer Use is available as a fallback for:
 
-- **Fallback** — Primary tools fail? Try visually rather than stopping.
-- **Browsing tasks** — Checking websites, verifying information, researching new territory.
-- **Unscripted situations** — Something the SKILL.md doesn't cover? Figure it out.
-- **Exploration** — When being more creative would improve results.
+- **No API exists** -- Websites without structured access (some betting exchanges, planning portals)
+- **Visual verification** -- Screenshot comparison, UI testing
+- **Exploration** -- Researching unfamiliar tools where the UI is the only documentation
 
 ### 6. Operating Principles
 
@@ -99,12 +107,12 @@ Domain-specific principles are defined in each employee's SKILL.md.
 
 ### 7. Cross-Employee Awareness
 
-Employees don't interact with each other directly, but they share the wiki as common ground:
+Employees share two common surfaces:
 
-- Wiki maintains the knowledge base that all employees benefit from
-- Each employee's decision log and daily reports are written to the wiki
-- Discoveries in one domain (e.g., "planning data serves site trades") get captured as principles that other employees can reference
-- The wiki's cross-domain pattern analysis draws on all employees' output
+- **Slack #ttai-employees** -- All employees post reports to the same channel. Each employee can read colleagues' reports via the Slack connector. This is the live cross-domain feed.
+- **Wiki repo** -- The knowledge base that all employees benefit from. Decision logs, principles, and pattern analysis are committed here.
+
+Discoveries in one domain (e.g., "planning data serves site trades") get captured as principles that other employees can reference.
 
 ### 8. Identity
 
@@ -135,33 +143,39 @@ Every employee feeds back into the system:
 ## Creating a New Employee
 
 1. Read this framework document
-2. Read the existing employee SKILL.md files for structural reference
+2. Read [[wiki-agent-SKILL]] as the reference implementation
 3. Define the domain-specific elements:
    - What is the employee's mission?
    - What are the 80% exploitation tasks?
    - What are the 20% exploration tasks?
    - What domain-specific principles govern their work?
-   - What tools do they need?
+   - What connectors do they need?
    - What are the domain-specific autonomy boundaries?
-   - What does their operational source of truth look like?
-   - What is their first mission?
-4. Write the SKILL.md following the established structure
-5. Create the supporting infrastructure (decision log, reports folder)
-6. Run the first mission manually, then schedule
+   - What does their operational source of truth look like (repo, tracker, etc.)?
+4. Write the SKILL.md with dual-mode pattern (scheduled + follow-up)
+5. Create a Claude Code Routine with schedule + API triggers
+6. Add API endpoint and token to [[ttai-slack-bridge]] env vars
+7. Run the first mission, verify Slack reporting works
+8. Commit decision log and reports infrastructure to the employee's repo
 
 ---
 
 ## Links
 
-- [[mark-lite-employee-SKILL]] — Mark-Lite Campaign Manager job spec
-- [[fred-autostrategy-employee-SKILL]] — Fred AutoStrategy Portfolio Manager job spec
-- [[wiki-agent-SKILL]] — Wiki Agent job spec
-- [[autostrategy]] — AutoStrategy methodology (basis for the 80/20 split)
-- [[overview]] — TTAI business strategy overview
+- [[wiki-agent-SKILL]] -- Wiki Agent job spec (reference implementation for Routines)
+- [[mark-lite-employee-SKILL]] -- Mark-Lite Campaign Manager job spec
+- [[fred-autostrategy-employee-SKILL]] -- Fred AutoStrategy Portfolio Manager job spec (pending migration)
+- [[claude-code-routines]] -- Execution platform
+- [[ttai-slack-bridge]] -- Slack-to-API bridge infrastructure
+- [[connectors-beat-computer-use]] -- Core infrastructure principle
+- [[repos-are-employee-memory]] -- Core infrastructure principle
+- [[autostrategy]] -- AutoStrategy methodology (basis for the 80/20 split)
+- [[overview]] -- TTAI business strategy overview
 
 ## Sources
 
-- Wiki Agent SKILL.md (2026-04-08)
-- Mark-Lite Employee SKILL.md (2026-04-12)
-- Fred AutoStrategy Employee SKILL.md (2026-04-12)
+- Wiki Agent SKILL.md (2026-04-08, migrated 2026-04-15)
+- Mark-Lite Employee SKILL.md (2026-04-12, migrated 2026-04-16)
+- Fred AutoStrategy Employee SKILL.md (2026-04-12, migration pending)
 - AutoStrategy exploitation/exploration methodology
+- Routines migration session (2026-04-15)
