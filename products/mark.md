@@ -1,7 +1,7 @@
 # Mark
 
 > Productised AI lead-finding agent for trades and service businesses. Automates discovery, qualification, and outreach across email and planning portal monitoring. Managed service model at £200-£500 setup + £200/month ongoing.
-> Last updated: 2026-04-08
+> Last updated: 2026-04-20
 
 ## What Mark Does
 
@@ -56,6 +56,7 @@ This split keeps credit costs reasonable (weekly heavy lifting) while maintainin
   - Initial prospect list research + enrichment
   - First batch of leads discovered and validated
   - Go High Level setup (if used)
+  - **Calibration step** (see below) — test batch of 5–10 leads sent to the client for review before go-live
 
 - **Ongoing:** £200/month
   - Twice-weekly lead discovery
@@ -117,6 +118,21 @@ Mark-Lite is the **direct-sales variant** where Andy sells lead generation outpu
 
 Both use the two-skill architecture (Weekly Lead Finding + Daily Outreach) but feed into a single tracker shared across all 39 prospects in the region. Email 1 introduces Mark; Email 3 pitches a trial; Email 4 final offer.
 
+## Onboarding: The Calibration Step (formalised 2026-04-20)
+
+Every new Mark build now includes a **calibration step** in the early part of the build week:
+
+1. Generate a test batch of 5–10 candidate leads using the client-specific Weekly Lead Finding skill.
+2. Send the batch to the client **before** any outreach goes out, asking three questions:
+   - Trade fit — are these the kinds of projects you'd actually want to quote?
+   - Size fit — are these companies the right scale for your team?
+   - Contact fit — is the named decision-maker the person you'd want to be talking to?
+3. Use the client's reply to retune trade tagging, size filters, and contact-type preferences **before** the first real send.
+
+**Why:** Gives the client a low-commitment way to shape the agent's output, catches trade-match mistakes cheaply, and builds confidence that the first cold email is actually a well-aimed one. First formalised on [[jdw-brickwork]] build (21–25 Apr 2026); now a Mark onboarding default.
+
+**Why it matters for Model B ([[agent-browser]]):** Mark is currently Manus-driven, but the calibration step is platform-agnostic — it applies equally when the backend migrates to a browser agent.
+
 ## Key Technical Patterns
 
 ### Email Infrastructure
@@ -145,10 +161,12 @@ Both use the two-skill architecture (Weekly Lead Finding + Daily Outreach) but f
 | Client | Status | Model | Monthly | Notes |
 |---|---|---|---|---|
 | [[hawks-scaffolding]] | Live | Managed | £200 | First customer; v2 build; exclusive Warwickshire scaffolding |
-| [[mercia-flooring]] | Go-live 15-Apr | Managed | £200 | Schools outreach; seasonal Jan-July; Outlook pending |
+| [[mercia-flooring]] | Go-live pending (Outlook verify 17 Apr) | Managed | £200 | Schools outreach; seasonal Jan-July; fix reported by Solaas IT 16 Apr |
 | [[midlands-bat-surveys]] | Live | Managed | £500 | Planning portal variant; eco firms as targets; two region IDs |
+| [[jdw-brickwork]] | Signed — build 21-25 Apr | Managed | £200 | First Mark-Lite → Mark conversion; £500 setup (INV-004); brickwork variant targets buyers/QSs at main contractors |
+| [[holmes-workholding]] | Signed — build 5-7 May | Managed | £200 | Third paying Mark client; £250 setup (INV-006); precision-engineering vertical; kickoff 5 May 10:00 |
 | Mark-Lite (Warwickshire) | Live | Time-bounded | N/A | 26-firm campaign; post-Warwickshire learnings |
-| Mark-Lite (Northamptonshire) | Live | Time-bounded | N/A | 39-firm campaign; v2 improvements; inbound lead Josh Warren (14 April meeting) |
+| Mark-Lite (Northamptonshire) | Live | Time-bounded | N/A | 39-firm campaign; v2 improvements |
 
 ## Cross-Product Learnings
 
@@ -180,11 +198,13 @@ Both use the two-skill architecture (Weekly Lead Finding + Daily Outreach) but f
 - [[hawks-scaffolding]] — First live Mark customer
 - [[mercia-flooring]] — Upcoming client (schools focus)
 - [[midlands-bat-surveys]] — Planning portal variant
+- [[jdw-brickwork]] — First build to formalise the calibration step
 - [[email-infrastructure]] — Email validation, warm-up, MCP integration
 - [[planit-api]] — Planning data source and technical patterns
 - [[email-quality-over-volume]] — Email composition principle
 - [[strict-trade-matching]] — Trade-specific lead matching principle
 - [[selectivity-is-everything]] — Lead filtering and qualification principle
+- [[agent-browser]] — Eventual Model B backend for Mark once migration is warranted
 
 ## Sources
 

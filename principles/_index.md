@@ -1,6 +1,6 @@
 # Principles Index
 > All principles with origin and applicability.
-> Last updated: 2026-04-16
+> Last updated: 2026-04-20
 
 ## Consulting & Sales Principles (Phase 1)
 
@@ -39,6 +39,7 @@
 | Principle | Origin | Applies To |
 |-----------|--------|------------|
 | [[trust-the-agent-not-dom]] | Agent Browser schema workflow | Any decision about building custom scripts vs using the visual agent |
+| [[platform-mapping-compounds]] | Hike platform audit 2026-04-17 | Any platform discovery work (Evolution MX, future Model A clients, [[mark]] variants) |
 
 ## Infrastructure & Operations Principles (April 2026)
 
@@ -53,7 +54,7 @@
 - **AutoStrategy (Betting):** [[raw-probabilities-lie]] → [[removal-as-valuable-as-addition]] → [[trust-the-model-over-punditry]] → [[phantom-value]] → [[data-leakage-silent-killer]] → [[selectivity-is-everything]] → [[majority-class-trap]] → [[market-efficiency-varies-within-domain]] → [[derivative-markets-harder-than-primary]] → [[execution-cost-varies-by-selection]]
 - **TTAI Sales/Consulting:** [[dont-reveal-methodology-before-paid]] + [[position-next-stage-not-bigger-commitment]] + [[let-clients-surface-pain-points]] + [[email-quality-over-volume]]
 - **Mark (Lead Qualification):** [[strict-trade-matching]] + [[selectivity-is-everything]] + [[trust-the-model-over-punditry]] + [[planning-data-serves-site-trades]]
-- **Agent Browser:** [[trust-the-agent-not-dom]]
+- **Agent Browser:** [[trust-the-agent-not-dom]] + [[platform-mapping-compounds]]
 - **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]] + [[connectors-beat-computer-use]] + [[repos-are-employee-memory]]
 - **Value Betting (Sports):** [[raw-probabilities-lie]] + [[probability-calibration]] + [[trust-the-model-over-punditry]] + [[selectivity-is-everything]]
 

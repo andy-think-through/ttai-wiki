@@ -1,13 +1,14 @@
 # JDW Brickwork
 
-> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build scheduled 21-25 April 2026.
-> Last updated: 2026-04-16
+> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build scheduled 21–25 April 2026. Build is the first to formalise the **calibration step** (test batch before go-live).
+> Last updated: 2026-04-20
 
 ## Lead Profile
 
 - **Company:** JDW Brickwork & Construction Ltd
 - **Contact:** Josh Warren (director/main contact)
 - **Email:** info@jdwbrickwork.co.uk
+- **Registered address:** Brooks Road, Raunds, Wellingborough NN9 6NS
 - **Trade:** Brickwork (construction subcontractor)
 - **Size Fit:** Small to medium (typical for 5-15 person subcontractor)
 - **Region:** Northamptonshire
@@ -60,8 +61,8 @@ JDW Brickwork is a small brickwork subcontractor in Northamptonshire. Typical pr
 
 - **Before 14 April:** Prepare Mark demo (show Northants tracker, email sequence, sample leads, conversion stories from hawks or others if available) — **DONE**: 4-page JDW-Brickwork-Opportunities-April-2026 (docx + pdf) produced. 7 projects summarised; Stanton Cross (3,650 homes, 10 min from JDW's office) leading. Saved to /Mark/Mark-lite/.
 - **14 April at 9am:** Discovery meeting with Josh — **DONE, converted**. Follow-up email + £500 setup invoice sent. Josh confirmed proceeding.
-- **21–25 April 2026:** Build week — Mark variant tailored for brickwork subcontractors targeting main contractors / developers.
-- **Early build week:** Test batch of leads to Josh for review/feedback before go-live.
+- **21–25 April 2026:** Build week — Mark variant tailored for brickwork subcontractors targeting buyers/QSs at main contractors / developers.
+- **Early build week — Calibration step (NEW, formalised here):** Send a test batch of 5–10 leads to Josh for trade-fit, tier-fit and contact-quality feedback **before** go-live. Use Josh's reply to retune trade tagging, size filters and contact-type preferences. First time this step has been explicitly scoped — now being adopted as a [[mark]] onboarding default.
 
 ## Build Notes (Josh's Mark Variant)
 
@@ -79,12 +80,30 @@ Different model from scaffolding/flooring/bat-surveys Marks — Josh sells brick
 - Need buyer/QS contact-finding (separate from the owner-operator contact pattern used in Hawks/Bats)
 - Spec doc to be written up for Monday 20 April kickoff
 
+**Customer tier examples (from Josh's pipeline):**
+- Smaller / entry tier: Parrot Construction
+- Mid tier: United Living
+- PLC tier: Mulberry Homes
+Mark needs to cover the full range rather than locking to any one tier.
+
+**Commercial scope (what Josh wins):**
+- School extensions, sports halls, community centres, residential schemes. The brickwork package sits inside these developments — outreach targets whoever is buying that package.
+
+**Timing window:** After planning approval, before construction starts (buyers/QSs are live in procurement then).
+
+**Email infrastructure plan (mirrors [[mercia-flooring]] pattern):**
+- Josh's IT to set up dedicated `mark@jdwbrickwork.co.uk`
+- Domain warmed via Lemwarm for ~first month
+- Meanwhile, Mark drafts from Josh's personal email
+- Hand-over to mark@ inbox once warm-up completes
+
 ## Links
 
 - [[mark]] — Managed service model Josh is potentially converting to
 - [[mark-lite]] — Campaign that generated this lead
 - [[mark-lite-daily-outreach-northants-v2]] — Email workflow he received
 - [[email-infrastructure]] — Email domain warm-up + infrastructure he'd benefit from
+- [[mercia-flooring]] — Same domain warm-up pattern (personal email → mark@ handoff)
 
 ## Sources
 
