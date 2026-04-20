@@ -1,7 +1,7 @@
 # AutoStrategy
 
 > Extends Karpathy's autoresearch from parameter tuning to genuine strategy design through mutable strategy files, five-level compound evaluation, and dual-mode autoresearch loops.
-> Last updated: 2026-04-08
+> Last updated: 2026-04-20
 
 ## Overview
 
@@ -134,6 +134,20 @@ Use walk-forward validation to confirm regime robustness (see [[walk-forward-val
 - [ ] Exploitation loop running (nightly or bi-daily)
 - [ ] Exploration cycle (25% budget) scheduled
 - [ ] Paper-trading or live-experiment audit planned before deployment
+- [ ] **TASK.md explicitly requires Claude API / tool use to propose each strategy change** (see audit below)
+
+## Audit: Pre-scripted Search vs Genuine Autoresearch (2026-04-14)
+
+A post-hoc audit of Claude Code AutoStrategy sessions found two modes were being treated as equivalent when they are not:
+
+1. **Genuine autoresearch.** The loop calls the Claude API (or uses Claude Code tool use) to *propose* each strategy change, then evaluates, then loops. Confirmed on NBA, Tennis, EFL.
+2. **Pre-scripted strategy search.** The "loop" file contained ~20 pre-written strategies and iterated through them against the L1–L5 harness. No Claude-in-loop. Confirmed on IPL (see [[t20-cricket-ipl]]) and horse racing.
+
+Pre-scripted search is still useful — it benchmarks known families against a good harness. But it is **not AutoStrategy as designed** because the search space is bounded by what the human pre-wrote. Reporting "31 experiments" from a pre-scripted run overstates the amount of novel search performed.
+
+**Rule adopted:** Every TASK.md for an AutoStrategy Claude Code session must explicitly require that the iteration loop call the Claude API (or Claude Code tool use) to propose each next strategy change. Pre-scripted runs are still permitted but must be labelled as "strategy-bench runs", not "autoresearch runs", when results are summarised.
+
+Applies to all future domain work including [[t20-cricket-ipl]], [[horse-racing]], [[snooker]], and any new domain added.
 
 ## Links
 
@@ -142,8 +156,9 @@ Use walk-forward validation to confirm regime robustness (see [[walk-forward-val
 - [[results-diagnostic]] — Post-hoc analysis and validation gates
 - [[walk-forward-validation]] — Rolling-fold evaluation for regime-dependent domains
 - [[probability-calibration]] — Isotonic regression for value-betting strategies
-- [[nba]] — Walk-forward validation discovery
+- [[nba]] — Walk-forward validation discovery; genuine autoresearch mode
 - [[crypto]] — Walk-forward validation discovery
+- [[t20-cricket-ipl]] — Pre-scripted search caveat discovered here
 - [[betting-portfolio]] — Applied across sports domains (NBA, Tennis, Snooker, etc.)
 - [[mark-lite]] — Applied to lead-finding skill optimization (v3→v4 improvements)
 

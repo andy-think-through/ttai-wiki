@@ -1,7 +1,7 @@
 # T20 Cricket (IPL)
 
-> Queued domain with excellent market structure. Toss-window edge thesis needs urgent testing -- IPL season running now.
-> Last updated: 2026-04-13
+> Queued domain with excellent market structure. Toss-window edge thesis needs urgent testing -- IPL season running now. First AutoStrategy pass (14 Apr) ran as pre-scripted strategy search rather than genuine agent-in-the-loop; 47.9% OOS accuracy confirms IPL is hard to predict at match-winner level.
+> Last updated: 2026-04-20
 
 ## Model
 Not yet built. Thesis: toss creates a structural 5-10% shift in win probability (batting first vs chasing). If the pre-toss market hasn't fully adjusted within 2-3 minutes of the toss, there's a brief window of mispricing.
@@ -9,7 +9,7 @@ Not yet built. Thesis: toss creates a structural 5-10% shift in win probability 
 Data source: Cricsheet (open source ball-by-ball data).
 
 ## Status
-Queued -- feasibility study in progress
+Queued -- feasibility study in progress. First AutoStrategy pass complete (14 Apr) but needs redoing with a genuine autoresearch loop (see Decision Log).
 
 ## Market Structure (Fred Betfair exploration, 2026-04-13)
 
@@ -49,7 +49,24 @@ If the market takes >2 minutes to fully adjust (>2% of the toss effect still unp
 ## Active Rules
 - None at this time (domain not yet active)
 
+## Findings from First AutoStrategy Pass (2026-04-14)
+
+An AutoStrategy run was executed in Claude Code against Cricsheet ball-by-ball data to try to predict match winners. Headline results:
+- **47.9% OOS accuracy** — below coin-flip on a binary outcome
+- **Massive compound-score lift vs baseline (+62%)**, driven mostly by L4 coherence
+- Model families evaluated: raw win rates, Elo, Bayesian Beta(α,β), venue-weighted form, H2H, various ensembles
+
+### Transferable findings (robust)
+- **Bayesian Beta beats raw win rates for sparse-data / new-team cases.** Beta(α,β) priors absorb small-sample noise cleanly — cheap to implement, wide transfer to other low-sample sports (new football season, first-round darts, early-season NBA). Feeds into the [[autostrategy]] toolkit for any sparse-prior problem.
+- **H2H record hurts in IPL.** Team compositions change too much year-to-year; H2H memory is noise, not signal. A reminder that "classic" features can be outright harmful in fast-rotating squads.
+- **Three-way ensemble (Bayesian prior + Elo + venue-weighted form) edges any single component,** because each captures orthogonal signal.
+- **Toss × venue interaction contributes 3–6% probability shift** when the toss-winner makes the optimal decision for that venue — consistent with the [[toss-window]] edge thesis below.
+
+### Methodological caveat (to fix next pass)
+An audit after the run (see [[autostrategy]]) found that the IPL "autoresearch" was closer to a **pre-scripted strategy search** than genuine autoresearch — ~20 strategies were pre-written and tested against the 5-level harness, rather than Claude-in-the-loop proposing each next strategy. The 47.9% OOS is still honest and the transferable findings above hold, but the "31 experiments" headline overstates how much search was actually performed. For future AutoStrategy runs, TASK.md must explicitly require Claude API / tool use to propose each strategy change.
+
 ## Decision Log
+- 2026-04-14: First AutoStrategy pass completed. 47.9% OOS accuracy on match-winner prediction confirms T20 is genuinely hard to predict at binary level. Bayesian Beta + three-way ensemble findings promoted to [[autostrategy]] as transferable. Audit identified the loop itself was pre-scripted — adopt Claude-in-loop requirement for next pass.
 - 2026-04-13: IPL market structure confirmed as excellent (£68K, 0.5% spreads). Toss-window feasibility test designed. Urgent -- IPL season is live.
 
 ## Links

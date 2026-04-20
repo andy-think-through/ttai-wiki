@@ -2,13 +2,13 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-10
+Last updated: 2026-04-20
 
 ## Executive Summary
 
-We're at an inflection point. [[Consulting]] has delivered 4 active clients and a strong network referral loop. [[Mark]] is live with 3 managed service clients (Hawks, Mercia planned, Bat Surveys) and [[Mark-Lite]] is generating inbound conversions (Josh Warren discovery call 14 April). [[Betting-Portfolio]] provides passive income (+£49.86 this year). [[Agent-Browser]] is building toward commercial viability with KW Bell as first external client. [[Hike-SES]] provides a stability income stream through directorship.
+Revenue has de-concentrated significantly in the last two weeks. Q1 invoiced is now **£3,438.20** — up from £938.20 on 2026-04-10. KW Bell has dropped from ~73% of invoiced revenue to ~20% as JDW (Mark), Tonic (custom build), and Holmes (Mark) have all signed and been invoiced. Three live or imminent Mark clients now represent **£600/mo recurring baseline** (+£500/mo if Bat Surveys counted separately). The first AutoStrategy rule ([[predicted-loser-rule]]) has been formalised at 18/18 — a methodological milestone independent of revenue. Agent Browser KW Bell PoC remains the biggest unproven bet.
 
-The flywheel is working: consulting uncovers product opportunities, products create recurring revenue, consulting pipeline grows via network effect. Next 90 days are about solidifying Mark's monthly recurring revenue, closing Mercia and AccXel to add £400/month recurring, and proving Agent Browser viability with KW Bell.
+Near-term execution focus is on the **17-28 April convergence window**: Mercia Outlook verification (17 Apr), JDW Mark build (21-25 Apr), AccXel discovery day (28 Apr), with Tonic delivery kicking off w/c 20 April in parallel.
 
 ---
 
@@ -16,41 +16,47 @@ The flywheel is working: consulting uncovers product opportunities, products cre
 
 ### Current Invoiced (Q1 2026 FY)
 
-| Stream | Client | Amount | Status |
-|--------|--------|--------|--------|
-| **Consulting** | [[KW-Bell]] | £688.20 | Audit complete, solution design proposed |
-| **Mark** | [[Mercia-Flooring]] | £250 (setup) | Invoiced 2026-03-XX, go-live 15 April |
-| **Total Invoiced** | — | **£938.20** | **Cash in** |
+| Stream | Client | Invoice | Amount | Status |
+|--------|--------|---------|--------|--------|
+| **Consulting** | [[KW-Bell]] | — | £688.20 | Audit complete, solution design proposed |
+| **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Outlook verification pending |
+| **Mark setup** | [[JDW-Brickwork]] | INV-004 | £500 | Build 21-25 April |
+| **Custom build** | [[Tonic-Health]] | INV-005 | £1,750 | Build w/c 20 April (Phase 1: Trustpilot) |
+| **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | Kickoff 5 May 10:00, build 5-7 May |
+| **Total Invoiced** | — | — | **£3,438.20** | **Cash in / receivable** |
 
-### Active Proposals (Next 30-90 Days)
+**Concentration collapse:** KW Bell was ~73% of invoiced; now ~20%. The revenue base has tripled in scope and spread across four domains (consulting, Mark setup ×3, custom build).
+
+### Active Proposals & Pipeline (Next 30-90 Days)
 
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
-| **Consulting** | [[AccXel]] | £700 | Discovery day 28 April | KW Bell subsidiary, day rate |
-| **Consulting** | [[Tonic-Health]] | £1,750 | Proposal sent | Creative agent work, 5-day engagement |
-| **Mark** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
-| **Mark** | [[Mercia-Flooring]] | £200/mo recurring | Go-live 15 April | Schools outreach, seasonal Jan-July, Outlook pending |
-| **Mark** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
-| **Mark-Lite Prospects** | [[JDW-Brickwork]] (Josh Warren) | Discovery 14 April | Conversion from campaign | Meeting booked, pricing expectations set |
-| **Total in Proposals** | — | **£2,450+** | — | **Plus £900/mo recurring if all close** |
+| **Consulting** | [[AccXel]] | ~£700 | Discovery day 28 April | KW Bell subsidiary, day rate |
+| **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
+| **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
+| **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
+| **Consulting follow-up** | [[IH-Group]] | Variable | Warm via Malcolm | Follow-up email drafted 2026-04-08 |
+| **Mark-Lite Northants** | Multiple (Tippercrete, SRK) | Varies | Decisions pending | 2026-04-17 to 2026-04-19 cycle |
 
-### Recurring Revenue Baseline
+### Recurring Revenue Baseline (Live or Imminent)
 
-**If Mercia, Hawks, and Bat Surveys all stay live:**
-- Mark £200 × 2 (Hawks + Mercia) = £400/mo
-- Bat Surveys £500/mo = £500/mo
-- **Total Mark recurring: £900/mo = £10,800/year**
+- **Hawks Scaffolding** — £200/mo (live since Feb)
+- **Midlands Bat Surveys** — £500/mo (live)
+- **Mercia Flooring** — £200/mo (Outlook verification pending)
+- **JDW Brickwork** — £200/mo (from build completion)
+- **Holmes Workholding** — £200/mo (from build completion)
 
-Hike SES is contractual stability (directorship income, not detailed in this view).
+**Mark-only baseline at full ramp: £1,300/mo = £15,600/year**
 
 ### Pipeline by Stage
 
 | Stage | Clients | Notes |
 |-------|---------|-------|
-| **Active** (invoiced or signed) | Hawks, Mercia, Bat Surveys | Mark recurring; Mercia go-live critical |
-| **Warm** (proposal sent, decision pending) | AccXel, Steve Tipson | Tonic now ACCEPTED |
-| **Hot** (signed/building) | JDW Brickwork (CONVERTED 14 Apr, build 21–25 Apr), IH Group (follow-up scheduled) | JDW first Mark-Lite → Mark conversion |
-| **Pipeline** (prospect, referral warm) | [[MJM-Consulting]], [[Carmen-MacDougall]] | Via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
+| **Invoiced / signed** | Mercia, JDW, Tonic, Holmes | All Q2 setup/build invoices raised |
+| **Building** | Tonic (w/c 20 Apr), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
+| **Imminent** | AccXel (discovery day 28 Apr) | KW Bell subsidiary |
+| **Warm** | IH Group, Steve Tipson | Follow-ups scheduled |
+| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" | Referral-warm |
 
 ---
 
@@ -60,18 +66,28 @@ Hike SES is contractual stability (directorship income, not detailed in this vie
 
 | Product | Status | Model | Monthly | Clients/Prospects |
 |---------|--------|-------|---------|------------------|
-| [[Consulting]] | Active, 3 invoiced | Day rate £300-350 | Variable | [[KW-Bell]], [[AccXel]], [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]] |
-| [[Mark]] | Active, 3 managed clients | £200-500 setup + £200/mo | £900/mo recurring | [[Hawks-Scaffolding]], [[Mercia-Flooring]], [[Midlands-Bat-Surveys]] |
-| [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns | Varies | Warwickshire (26 firms), Northants (39 firms), 1 inbound (Josh Warren 14 Apr) |
-| [[Hike-SES]] | Directorship income | Retained directorship + contractual visibility | Contractual | Hike SEO client base (~2,000) |
-| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA (+£38.90), Tennis (+£7.96), Snooker (+£3.00) |
+| [[Consulting]] | Active | Day rate £300-350 | Variable | [[KW-Bell]], [[AccXel]], [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" (prospective) |
+| [[Mark]] | Active, 5 signed/live | £250-500 setup + £200/mo | £1,300/mo at full ramp | Hawks (live), Bat Surveys (live), Mercia (pending Outlook), JDW (building 21-25 Apr), Holmes (building 5-7 May) |
+| [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
+| **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python over n8n, Trustpilot phase 1 |
+| [[Hike-SES]] | Directorship income | Retained + contractual visibility | Contractual | Hike SEO client base (~2,000) |
+| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA, Tennis (formalised rule), Snooker, Darts, IPL, Crypto paper |
 
 ### Building Products
 
 | Product | Status | Target | Timeline |
 |---------|--------|--------|----------|
-| [[Agent-Browser]] | Discovery complete, Phase 1 built | KW Bell invoice OCR (external), Hike internal tools | MVP by June; KW Bell PoC in progress |
-| [[Knowledge-Assistant]] | Exploring | RAG chatbot for staff knowledge | Discovery phase; no live prospects yet |
+| [[Agent-Browser]] | Discovery complete, Phase 1 built | KW Bell invoice OCR + Hike internal | MVP by June; KW Bell PoC ongoing |
+| [[Knowledge-Assistant]] | Exploring | RAG chatbot for staff knowledge | Discovery phase; no live prospects |
+
+---
+
+## Operational Infrastructure (Added 2026-04)
+
+- [[Ttai-Slack-Bridge]] — Node.js Slack Bolt app on Railway; routes agent triggers from #ttai-employees, content-pattern filtered to prevent self-fire loops
+- Wiki input model: **inbox/ folder + #ttai-employees Slack channel only** (no more browser scanning of Claude.ai projects)
+- GitHub repos as employee memory (e.g. `andy-think-through/ttai-wiki`)
+- Claude Code Routines architecture (replaced Cowork scheduled tasks)
 
 ---
 
@@ -88,21 +104,16 @@ Consulting Audit → Uncovers Product Opportunity
          ↓
     Mark Revenue → Recurring £200/mo base
          ↓
-    Referral Network Growth (Malcolm, Gareth, etc.)
+    Referral Network Growth (Malcolm, Gareth, Tim Holmes's "Other Tim", etc.)
          ↓
     Back to: Consulting Pipeline Grows
 ```
 
 **The Loop Right Now:**
-1. [[KW-Bell]] audit (consulting) → identified browser automation need → [[Agent-Browser]] project (product building)
-2. [[Gareth-Hunt]] (KW Bell FD) → referred AccXel (consulting discovery day 28 April)
-3. Mark-Lite campaigns (product) → warm replies (Hawks, Josh Warren) → transition to managed Mark or consulting (product + consulting hybrid)
-
-**What's Working:**
-- Consulting gives us access to real problems at real companies
-- Problems often aren't solvable at day rate scale → opportunity to productise
-- Network (Malcolm, Gareth) provides warm introductions → faster sales cycles
-- Products (Mark) create recurring revenue → stability while consulting seasons
+1. [[KW-Bell]] audit → [[Agent-Browser]] opportunity + AccXel referral (discovery 28 Apr)
+2. Mark-Lite campaigns → JDW conversion (first inbound → Mark sign-up cycle completed)
+3. [[Holmes-Workholding]] signing → "Other Tim" referral path + AI consulting audit prospect
+4. [[Tonic-Health]] custom build → new product stream (fixed-fee AI build, not productised Mark)
 
 ---
 
@@ -110,36 +121,11 @@ Consulting Audit → Uncovers Product Opportunity
 
 | Person | Org | Opportunity | Status |
 |--------|-----|-------------|--------|
-| [[Malcolm-Freeman]] | [[Oxygen-Elements]] (BNI Master Connector) | IH Group, Carmen, future warm referrals | Warm, recurring touch (monthly coffee) |
-| [[Gareth-Hunt]] | KW Bell (CFO) | AccXel discovery day 28 April; future referrals | Active; first client → best referral source |
-| [[Sunna-van-Kampen]] | [[Tonic-Health]] (CEO, friend) | Creative agent proposal £1,750 sent; Knowledge Assistant prospect | Warm personal relationship; proposal pending |
-| [[Bryn]] | Hike SEO (MD) | Directorship stability + [[Agent-Browser]] integration path | Stable; enables contractual visibility for Hike SES |
-
----
-
-## Time Allocation Reality
-
-### Where Andy's Time Goes (Approximate)
-
-| Activity | Hours/Week | ROI | Notes |
-|----------|------------|-----|-------|
-| **Consulting (audit + delivery)** | 15-20 | Highest/hour (£300-350) | Not scalable; project-based |
-| **Mark (client management + optimisation)** | 8-12 | £200/mo → highest leverage (recurring) | Scalable; 3 clients, 1 setup pending |
-| **Mark-Lite (campaign execution)** | 5-8 | Varies; conversion dependent | Time-bounded; Josh Warren conversion critical |
-| **Betting portfolio (research + execution)** | 3-5 | +£47.43/year; genuine passive once rules locked | Genuinely passive after initial rules work |
-| **Agent Browser (development + KW Bell PoC)** | 5-10 | Unknown (building); highest ceiling if productised | Highest upside; most uncertain timeline |
-| **Administrative (invoicing, ops, wiki)** | 2-3 | Overhead | Necessary but non-revenue |
-
-### Where It Should Go (Q2 2026)
-
-**Priority shift:** Consulting is highest ROI per hour, but doesn't scale. Mark is the scalable play — every new client adds £200/mo that keeps coming. Agent Browser is the highest-ceiling product if it can be productised beyond Hike.
-
-**Allocation for next 90 days:**
-1. **Mercia go-live (15 April):** Ensure smooth Outlook integration, first batch of school leads, email validation. One week focused effort, then monitoring.
-2. **Consulting closes:** AccXel (28 April), Tonic (follow-up), IH Group (light touch). These drive case studies for Mark and Agent Browser.
-3. **Mark expansion:** Josh Warren discovery (14 April) — if converted, that's 4 clients. Focus on onboarding repeatability (checklist, templates).
-4. **Agent Browser PoC with KW Bell:** Prove invoice OCR workflow. If successful, opens external commercial path.
-5. **Betting:** Maintenance mode. Rules are locked; execution is passive.
+| [[Malcolm-Freeman]] | [[Oxygen-Elements]] (BNI Master Connector) | IH Group, Carmen, future warm referrals | Warm, recurring touch |
+| [[Gareth-Hunt]] | KW Bell (CFO) | AccXel discovery 28 April; future referrals | Active |
+| [[Sunna-van-Kampen]] | [[Tonic-Health]] (CEO, friend) | Custom creative agent build in progress | Warm personal; build approved 2026-04-16 |
+| Tim Holmes | Holmes Workholding | Mark client + "Other Tim" referral path | Active, signed |
+| [[Bryn]] | Hike SEO (MD) | Directorship + [[Agent-Browser]] integration | Stable |
 
 ---
 
@@ -147,86 +133,62 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
-- [ ] [[Mercia-Flooring]] go-live 15 April: Email integration + first school batch live
-- [ ] [[AccXel]] discovery day 28 April: Deliver audit, proposal solution design
-- [ ] [[JDW-Brickwork]] (Josh Warren) conversion: Discovery 14 April → proposal → sign
-- [ ] [[Agent-Browser]] PoC with KW Bell: Invoice OCR workflow proof of concept (cost < £500)
+- [ ] [[Mercia-Flooring]] go-live — Outlook/Entra verification outcome (17 Apr) and first school batch live
+- [ ] [[JDW-Brickwork]] Mark build 21-25 April → go-live
+- [ ] [[Tonic-Health]] Phase 1 delivery (Trustpilot) w/c 20 April
+- [ ] [[AccXel]] discovery day 28 April
+- [ ] [[Holmes-Workholding]] kickoff 5 May 10:00 → build 5-7 May → go-live
+- [ ] [[Agent-Browser]] PoC with KW Bell: invoice OCR workflow proof of concept (cost < £500)
 
-**Impact:** Mercia + AccXel + Josh Warren = +£600/mo recurring + consulting fees + proof of product-market fit for Agent Browser
+**Impact:** Three Mark go-lives + AccXel discovery + Tonic Phase 1 = consolidation of a signed pipeline into recurring revenue, plus proof of a second product stream (custom AI builds).
 
 ### Should-Hit (By End of June)
 
 - [ ] [[IH-Group]] follow-up conversion (via Malcolm)
-- [ ] [[Tonic-Health]] decision on creative agent (£1,750 proposal pending)
-- [ ] Mark operations playbook: Repeatable onboarding process for next 2-3 clients
+- [ ] Mark operations playbook: repeatable onboarding for next 2-3 clients
 - [ ] Tennis [[grass-veto]] rule implementation (Wimbledon June prep)
 - [ ] Agent Browser Phase 2: Hike keyword strategy workflow live internally
+- [ ] Tonic Phase 2 scoping (post-Trustpilot delivery)
 
-### Nice-to-Have (If Time Permits)
+### Methodology / System
 
-- [ ] Knowledge Assistant: Scope with Tonic if opportunity arises
-- [ ] [[Carmen-MacDougall]] workshop dates finalised (skill swap collaboration)
-- [ ] Darts betting go-live (currently paper; rules developed but not live capital deployed)
+- [x] [[predicted-loser-rule]] formalisation (2026-04-16) — first AutoStrategy rule to complete full evidence cycle
+- [ ] Resolve orphaned-branches issue — 2026-04-16 Wiki work committed to `claude/magical-goldberg-IMV8Z` and other branches that never merged to main. Ingest files in inbox/ captured the decisions but wiki pages didn't get the updates until this run.
 
 ---
 
 ## Revenue Forecast (Q2 2026 End)
 
-**Conservative (closes: Mercia go-live + Josh Warren):**
-- Consulting invoiced: £700 (AccXel) + variable
-- Mark recurring: £900/mo (Hawks + Mercia + Bat Surveys)
-- **Quarterly ARR trajectory: ~£10,800**
+**Conservative (closes already invoiced + Mercia go-live + AccXel):**
+- Invoiced already: £3,438.20
+- AccXel: ~£700
+- Mark recurring on trajectory: £1,300/mo (~£3,900 in Q2 once all live)
+- **Quarterly invoiced trajectory: ~£8,000+**
 
-**Optimistic (closes: Above + Tonic + IH Group):**
-- Consulting invoiced: £2,450+ (AccXel + Tonic + IH Group follow-ups)
-- Mark recurring: £1,200+/mo (add Josh Warren)
-- **Quarterly ARR trajectory: ~£15,000+**
+**Optimistic (above + Tonic Phase 2 + IH Group):**
+- Add Tonic Phase 2 + IH Group → additional ~£2,000-3,000
+- **Quarterly invoiced trajectory: ~£10,000-£11,000**
 
-**Agent Browser:** Still building; unknown revenue, but de-risks through KW Bell PoC.
+**ARR trajectory at Q2 end if all Mark clients stable: £15,600/year from Mark alone.**
 
 ---
 
 ## Strategic Theses
 
 ### 1. Consulting is the Beachhead
-
-Consulting (high-touch, day rate) gets us into companies where we can:
-- Identify real automation pain points
-- Build relationships with decision-makers
-- Discover productised opportunities (e.g., Mark for sales, Agent Browser for automation)
-- Generate case studies for product marketing
-
-It doesn't scale, but it's a moat for product discovery.
+Unchanged. Day rate gets us into companies, discovers product opportunities, generates referrals. Tim Holmes → "Other Tim" shows the loop still working.
 
 ### 2. Mark Is the Scalable Play
+Now proven across 5 signed clients across scaffolding, bat surveys, schools flooring, brickwork, and engineering workholding. Setup fee varies £250-500 (calibrating to perceived complexity). £200/mo recurring is the constant. Focus: 6-7 clients by end of 2026.
 
-Mark (£200/mo recurring, managed service) is where leverage lives:
-- Once built for one trade, replicable across similar trades
-- Skill-based architecture (two skills = Weekly Lead Finding + Daily Outreach) = consistent unit economics
-- Network effects: happy Mark client → referral to next trade/region → faster onboarding
+### 3. Custom AI Builds Are the New Third Stream
+Tonic's £1,750 fixed-fee build is the first of a potential product category: bespoke Python+Claude integrations for non-Mark use cases. Phasing + "test before quoting" are the new principles surfacing from this work.
 
-Focus: Get to 5-6 clients by end of 2026 (£1,200-1,400/mo = £15,000+/year recurring).
+### 4. Agent Browser Is the Highest-Ceiling Product
+Unchanged. Viability still depends on KW Bell PoC success + cost efficiency + productisation path beyond Hike.
 
-### 3. Agent Browser Is the Highest-Ceiling Product
-
-Browser automation (visual, no API calls required) applies to:
-- Internal tools (Hike workflows)
-- Client-facing tools (any SaaS workflow, especially in SMB space where APIs are limited)
-- AI-enabled services (automated document processing, data entry, complex workflows)
-
-Viability depends on:
-- KW Bell PoC success (invoice OCR)
-- Cost efficiency (currently ~£0.25-0.75 per workflow run)
-- Productisation path beyond Hike (can it scale to dozens of clients?)
-
-### 4. Betting Is Genuinely Passive
-
-Value betting (+£47.43 this year, +£38.90 in NBA) is small but real. It:
-- Requires rules maintenance, not active management (once in-season)
-- Provides tax-efficient income (losses offset business income)
-- Teaches systematic thinking → transferable to Mark and Agent Browser
-
-Not a primary focus, but meaningful diversification if Mark or Hike experience seasonality.
+### 5. Betting Is Genuinely Passive AND Proven Methodology
+The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrategy paper-trade-to-formalisation pipeline. Rules developed here (and methods like "don't bet the predicted loser even with apparent edge") have cross-domain analogs in consulting pipeline management and Mark client selection.
 
 ---
 
@@ -234,53 +196,43 @@ Not a primary focus, but meaningful diversification if Mark or Hike experience s
 
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
-| **Mercia go-live delays (Outlook IT access)** | £200/mo recurring slips | Contact Martin (Solaas IT) by 8 April; have fallback Gmail approach |
-| **Mark client churn** | Hawks or Bat Surveys cancel | Monthly touch-base calls, clear reporting, lead quality gates |
-| **Consulting dries up (pipeline empty)** | Cash flow pressure | Malcolm + Gareth referrals are warm; maintain monthly touch |
-| **Agent Browser PoC fails** | Highest-ceiling product doesn't deliver | Scope carefully; start with invoice OCR (narrow, repeatable problem) |
-| **Betting rules drift (market efficiency)** | Edge disappears | Backtest before live; don't add new domains unless 6+ months research |
-| **Hike SES changes terms** | Stability income reduced | Bryn relationship strong; contractual visibility clear |
+| **Mercia Outlook integration slips further** | £200/mo recurring delayed | 17 April verification; if still blocked, consider Gmail fallback |
+| **Build convergence window (3 builds in ~2 weeks)** | Quality/attention stretch | Sequence: Tonic kickoff (20 Apr) → JDW build (21-25 Apr) → Holmes kickoff (5 May) — planned separation is tight but workable |
+| **Mark client churn** | Any client cancels | Monthly touch-base calls; clear reporting; lead quality gates |
+| **Agent Browser PoC fails** | Highest-ceiling product stalls | Scope narrow (invoice OCR); time-box |
+| **Orphaned branches keep recurring** | Wiki drift; lost context | Investigate branch-committing cause in next wiki session; enforce single-branch discipline |
+| **Tonic Phase 1 scope creep** | Build misses w/c 20 Apr window | "Test before quoting" + phasing principles — Trustpilot-only in Phase 1, not Instagram/SASWAVE |
 
 ---
 
 ## Links
 
 - [[Consulting]] — Primary beachhead service
-- [[Mark]] — Scalable managed service; 3 live clients
-- [[Mark-Lite]] — Time-bounded campaigns; Josh Warren conversion path
+- [[Mark]] — Scalable managed service; 5 signed clients
+- [[Mark-Lite]] — Time-bounded campaigns
 - [[Agent-Browser]] — Highest-ceiling product; KW Bell PoC in progress
-- [[Betting-Portfolio]] — Passive income + systematic thinking lab
+- [[Betting-Portfolio]] — Passive income + methodology lab (first formalised rule 2026-04-16)
 - [[Hike-SES]] — Stability + directorship income
+- [[Ttai-Slack-Bridge]] — Agent triggering infrastructure
 
 **People:**
-- [[Malcolm-Freeman]] — Warm referral source (IH Group, Carmen)
-- [[Gareth-Hunt]] — First client + best referral source
-- [[Sunna-van-Kampen]] — Tonic Health CEO; creative agent prospect
-- [[Bryn]] — Hike MD; stability and contractual visibility
+- [[Malcolm-Freeman]] — Warm referral source
+- [[Gareth-Hunt]] — First client, best referral source
+- [[Sunna-van-Kampen]] — Tonic Health CEO
+- [[Bryn]] — Hike MD
 
 **Clients:**
-- [[KW-Bell]] — Consulting audit complete; Agent Browser PoC client
-- [[AccXel]] — Consulting discovery day 28 April
-- [[Hawks-Scaffolding]] — Mark client, live, exclusive Warwickshire scaffolding
-- [[Mercia-Flooring]] — Mark client, go-live 15 April, schools focus
-- [[Midlands-Bat-Surveys]] — Mark client, planning portal variant, £500/mo
-- [[JDW-Brickwork]] (Josh Warren) — Mark-Lite inbound conversion, discovery 14 April
-- [[Tonic-Health]] — Consulting + Knowledge Assistant prospect; creative agent proposal pending
-- [[IH-Group]] — Pipeline, via Malcolm Freeman
-- [[MJM-Consulting]] — Pipeline, marketing strategy pitch delivered
+- [[KW-Bell]] — Consulting audit complete; Agent Browser PoC
+- [[AccXel]] — Consulting discovery 28 April
+- [[Hawks-Scaffolding]] — Mark live
+- [[Mercia-Flooring]] — Mark, Outlook verification pending
+- [[Midlands-Bat-Surveys]] — Mark live
+- [[JDW-Brickwork]] — Mark building 21-25 April
+- [[Tonic-Health]] — Custom build w/c 20 April
+- [[Holmes-Workholding]] — Mark signed, build 5-7 May
+- [[IH-Group]] — Pipeline
+- [[MJM-Consulting]] — Pipeline
 
 ---
 
-## How to Read This Wiki
-
-Start here (Strategy Overview), then drill into:
-- **Products:** [[Consulting]], [[Mark]], [[Mark-Lite]], [[Agent-Browser]], [[Hike-SES]], [[Knowledge-Assistant]], [[Betting-Portfolio]]
-- **Clients:** Individual [[KW-Bell]], [[Hawks-Scaffolding]], etc. pages for detailed engagement status
-- **People:** [[Malcolm-Freeman]], [[Gareth-Hunt]], etc. for relationship context
-- **Methodologies:** [[AutoStrategy]], [[Autoresearch]], [[Compound-Evaluation]] for technical depth
-
-The index ([[index]]) lists all pages by category.
-
----
-
-**Updated 2026-04-08 | Think Through AI Strategy Synthesis**
+**Updated 2026-04-20 | Think Through AI Strategy Synthesis**

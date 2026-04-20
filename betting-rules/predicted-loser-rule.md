@@ -1,9 +1,13 @@
-# Rule: Predicted Loser (Paper Tracking)
-> Never back the model's predicted loser. Paper experiment at 0/6 bets, approaching formalisation at 20.
-> Last updated: 2026-04-10
+# Rule: Predicted Loser (FORMALISED)
+> Never back the model's predicted loser. Formalised 2026-04-16 at 18/18 live paper record across NBA and Tennis. Hard constraint, all sports.
+> Last updated: 2026-04-20
 
 ## Status
-**Paper tracking** — currently logging results but not yet a formal rule. Will formalise when reaching 20 bets with 0% win rate.
+**FORMALISED** — permanent hard constraint across all sports. First AutoStrategy rule to complete the full evidence cycle: paper experiment → statistical threshold → formalisation.
+
+- Paper tracking: 2026-03-15 onward
+- Early formalisation recommendation from Fred: 2026-04-14
+- Andy authorised formalisation: 2026-04-16
 
 ## Experiment Design
 ### Hypothesis
@@ -15,42 +19,40 @@ Track every bet where:
 - Odds suggest value betting on B (predicted loser)
 - Place the bet and log outcome
 
-### Results
+### Results at formalisation
 | Domain | Bets | Wins | Win Rate |
 |--------|------|------|----------|
-| NBA | 6 | 0 | 0% |
-| Tennis | 3 | 0 | 0% |
-| **Total** | **9** | **0** | **0%** |
+| NBA | 8 | 0 | 0% |
+| Tennis | 10 | 0 | 0% |
+| **Total** | **18** | **0** | **0%** |
 
-**Confidence**: Strengthening. NBA pred-loser paper record confirmed 6/6 losses (Apr 6-10 daily ops). Matches tennis 0/10 pattern noted in earlier analysis. At 20 bets with 0% win rate, formalise as permanent rule.
+**Confidence**: 0/18 across two live domains over ~6 weeks. Statistical strength sufficient to formalise early (vs the original 20-bet target), per Fred's 2026-04-14 recommendation. No further paper tracking required.
 
 ## Interpretation
 The pattern suggests backing the predicted loser systematically extracts value from the weaker tail of the model's decision boundary. Even with superficial edge logic, the model's asymmetric confidence makes this unprofitable.
 
-## Formalisation Threshold
-- **Target**: 20 bets
-- **Current**: 9 bets
-- **Remaining**: 11 bets
-- **Expected timeline**: Q2 2026
-- **Trigger**: When 20 bets reached with ≤5% win rate (95% CI on 0%), formalise and apply across all sports
-
-## Implementation Plan
-Once formalised:
-1. Add to [[active-rules]]
-2. Implement as hard constraint in all sports where applicable (NBA, Tennis, Snooker, Darts, etc.)
-3. Create automated betting rule to exclude predicted-loser bets
+## Implementation
+Now active as a hard constraint in all sports where AutoStrategy is deployed (NBA, Tennis, Snooker, Darts, Crypto paper, IPL queued):
+1. Listed in [[active-rules]] as FORMALISED
+2. Fred enforces on every bet recommendation when back online
+3. Automated betting rule excludes predicted-loser bets pre-placement
 
 ## Related
-- [[never-back-predicted-loser]] (detailed rule)
+- [[never-back-predicted-loser]] (detailed rule spec)
 - [[nba]]
 - [[tennis-atp]]
 - [[autostrategy]]
+- [[selectivity-is-everything]] — same underlying principle: don't force value where the model's signal is weak
 
 ## Decision Log
-- 2026-04-10: NBA record updated to 0/6. Total now 0/9 across all sports. Strong case for early formalisation building.
-- 2026-04-08: Added to [[active-rules]] with formalisation path
-- 2026-03-20: Tennis added (0/3)
-- 2026-03-15: NBA experiment started (0/3)
+- 2026-04-16: **FORMALISED** per Andy's instruction. Status flipped from "paper tracking" to "formalised" across all three rule pages. Hard constraint, all sports. First rule to complete the full evidence cycle.
+- 2026-04-14: Fred recommended early formalisation at 18/18.
+- 2026-04-10: NBA record updated to 0/6. Total then 0/9 across all sports.
+- 2026-04-08: Added to [[active-rules]] with formalisation path.
+- 2026-03-20: Tennis added (0/3).
+- 2026-03-15: NBA experiment started (0/3).
 
 ## Sources
 - Paper trading logs: raw/autostrategy/AutoStrategy_Paper_v6.md
+- Fred recommendation: operations/fred-decision-log.md (2026-04-14)
+- Andy formalisation instruction: Slack #ttai-employees (2026-04-16 20:51)

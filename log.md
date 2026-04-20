@@ -130,3 +130,52 @@
 - Pages created: clients/steve-tipson.md, clients/tippercrete.md
 - Contradictions found: overview.md Q2 must-hit section still lists 15 April Mercia go-live (now slipped) — flagged for Andy, not retroactively rewritten
 - Key changes: Two conversions in one day (JDW £500 setup + £200/mo; Tonic £1,750 first paid build). Mercia remains blocked on Outlook/Entra. New SEO prospect via Assisted (Steve Tipson) and new Mark-Lite groundworks prospect (Tippercrete, Warwickshire). Agent Browser pivoting toward atomic-actions model — candidate principle "capabilities before workflows".
+
+## 2026-04-20 wiki-agent | Scheduled scan (resumed from compacted conversation)
+- **Sources scanned**: 4 unprocessed ingest files in inbox/ (2026-04-16 Holmes signed, Holmes INV-006, Tonic approved, Slack bridge self-fire fix); Slack channel C0AT4K9KJFQ (50 messages); previously existing wiki pages.
+- **Browser-based Claude.ai scan skipped**: User absent (autonomous run, no approval flow for computer-use), and ingest 2026-04-16 confirmed wiki input model officially moved to inbox/ + #ttai-employees Slack only.
+- **Pages updated**:
+  - clients/holmes-workholding.md — FULL REWRITE. Status: Signed — Mark build scheduled. £250 setup invoiced (INV-006). Full Companies House address added. Build 5-7 May, kickoff 5 May 10:00. "Other Tim" referral path and future consulting AI audit prospect captured.
+  - clients/tonic-health.md — Build in progress; £1,750 invoiced (INV-005). Added Build Architecture (Apify → Python → Claude API → Notion → Slack), Phasing (Trustpilot-only Phase 1), ongoing cost model, creative quality bar.
+  - clients/mercia-flooring.md — 2026-04-16 log entry added: Solaas IT reported Outlook/Entra fix applied; Andy to verify 17 April.
+  - products/mark.md — Active Clients table now includes JDW (Signed, £500 INV-004, build 21-25 Apr) and Holmes (Signed, £250 INV-006, build 5-7 May). Mercia row updated.
+  - betting-rules/predicted-loser-rule.md — FULL REWRITE. Status: FORMALISED 2026-04-16 at 18/18 (NBA 8/8 + Tennis 10/10). First rule to complete full AutoStrategy evidence cycle. Decision log updated.
+  - betting-rules/never-back-predicted-loser.md — Synced to FORMALISED status, note added pointing to predicted-loser-rule as canonical narrative.
+  - betting-rules/active-rules.md — Predicted-loser moved to FORMALISED row; methodological significance section added.
+  - strategy/overview.md — CRITICAL REVENUE CORRECTION. Q1 invoiced updated from £938.20 to £3,438.20. Pipeline restructured — JDW/Tonic/Holmes moved out of "proposals" and into invoiced. KW Bell concentration dropped from ~73% to ~20%. Must-Hit section rewritten for 17-28 April convergence window. Added custom AI builds as new third revenue stream.
+  - index.md — Bumped to 2026-04-20. Holmes/JDW/Tonic summary lines updated to reflect signed/invoiced status. Added test-before-quoting and phase-it-if-dependency-fragile principles (from Tonic ingest). Added ttai-slack-bridge operations entry.
+- **Inbox files processed** (moved to inbox/processed/):
+  - 2026-04-16-ttai-holmes-workholding-signed.md
+  - 2026-04-16-ttai-holmes-inv006-raised.md
+  - 2026-04-16-ttai-tonic-health-approved.md
+  - 2026-04-16-ttai-slack-bridge-self-fire-fix.md
+- **Notable findings flagged for Andy**:
+  1. **Orphaned branches issue** — all 2026-04-16 Wiki runs committed to feature branches (e.g. claude/magical-goldberg-IMV8Z) that never merged to main. This run captured decisions from ingest files but the pages those orphaned runs created (if any) may still be missing from main. Investigation needed.
+  2. **Revenue de-concentration** — client revenue risk profile has materially improved (KW Bell went from 73% to 20% of invoiced revenue). Worth noting when planning Q2.
+  3. **April 17-28 convergence window** — Mercia verification + JDW build + Tonic Phase 1 + AccXel discovery all land within ~11 days. Tight but workable; flagged as main operational risk.
+  4. **Predicted-loser rule formalisation** — first AutoStrategy rule to complete full evidence cycle. Validates the paper-trade-to-formalisation pipeline before it's stretched to Snooker/Darts/IPL/Crypto.
+  5. **New principles candidate surfaced** (from Tonic): "test before quoting" and "phase it if a dependency is fragile". Added to index but principles/ pages not yet written — will need a dedicated ingest session.
+
+## 2026-04-20 wiki-agent | Chrome-MCP continuation (post-compact)
+- **Method**: User requested a second pass using the Claude-in-Chrome MCP to scan claude.ai project chats directly (DOM-aware, no computer-use approval flow). Scanned Think Through AI (Tim Holmes + Tonic ad-creative chats), Agent Browser (Hike proposal chat), and AutoStrategy (IPL chat) projects. Applied findings via filesystem MCP to the wiki on Andy's real disk (/Users/andyallen/Documents/Claude/Projects/Think Through AI/wiki/).
+- **Pages updated**:
+  - clients/jdw-brickwork.md — Registered address added (Brooks Road, Raunds, NN9 6NS). Customer tier examples (Parrot Construction → United Living → Mulberry Homes). Commercial scope (school extensions, sports halls, community centres). Post-planning pre-construction timing window. Email infrastructure plan mirroring Mercia pattern. Calibration step formalised in Next Actions. Date bumped to 2026-04-20.
+  - clients/mercia-flooring.md — Outlook/Entra app-password gotcha added: mysignins.microsoft.com/security-info only shows sign-in methods for the currently authenticated user, so Jack at Solaas IT saw his own account; Pete must generate the app password himself.
+  - clients/tonic-health.md — Day 2 build status (950 reviews extracted; pillar distribution analysed; brain_focus at 0.2% is genuine data signal, not prompt failure — don't re-extract). Claude Code worktrees ops lesson added (feature-branch files invisible in main tree). [[known-failure-modes]] link added.
+  - products/agent-browser.md — Model A vs Model B commercial shapes section with "Kit insight" (AI as user of existing software, not replacement). Hike proposal status (20 features catalogued in 1-2 hours, drafted/finalised 17 Apr). Hike SEO Internal+External and Mark Product Line Model B destination subsections. Links to [[platform-mapping-compounds]] and [[bryn]].
+  - products/mark.md — Calibration step bullet added to Setup. New "Onboarding: The Calibration Step (formalised 2026-04-20)" section with 3-step process (Trade fit / Size fit / Contact fit). Links to [[jdw-brickwork]] and [[agent-browser]] added.
+  - domains/t20-cricket-ipl.md — "Findings from First AutoStrategy Pass (2026-04-14)" section: Bayesian Beta(α,β) beats raw win rates; H2H hurts; three-way ensemble; toss×venue 3-6% edge shift. Methodological caveat added about pre-scripted vs genuine autoresearch. Decision log entry 2026-04-14.
+  - methodologies/autostrategy.md — "Audit: Pre-scripted Search vs Genuine Autoresearch (2026-04-14)" section distinguishing NBA/Tennis/EFL (genuine) from IPL/horse-racing (pre-scripted). Rule adopted: TASK.md must explicitly require Claude API / tool use per iteration. Link to [[t20-cricket-ipl]] added.
+  - people/bryn.md — "Active Decision — Hike Agent Browser Proposal (17 Apr 2026)" section with open questions for Bryn (cost-reduction vs capacity vs differentiator angle).
+  - principles/_index.md — Registered [[platform-mapping-compounds]] under Agent Browser Principles. Front-matter date bumped.
+  - index.md — agent-browser, bryn, jdw-brickwork summary lines updated. [[platform-mapping-compounds]] principle entry added.
+- **Pages created**:
+  - principles/platform-mapping-compounds.md — NEW principle. Discovered via Hike audit: ~100x speedup on platform-resident feature mapping (24-day estimate → 1-2 hours for 20 features) because once a platform's patterns are mapped, subsequent features are mechanical. Applies to Evolution MX (KW Bell), future Model A work, Mark onboarding variants. Counterexamples: cross-platform doesn't compound; dynamic UIs can re-inject cost.
+- **Key insights captured from Chrome scans**:
+  1. **Model A vs Model B commercial shapes** (Agent Browser): A = infrastructure installed inside client systems (sold per-client); B = hidden infrastructure powering Andy's own services (Mark, Hike, future verticals). The Kit insight: both models rely on AI *using* existing software rather than replacing it — that's what keeps deals small and fast-to-close.
+  2. **Calibration step formalised** (Mark): before any Mark go-live, run a test batch of 5-10 leads and confirm trade/size/contact fit with the client. Applied immediately to JDW onboarding. Stops the Mercia/Warwickshire-style post-launch opt-outs.
+  3. **Platform-mapping compounds** (Agent Browser): first feature on a platform is expensive (discovery + DOM mapping + error modes); subsequent features are mechanical. Counterexample: cross-platform work doesn't compound, so cost per client resets unless same SaaS.
+  4. **IPL AutoStrategy was pre-scripted** (AutoStrategy audit): the 2026-04-14 IPL pass looked like autoresearch but didn't call Claude in the loop. Rule adopted: TASK.md must explicitly require Claude API / tool use per iteration. Findings themselves (Bayesian Beta, H2H hurts, ensemble, toss×venue) are still transferable.
+  5. **Tonic Day 2 genuine-signal finding**: brain_focus pillar at 0.2% is a real data signal (nobody writes reviews about focus), not a broken prompt — don't re-extract.
+  6. **Outlook/Entra app-password gotcha** (Mercia operational): mysignins.microsoft.com/security-info only shows sign-in methods for the currently authenticated user; account holder must generate themselves. Explains the Jack-at-Solaas confusion.
+- **Relationship to earlier 2026-04-20 run**: The first run of the day processed ingest/ + Slack bridge and reflected signed contracts (Holmes, Tonic, JDW) + revenue correction. This second run is purely qualitative — insight/principle level, no revenue or status changes. Both runs stack cleanly.

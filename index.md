@@ -1,10 +1,10 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-14
+> Last updated: 2026-04-20
 
 ## Strategy
-- [[overview]] — The 100×100 model: revenue tracking, flywheel, product pipeline, Q2 priorities
+- [[overview]] — The 100×100 model: revenue £3,438.20 invoiced Q1, 5 Mark clients signed, Q2 convergence window
 - [[opportunities]] — Cross-domain pattern analysis: 10 patterns, 12 actionable opportunities (2 completed 2026-04-12)
 
 ## Methodologies
@@ -17,25 +17,25 @@
 
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
-- [[mark]] — Productised AI sales agent for construction/trades businesses
+- [[mark]] — Productised AI sales agent for construction/trades businesses (5 signed clients)
 - [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants)
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
-- [[agent-browser]] — Browser agent product (Hike internal + external commercial)
+- [[agent-browser]] — Browser agent product (Hike internal + external commercial); Model A + Model B framing added; Hike proposal sent to Bryn 17 Apr
 
 ## Clients
 - [[kw-bell]] — Bell Contracting: audit complete, solution design next
 - [[accxel]] — KW Bell subsidiary: discovery day 28 April
-- [[mercia-flooring]] — Mark agent client: school outreach, setup invoiced
-- [[holmes-workholding]] — Mark prospect: reviewing proposal
+- [[mercia-flooring]] — Mark agent client: Outlook/Entra verification pending (Solaas IT applied fix 16 Apr)
+- [[holmes-workholding]] — **Mark signed** — £250 setup invoiced (INV-006), build 5-7 May
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — Creative agent prospect: proposal sent £1,750
+- [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005), Phase 1 Trustpilot w/c 20 April
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] — Mark-Lite inbound lead: discovery meeting 14 April (today)
+- [[jdw-brickwork]] — **Signed Mark client** — £500 setup invoiced (INV-004), build 21-25 April; first build to formalise [[mark]] calibration step
 - [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
 - [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample-week email drafted
 
@@ -43,13 +43,15 @@
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
 - [[gareth-hunt]] — KW Bell FD, first client, referral source
 - [[sunna-van-kampen]] — Tonic Health CEO, Andy's friend
-- [[bryn]] — Hike SEO MD
+- [[bryn]] — Hike SEO MD; decision pending on Hike Agent Browser workflow expansion proposal (sent 17 Apr)
 
 ## Principles
 - [[dont-reveal-methodology-before-paid]] — Protect approach until engagement is paid
 - [[position-next-stage-not-bigger-commitment]] — Reduce friction, build trust incrementally
 - [[let-clients-surface-pain-points]] — Listen; let insight land as their conclusion
 - [[email-quality-over-volume]] — Short, confident emails outperform long explanatory ones
+- [[test-before-quoting]] — Validate fragile dependencies before pricing (Tonic 2026-04-16)
+- [[phase-it-if-dependency-fragile]] — Split scope at dependency boundaries (Tonic 2026-04-16)
 - [[raw-probabilities-lie]] — Model probabilities systematically overstate value-bet edge
 - [[removal-as-valuable-as-addition]] — Removing features can improve results
 - [[trust-the-model-over-punditry]] — Subjective overrides consistently lose money
@@ -64,6 +66,7 @@
 - [[execution-cost-varies-by-selection]] — Underdog spreads 2-8x wider than favourites; paper P&L overstates real performance
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
+- [[platform-mapping-compounds]] — First feature costs days, subsequent features cost hours (Hike: 24-day estimate → 1–2 hours for 20 features)
 
 ## Operations
 - [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
@@ -75,6 +78,7 @@
 - [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
+- [[ttai-slack-bridge]] — Node.js Slack Bolt app on Railway; agent triggering infrastructure; self-fire filter added 2026-04-16
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules
@@ -91,6 +95,5 @@
 - [[active-rules]] — All current rules in one place
 - [[injury-veto-80pct]] — Only skip if player in 80%+ of games
 - [[away-team-threshold]] — 20%+ edge required for away underdogs
-- [[never-back-predicted-loser]] — 0/6 paper record, approaching formalisation
+- [[never-back-predicted-loser]] / [[predicted-loser-rule]] — **FORMALISED 2026-04-16** at 18/18 (NBA 8/8 + Tennis 10/10). First AutoStrategy rule to complete full evidence cycle.
 - [[grass-veto]] — Tennis: no bets on grass (pending implementation before June)
-- [[predicted-loser-rule]] — Paper tracking toward 20-bet formalisation threshold
