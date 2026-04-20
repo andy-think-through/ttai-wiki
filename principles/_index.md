@@ -41,6 +41,13 @@
 | [[trust-the-agent-not-dom]] | Agent Browser schema workflow | Any decision about building custom scripts vs using the visual agent |
 | [[platform-mapping-compounds]] | Hike platform audit 2026-04-17 | Any platform discovery work (Evolution MX, future Model A clients, [[mark]] variants) |
 
+## Infrastructure & Operations Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[connectors-beat-computer-use]] | Wiki Agent migration to Routines (2026-04-15) | Any agent design: default to APIs/connectors, not browser automation |
+| [[repos-are-employee-memory]] | Wiki Agent branch proliferation incident (2026-04-16) | All employees on ephemeral infrastructure: commit state early and often |
+
 ## Cross-Principle Links
 
 ### By Domain
@@ -48,7 +55,7 @@
 - **TTAI Sales/Consulting:** [[dont-reveal-methodology-before-paid]] + [[position-next-stage-not-bigger-commitment]] + [[let-clients-surface-pain-points]] + [[email-quality-over-volume]]
 - **Mark (Lead Qualification):** [[strict-trade-matching]] + [[selectivity-is-everything]] + [[trust-the-model-over-punditry]] + [[planning-data-serves-site-trades]]
 - **Agent Browser:** [[trust-the-agent-not-dom]] + [[platform-mapping-compounds]]
-- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]]
+- **Automation/Operations:** [[scheduled-tasks-need-zero-intervention]] + [[connectors-beat-computer-use]] + [[repos-are-employee-memory]]
 - **Value Betting (Sports):** [[raw-probabilities-lie]] + [[probability-calibration]] + [[trust-the-model-over-punditry]] + [[selectivity-is-everything]]
 
 ### By Theme

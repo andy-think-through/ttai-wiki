@@ -16,6 +16,7 @@ See [[betting-portfolio]] for portfolio overview and domain details.
 - [[never-back-predicted-loser]] / [[predicted-loser-rule]] — Don't bet on model's predicted loser. **Formalised 2026-04-16.** First AutoStrategy rule to complete full evidence cycle.
 - [[grass-veto]] — Tennis: no bets on grass (pending implementation)
 
+
 ## Implementation Notes
 - **Predicted-loser rule**: Formalised 2026-04-16 following Fred's 2026-04-14 recommendation and Andy's Slack authorisation. 18/18 paper bets lost — statistical threshold comfortably cleared. Now a permanent filter applied at the model output stage across all AutoStrategy domains.
 - **Grass veto**: Current state is logging predictions without betting. Deadline for automation: before mid-June grass season begins.

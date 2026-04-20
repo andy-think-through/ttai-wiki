@@ -6,7 +6,9 @@ Last updated: 2026-04-20
 
 ## Executive Summary
 
-Revenue has de-concentrated significantly in the last two weeks. Q1 invoiced is now **£3,438.20** — up from £938.20 on 2026-04-10. KW Bell has dropped from ~73% of invoiced revenue to ~20% as JDW (Mark), Tonic (custom build), and Holmes (Mark) have all signed and been invoiced. Three live or imminent Mark clients now represent **£600/mo recurring baseline** (+£500/mo if Bat Surveys counted separately). The first AutoStrategy rule ([[predicted-loser-rule]]) has been formalised at 18/18 — a methodological milestone independent of revenue. Agent Browser KW Bell PoC remains the biggest unproven bet.
+Revenue has de-concentrated significantly in the last two weeks. Q1 invoiced is now **£3,438.20** — up from £938.20 on 2026-04-10. KW Bell has dropped from ~73% of invoiced revenue to ~20% as JDW (Mark, TTAI-004 / INV-004), Tonic (custom build, INV-005 / INV-003), and Holmes (Mark, INV-006) have all signed and been invoiced. Three live or imminent Mark clients now represent **£600/mo recurring baseline** (+£500/mo if Bat Surveys counted separately). The first AutoStrategy rule ([[predicted-loser-rule]]) has been formalised at 18/18 — a methodological milestone independent of revenue. Agent Browser KW Bell PoC remains the biggest unproven bet.
+
+The flywheel is working: consulting uncovers product opportunities, products create recurring revenue, consulting pipeline grows via network effect. Mark-Lite has added a Construction Intelligence tier (£75/mo data feed) as a lower-friction entry point. Employee infrastructure migrated to Claude Code Routines + Slack — Wiki and Mark-Lite operational, Fred pending.
 
 Near-term execution focus is on the **17-28 April convergence window**: Mercia Outlook verification (17 Apr), JDW Mark build (21-25 Apr), AccXel discovery day (28 Apr), with Tonic delivery kicking off w/c 20 April in parallel.
 
@@ -14,14 +16,14 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 
 ## Revenue Status
 
-### Current Invoiced (Q1 2026 FY)
+### Current Invoiced
 
 | Stream | Client | Invoice | Amount | Status |
 |--------|--------|---------|--------|--------|
 | **Consulting** | [[KW-Bell]] | — | £688.20 | Audit complete, solution design proposed |
 | **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Outlook verification pending |
-| **Mark setup** | [[JDW-Brickwork]] | INV-004 | £500 | Build 21-25 April |
-| **Custom build** | [[Tonic-Health]] | INV-005 | £1,750 | Build w/c 20 April (Phase 1: Trustpilot) |
+| **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Build 21-25 April |
+| **Custom build** | [[Tonic-Health]] | INV-005 / INV-003 | £1,750 | Build w/c 20 April (Phase 1: Trustpilot) |
 | **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | Kickoff 5 May 10:00, build 5-7 May |
 | **Total Invoiced** | — | — | **£3,438.20** | **Cash in / receivable** |
 
@@ -32,8 +34,12 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
 | **Consulting** | [[AccXel]] | ~£700 | Discovery day 28 April | KW Bell subsidiary, day rate |
+| **Mark recurring** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
+| **Mark recurring** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
+| **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
 | **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
 | **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
+| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Warm, monitoring | CI sample delivered, awaiting response |
 | **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
 | **Consulting follow-up** | [[IH-Group]] | Variable | Warm via Malcolm | Follow-up email drafted 2026-04-08 |
 | **Mark-Lite Northants** | Multiple (Tippercrete, SRK) | Varies | Decisions pending | 2026-04-17 to 2026-04-19 cycle |
@@ -55,8 +61,8 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 | **Invoiced / signed** | Mercia, JDW, Tonic, Holmes | All Q2 setup/build invoices raised |
 | **Building** | Tonic (w/c 20 Apr), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
 | **Imminent** | AccXel (discovery day 28 Apr) | KW Bell subsidiary |
-| **Warm** | IH Group, Steve Tipson | Follow-ups scheduled |
-| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" | Referral-warm |
+| **Warm** | IH Group, Steve Tipson, Tippercrete | Follow-ups scheduled; Tippercrete CI sample delivered |
+| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" | Referral-warm via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
 
 ---
 
@@ -68,7 +74,7 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 |---------|--------|-------|---------|------------------|
 | [[Consulting]] | Active | Day rate £300-350 | Variable | [[KW-Bell]], [[AccXel]], [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" (prospective) |
 | [[Mark]] | Active, 5 signed/live | £250-500 setup + £200/mo | £1,300/mo at full ramp | Hawks (live), Bat Surveys (live), Mercia (pending Outlook), JDW (building 21-25 Apr), Holmes (building 5-7 May) |
-| [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
+| [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns; CI tier £75/mo | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
 | **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python over n8n, Trustpilot phase 1 |
 | [[Hike-SES]] | Directorship income | Retained + contractual visibility | Contractual | Hike SEO client base (~2,000) |
 | [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA, Tennis (formalised rule), Snooker, Darts, IPL, Crypto paper |
@@ -133,6 +139,8 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
+- [x] ~~[[JDW-Brickwork]] conversion~~ — DONE 14 April. £500 setup invoiced (TTAI-004 / INV-004). Build week 21-25 April.
+- [x] ~~[[Tonic-Health]] decision~~ — ACCEPTED. £1,750 (INV-005 / INV-003). Build starting w/c 20 April.
 - [ ] [[Mercia-Flooring]] go-live — Outlook/Entra verification outcome (17 Apr) and first school batch live
 - [ ] [[JDW-Brickwork]] Mark build 21-25 April → go-live
 - [ ] [[Tonic-Health]] Phase 1 delivery (Trustpilot) w/c 20 April
@@ -149,6 +157,7 @@ Consulting Audit → Uncovers Product Opportunity
 - [ ] Tennis [[grass-veto]] rule implementation (Wimbledon June prep)
 - [ ] Agent Browser Phase 2: Hike keyword strategy workflow live internally
 - [ ] Tonic Phase 2 scoping (post-Trustpilot delivery)
+- [ ] Fred migration to Routines (paused on Cowork, NBA playoffs active)
 
 ### Methodology / System
 
@@ -232,6 +241,36 @@ The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrat
 - [[Holmes-Workholding]] — Mark signed, build 5-7 May
 - [[IH-Group]] — Pipeline
 - [[MJM-Consulting]] — Pipeline
+
+---
+
+## How to Read This Wiki
+
+Start here (Strategy Overview), then drill into:
+- **Products:** [[Consulting]], [[Mark]], [[Mark-Lite]], [[Agent-Browser]], [[Hike-SES]], [[Knowledge-Assistant]], [[Betting-Portfolio]]
+- **Clients:** Individual [[KW-Bell]], [[Hawks-Scaffolding]], etc. pages for detailed engagement status
+- **People:** [[Malcolm-Freeman]], [[Gareth-Hunt]], etc. for relationship context
+- **Methodologies:** [[AutoStrategy]], [[Autoresearch]], [[Compound-Evaluation]] for technical depth
+
+The index ([[index]]) lists all pages by category.
+
+---
+
+## Infrastructure
+
+### Autonomous Employees (Routines + Slack)
+
+TTAI runs three autonomous AI employees via [[claude-code-routines]]:
+
+| Employee | Status | Platform |
+|----------|--------|----------|
+| Wiki | Operational | Routines (migrated 2026-04-15) |
+| Mark-Lite | Operational | Routines (migrated 2026-04-16) |
+| Fred | Paused — pending migration | Cowork (last report 2026-04-13) |
+
+All employees report to Slack #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]] (Railway free tier). Total infrastructure cost: ~£0.
+
+Fred migration is time-sensitive — NBA playoffs are live (highest volume + liquidity period).
 
 ---
 

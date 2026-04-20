@@ -1,6 +1,6 @@
 # JDW Brickwork
 
-> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced; Mark build scheduled 21–25 April 2026. Build is the first to formalise the **calibration step** (test batch before go-live).
+> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build scheduled 21–25 April 2026. Build is the first to formalise the **calibration step** (test batch before go-live).
 > Last updated: 2026-04-20
 
 ## Lead Profile

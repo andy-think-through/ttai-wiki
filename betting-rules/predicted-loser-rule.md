@@ -1,5 +1,5 @@
 # Rule: Predicted Loser (FORMALISED)
-> Never back the model's predicted loser. Formalised 2026-04-16 at 18/18 live paper record across NBA and Tennis. Hard constraint, all sports.
+> Never back the model's predicted loser. Formalised 2026-04-16 by Andy at 18/18 live paper record across NBA and Tennis. Hard constraint, all sports.
 > Last updated: 2026-04-20
 
 ## Status
@@ -26,10 +26,15 @@ Track every bet where:
 | Tennis | 10 | 0 | 0% |
 | **Total** | **18** | **0** | **0%** |
 
-**Confidence**: 0/18 across two live domains over ~6 weeks. Statistical strength sufficient to formalise early (vs the original 20-bet target), per Fred's 2026-04-14 recommendation. No further paper tracking required.
+**Confidence**: Strong. 0/18 across two live domains (NBA 8/8, Tennis 10/10) over ~6 weeks. At 18/18 the 95% CI on a 0% win rate is well below any plausible edge threshold. Formalised early (at 18, not 20) per Fred's 2026-04-14 recommendation and Andy's 2026-04-16 approval. No further paper tracking required.
 
 ## Interpretation
 The pattern suggests backing the predicted loser systematically extracts value from the weaker tail of the model's decision boundary. Even with superficial edge logic, the model's asymmetric confidence makes this unprofitable.
+
+## Formalisation
+- **Formalised:** 2026-04-16 at 18/18 (early, 2 short of original 20-bet target)
+- **Decision by:** Andy, on Fred's recommendation
+- **Rationale:** At 18/18 with 0% wins, the remaining 2 bets add near-zero statistical weight. Procedural threshold honoured in spirit.
 
 ## Implementation
 Now active as a hard constraint in all sports where AutoStrategy is deployed (NBA, Tennis, Snooker, Darts, Crypto paper, IPL queued):
@@ -46,8 +51,8 @@ Now active as a hard constraint in all sports where AutoStrategy is deployed (NB
 
 ## Decision Log
 - 2026-04-16: **FORMALISED** per Andy's instruction. Status flipped from "paper tracking" to "formalised" across all three rule pages. Hard constraint, all sports. First rule to complete the full evidence cycle.
-- 2026-04-14: Fred recommended early formalisation at 18/18.
-- 2026-04-10: NBA record updated to 0/6. Total then 0/9 across all sports.
+- 2026-04-14: NBA regular-season close — NBA 8/8, Tennis 10/10, Combined 18/18. Fred recommended early formalisation. Decision flagged for Andy.
+- 2026-04-10: NBA record updated to 0/6. Total then 0/9 across all sports. Strong case for early formalisation building.
 - 2026-04-08: Added to [[active-rules]] with formalisation path.
 - 2026-03-20: Tennis added (0/3).
 - 2026-03-15: NBA experiment started (0/3).

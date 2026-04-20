@@ -1,5 +1,5 @@
 # Rule: Never Back Predicted Loser
-> NBA + Tennis. Do not bet on model's predicted loser, even with edge.
+> NBA + Tennis (applied across all AutoStrategy domains). Do not bet on model's predicted loser, even with edge.
 > Status: **FORMALISED** (2026-04-16) — full evidence cycle complete.
 > Last updated: 2026-04-20
 
@@ -21,7 +21,7 @@ When a model predicts team/player A will lose to team/player B, backing B (the p
 | Tennis | 10 | 0/10 | Evidence complete |
 | **Total** | **18** | **0/18** | **Formalised** |
 
-The rule completed its full 18-bet evidence cycle with a 0% win rate — the first AutoStrategy rule to reach full formalisation through the paper-trading pipeline.
+The rule completed its full 18-bet evidence cycle with a 0% win rate — the first AutoStrategy rule to reach full formalisation through the paper-trading pipeline. Formalised by Andy on 2026-04-16 at Fred's recommendation.
 
 ## Rule
 **Never place a bet where:**
@@ -34,12 +34,13 @@ The rule completed its full 18-bet evidence cycle with a 0% win rate — the fir
 ## Implementation Status
 - **FORMALISED** 2026-04-16 at 18/18 bets (NBA 8/8 + Tennis 10/10)
 - Authorised via Slack by Andy following Fred's 2026-04-14 recommendation
-- Now a permanent filter at the model output stage, not a discretionary rule
+- Hard constraint across all sports — permanent filter at the model output stage, not a discretionary rule
+- First rule to complete the full evidence cycle (paper experiment → statistical threshold → formalisation)
 
 ## Decision Log
-- 2026-04-16: **Formalised.** Andy authorised via [[ttai-slack-bridge]] in #ttai-employees
-- 2026-04-14: Fred (AutoStrategy agent) recommended formalisation — threshold met earlier than originally projected (18 vs 20 bets, but 0% win rate held firm)
-- 2026-04-08: Added to [[active-rules]]. Approaching formalisation at 20 bets
+- 2026-04-16: **Formalised.** Andy authorised via [[ttai-slack-bridge]] in #ttai-employees. Hard constraint, all sports.
+- 2026-04-14: NBA regular-season close pushed record to 8/8 NBA, 10/10 Tennis, 18/18 combined. Fred (AutoStrategy agent) recommended formalisation — threshold met earlier than originally projected (18 vs 20 bets, but 0% win rate held firm). Decision flagged for Andy.
+- 2026-04-08: Added to [[active-rules]]. Approaching formalisation at 20 bets.
 - 2026-03-20: Tennis revealed pattern (0/3 upsets)
 - 2026-03-15: NBA experiment started (0/3)
 

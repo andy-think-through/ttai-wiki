@@ -18,7 +18,7 @@
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
 - [[mark]] — Productised AI sales agent for construction/trades businesses (5 signed clients)
-- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants)
+- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). Now includes Construction Intelligence tier (£75/mo).
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
@@ -27,17 +27,17 @@
 ## Clients
 - [[kw-bell]] — Bell Contracting: audit complete, solution design next
 - [[accxel]] — KW Bell subsidiary: discovery day 28 April
-- [[mercia-flooring]] — Mark agent client: Outlook/Entra verification pending (Solaas IT applied fix 16 Apr)
+- [[mercia-flooring]] — Mark agent client: Outlook/Entra verification pending (Solaas IT applied fix 16 Apr, confirming 17 Apr)
 - [[holmes-workholding]] — **Mark signed** — £250 setup invoiced (INV-006), build 5-7 May
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005), Phase 1 Trustpilot w/c 20 April
+- [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005 / INV-003), Phase 1 Trustpilot w/c 20 April
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] — **Signed Mark client** — £500 setup invoiced (INV-004), build 21-25 April; first build to formalise [[mark]] calibration step
+- [[jdw-brickwork]] — **Signed Mark client** — £500 setup invoiced (TTAI-004 / INV-004), build 21-25 April; first build to formalise [[mark]] calibration step
 - [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
-- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: sample-week email drafted
+- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: Warm, CI sample delivered 14 April
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
@@ -67,6 +67,8 @@
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
 - [[platform-mapping-compounds]] — First feature costs days, subsequent features cost hours (Hike: 24-day estimate → 1–2 hours for 20 features)
+- [[connectors-beat-computer-use]] — Default to structured connectors over visual browser automation
+- [[repos-are-employee-memory]] — Persistent state must live in repos/trackers, not conversation memory
 
 ## Operations
 - [[cowork-pipeline]] — Daily betting ops orchestration via Cowork → Claude Code → Computer Use
@@ -74,11 +76,13 @@
 - [[known-failure-modes]] — Computer Use timeouts, sandbox restrictions, path differences
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
-- [[browser-agent-arch]] — Claude Code → Computer Use → Min browser architecture pattern
-- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred)
-- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec
+- [[browser-agent-arch]] — Claude Code -> Computer Use -> Min browser architecture pattern
+- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred). Routines platform.
+- [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines)
+- [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
 - [[ttai-slack-bridge]] — Node.js Slack Bolt app on Railway; agent triggering infrastructure; self-fire filter added 2026-04-16
+- [[claude-code-routines]] — Execution platform for autonomous employees (replaced Cowork)
 
 ## Domains
 - [[nba]] — Live daily betting, +£38.90 actual P&L, Elo with injury-aware rules
@@ -95,5 +99,5 @@
 - [[active-rules]] — All current rules in one place
 - [[injury-veto-80pct]] — Only skip if player in 80%+ of games
 - [[away-team-threshold]] — 20%+ edge required for away underdogs
-- [[never-back-predicted-loser]] / [[predicted-loser-rule]] — **FORMALISED 2026-04-16** at 18/18 (NBA 8/8 + Tennis 10/10). First AutoStrategy rule to complete full evidence cycle.
+- [[never-back-predicted-loser]] / [[predicted-loser-rule]] — **FORMALISED 2026-04-16** at 18/18 (NBA 8/8 + Tennis 10/10). Hard constraint, all sports. First AutoStrategy rule to complete full evidence cycle.
 - [[grass-veto]] — Tennis: no bets on grass (pending implementation before June)
