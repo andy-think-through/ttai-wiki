@@ -1,7 +1,7 @@
 # Mark-Lite
 
-> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/mo).
-> Last updated: 2026-04-16
+> Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/mo). v2 Routines prompt complete with safety framework.
+> Last updated: 2026-04-21
 
 ## What Mark-Lite Is
 
@@ -226,6 +226,18 @@ Cold outreach converts to Construction Intelligence (low commitment) first. Inbo
 3. **Outreach_Log** — Every draft created (date, company, email #, subject, status, notes)
 4. **LinkedIn_Tasks** — Manual tasks (connect on Email 1, message on Emails 2-4)
 5. **Daily_Batches** — Batch assignments by day + status (Pending, In Sequence, Complete)
+
+## Routines v2 Prompt (April 2026)
+
+Mark-Lite v2 prompt completed with comprehensive safety framework. GitHub repo created: `ttai-mark-lite` (prompt.md, context.md, principles.md, tracker-schema.md, decision-log.md, plus reports/, campaigns/, templates/ folders). Not yet deployed -- awaiting context-gathering fix first (Calendar + Gmail + Slack history reading at start of each run).
+
+**Safety controls:**
+- [[trust-ladder-over-binary-trust]] -- Drafts-only for 14 days / 20 reviewed / 90% approval. Certain categories permanently drafts-only.
+- [[classify-before-acting]] -- Mode 2 message classification prevents over-action
+- **Kill switch:** `PAUSE MARK-LITE` / `RESUME MARK-LITE`
+- **Experiment gating:** All experiments permanently approval-gated (never relaxes)
+- **Tracker schema lockdown:** tracker-schema.md is canonical; Mark-Lite cannot add/rename columns or tabs. Mismatch = stop and escalate.
+- **Removal floor rule:** Min 10 prospects, 21 days, clear zero-response before parking a segment
 
 ## Key Guardrails
 

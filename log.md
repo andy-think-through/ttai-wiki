@@ -246,3 +246,36 @@
   4. Carmen meeting booked -- first face-to-face, potential consulting pipeline expansion via Urban & Civic.
   5. Two Tonic principles (test-before-quoting, phase-it-if-dependency-fragile) that were noted as "pages not yet written" in the 2026-04-20 log have now been created.
 
+## 2026-04-21 ingest | Tonic Health Build Days 1-2 + Spec Change
+- **Source:** inbox/2026-04-21-ttai-tonic-build-day1-2-spec-change.md
+- **Pages updated:**
+  - clients/tonic-health.md -- Major rewrite. Days 1-2 complete, spec redirected after 21 April Sunna call. Data sources expanded (Reddit/Mumsnet manual spikes, not scrapers). Competitor set expanded (+5 DTC brands). Creative layer reversed (pain taxonomy PRIMARY, reviews SECONDARY). Config split (brands.yaml vs competitors.yaml). Key findings: "They grow out of it" is #1 competitor; real buyer is anxious parent; brain_focus at 0.2% is data signal not prompt failure. Apify upgraded to paid ($29/mo). Effective day rate ~£250/day (scope absorbed as wedge investment). Timeline relaxed.
+  - people/sunna-van-kampen.md -- (implicit: potential MD hire from Tails.com/Graze context captured in tonic-health.md)
+- **Pages created:**
+  - principles/research-spikes-before-scrapers.md -- 20-min manual spike before committing to automated scraper. Killed Reddit scraper idea, reshaped entire creative layer.
+  - principles/belt-and-braces-safety.md -- Redundant safety mechanisms at different layers. From Vitabiotics near-miss ($70 runaway risk).
+- **Key new information:**
+  1. Tonic spec has fundamentally shifted from "Trustpilot review scraper" to "multi-source insight engine with pain taxonomy as primary creative input."
+  2. market_psychology.yaml (pain taxonomy with 4 creative tiers) is a standalone strategic deliverable independent of the automated agent.
+  3. Forum research found supplements only mentioned organically in 2/7 parenting pain areas -- massive blue-ocean opportunity for Tonic's creative team.
+  4. Two competitor reviews capture exact brain/focus language Tonic's strategy needs but Tonic's own reviews lack.
+
+## 2026-04-21 ingest | Mark-Lite v2 Prompt + Org Chart + Context Fix
+- **Source:** inbox/2026-04-21-wiki-marklite-v2-orgchart-context-fix.md
+- **Pages updated:**
+  - products/mark-lite.md -- v2 Routines prompt complete with safety framework (trust ladder, kill switch, experiment gating, Mode 2 classification, tracker schema lockdown, removal floor). GitHub repo ttai-mark-lite created. Not yet deployed -- awaiting context-gathering fix.
+  - operations/employee-framework.md -- Added trust ladder (Section 2a), Mode 2 classification (Section 2b), context-gathering approach (Section 5), planned employees table (Karen PA/finance, Cord manager). Fred migration deferred. Experiment gating added to autonomy tiers.
+  - principles/removal-as-valuable-as-addition.md -- Added removal floor rule (min 10 prospects, 21 days, clear zero-response).
+  - strategy/overview.md -- Org chart expanded to 5 employees (3 active/planned + 2 future). Fred status: deferred. Mark-Lite: v2 complete.
+  - principles/_index.md -- Added Employee Safety & Governance section (3 principles) and Build & Research section (1 principle).
+  - index.md -- Updated mark-lite, employee-framework, tonic-health summaries. Added 4 new principle entries.
+- **Pages created:**
+  - principles/trust-ladder-over-binary-trust.md -- Graduated autonomy for external-facing employees. 14-day/20-draft/90% approval minimum.
+  - principles/classify-before-acting.md -- Mode 2 message classification prevents over-action on ambiguous input.
+- **Key new information:**
+  1. Mark-Lite v2 prompt is the most comprehensive safety framework for an external-facing employee. Reusable for future employees.
+  2. Fred migration deferred -- heavy local dependencies (Python, Betfair, VPS) make it harder than Wiki/Mark-Lite.
+  3. Org chart expanded to 5: Karen (PA/finance) and Cord (manager) planned but not built. Cord introduces a new architectural pattern -- manager above peer employees.
+  4. Context-gathering fix prioritised over split-brain architecture. Simple fix first.
+  5. "Communications officer" framing: remote routine's job is to report, answer questions, receive input, bridge context -- not to execute campaigns directly.
+

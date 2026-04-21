@@ -48,6 +48,20 @@
 | [[trust-the-agent-not-dom]] | Agent Browser schema workflow | Any decision about building custom scripts vs using the visual agent |
 | [[platform-mapping-compounds]] | Hike platform audit 2026-04-17 | Any platform discovery work (Evolution MX, future Model A clients, [[mark]] variants) |
 
+## Employee Safety & Governance Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[trust-ladder-over-binary-trust]] | Mark-Lite v2 safety review (2026-04-21) | Any employee with external-facing communication |
+| [[classify-before-acting]] | Mark-Lite v2 safety review (2026-04-21) | All employees with Slack interaction (universal Mode 2 pattern) |
+| [[belt-and-braces-safety]] | Tonic Health Vitabiotics near-miss (2026-04-21) | All automation with external API costs or irreversible actions |
+
+## Build & Research Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[research-spikes-before-scrapers]] | Tonic Health build (2026-04-21) | Any project involving external data sources |
+
 ## Infrastructure & Operations Principles (April 2026)
 
 | Principle | Origin | Applies To |

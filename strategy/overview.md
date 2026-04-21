@@ -270,12 +270,14 @@ TTAI runs three autonomous AI employees via [[claude-code-routines]]:
 | Employee | Status | Platform |
 |----------|--------|----------|
 | Wiki | Operational | Routines (migrated 2026-04-15) |
-| Mark-Lite | Operational | Routines (migrated 2026-04-16) |
-| Fred | Paused — pending migration | Cowork (last report 2026-04-13) |
+| Mark-Lite | v2 prompt complete, awaiting deployment | Routines (v2 safety framework, repo created) |
+| Fred | Paused -- migration deferred | Cowork (heavy local dependencies) |
+| Karen (planned) | Not yet built | PA/finance -- email, calendar, Drive |
+| Cord (planned) | Not yet built | Manager layer -- coordinates between employees |
 
 All employees report to Slack #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]] (Railway free tier). Total infrastructure cost: ~£0.
 
-Fred migration is time-sensitive — NBA playoffs are live (highest volume + liquidity period).
+Fred migration deferred due to heavy local dependencies (Python model scripts, Betfair browser automation, crypto VPS SSH). Mark-Lite v2 prompt completed with trust ladder, kill switch, experiment gating, Mode 2 classification -- awaiting context-gathering fix before deployment.
 
 ---
 

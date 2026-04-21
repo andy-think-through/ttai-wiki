@@ -18,7 +18,7 @@
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
 - [[mark]] — Productised AI sales agent for construction/trades businesses (5 signed clients)
-- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). Now includes Construction Intelligence tier (£75/mo).
+- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). CI tier (£75/mo). v2 Routines prompt complete with safety framework.
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
@@ -31,7 +31,7 @@
 - [[holmes-workholding]] — **Mark signed** — £250 setup invoiced (INV-006), build 5-7 May
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
-- [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005 / INV-003), Phase 1 Trustpilot w/c 20 April
+- [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005), spec redirected after 21 Apr client call (pain taxonomy primary, reviews secondary). Days 1-2 complete.
 - [[carmen-macdougall]] — Workshop/collaboration: skill swap **meeting booked Fri 24 April 9:15am** at The Exchange
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
@@ -67,6 +67,10 @@
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
 - [[platform-mapping-compounds]] — First feature costs days, subsequent features cost hours (Hike: 24-day estimate → 1–2 hours for 20 features)
+- [[trust-ladder-over-binary-trust]] — Graduate autonomy through stages for external-facing employees
+- [[classify-before-acting]] — Classify inbound messages before acting (Mode 2 pattern)
+- [[belt-and-braces-safety]] — Keep redundant safety mechanisms at different layers
+- [[research-spikes-before-scrapers]] — 20-min manual spike before committing to automated scraper
 - [[connectors-beat-computer-use]] — Default to structured connectors over visual browser automation
 - [[repos-are-employee-memory]] — Persistent state must live in repos/trackers, not conversation memory
 
@@ -77,7 +81,7 @@
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
 - [[browser-agent-arch]] — Claude Code -> Computer Use -> Min browser architecture pattern
-- [[employee-framework]] — Universal employee operating model (Wiki, Mark-Lite, Fred). Routines platform.
+- [[employee-framework]] — Universal employee operating model (5 employees: Wiki, Mark-Lite, Fred + planned Karen, Cord). Trust ladder, Mode 2 classification, experiment gating.
 - [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
