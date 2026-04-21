@@ -23,7 +23,7 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | **Consulting** | [[KW-Bell]] | — | £688.20 | Audit complete, solution design proposed |
 | **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Outlook verification pending |
 | **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Build 21-25 April |
-| **Custom build** | [[Tonic-Health]] | INV-005 / INV-003 | £1,750 | Build w/c 20 April (Phase 1: Trustpilot) |
+| **Custom build** | [[Tonic-Health]] | INV-005 / INV-003 | £1,750 | Build in progress -- spec redirected 21 Apr (pain taxonomy primary, reviews secondary). Days 1-2 done, 3-5 remaining. Timeline relaxed. |
 | **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | Kickoff 5 May 10:00, build 5-7 May |
 | **Total Invoiced** | — | — | **£3,438.20** | **Cash in / receivable** |
 
@@ -40,7 +40,7 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
 | **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
 | **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
-| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Warm, monitoring | CI sample delivered, awaiting response |
+| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Soft decline (addressable) | Danny: "too small, too far." Needs tighter Coventry-local filter. |
 | **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
 | **Consulting follow-up** | [[IH-Group]] | Variable | Warm via Malcolm | Follow-up email drafted 2026-04-08 |
 | **Mark-Lite Northants** | Multiple (Tippercrete, SRK) | Varies | Decisions pending | 2026-04-17 to 2026-04-19 cycle |
@@ -60,7 +60,7 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | Stage | Clients | Notes |
 |-------|---------|-------|
 | **Invoiced / signed** | Mercia, JDW, Tonic, Holmes | All Q2 setup/build invoices raised |
-| **Building** | Tonic (w/c 20 Apr), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
+| **Building** | Tonic (in progress, timeline relaxed), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
 | **Imminent** | AccXel (discovery day 28 Apr) | KW Bell subsidiary |
 | **Accepted** | [[Steve-Tipson]] (£350, audit w/c 5 May) | Cast Iron Radiator Centre, Coventry. Face-to-face w/c 12 May. |
 | **Warm** | IH Group, Tippercrete (soft decline, addressable) | IH Group follow-up pending; Tippercrete needs tighter local filter |
@@ -77,7 +77,7 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | [[Consulting]] | Active | Day rate £300-350 | Variable | [[KW-Bell]], [[AccXel]], [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" (prospective) |
 | [[Mark]] | Active, 5 signed/live | £250-500 setup + £200/mo | £1,300/mo at full ramp | Hawks (live), Bat Surveys (live), Mercia (pending Outlook), JDW (building 21-25 Apr), Holmes (building 5-7 May) |
 | [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns; CI tier £75/mo | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
-| **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python over n8n, Trustpilot phase 1 |
+| **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python + Claude API. Spec evolved: multi-source insight engine with pain taxonomy as primary creative input. |
 | [[Hike-SES]] | Directorship income | Retained + contractual visibility | Contractual | Hike SEO client base (~2,000) |
 | [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA, Tennis (formalised rule), Snooker, Darts, IPL, Crypto paper |
 
@@ -145,14 +145,14 @@ Consulting Audit → Uncovers Product Opportunity
 - [x] ~~[[Tonic-Health]] decision~~ — ACCEPTED. £1,750 (INV-005 / INV-003). Build starting w/c 20 April.
 - [ ] [[Mercia-Flooring]] go-live — Entra/Manus approval pending with Solaas IT (escalated to Martin Neale 21 Apr)
 - [ ] [[JDW-Brickwork]] Mark build 21-25 April → go-live
-- [ ] [[Tonic-Health]] Phase 1 delivery (Trustpilot) w/c 20 April
+- [ ] [[Tonic-Health]] build completion (Days 3-5 remaining -- pain taxonomy engine + creative layer + integration). Timeline relaxed by Sunna.
 - [ ] [[AccXel]] discovery day 28 April
 - [ ] [[Holmes-Workholding]] kickoff 5 May 10:00 → build 5-7 May → go-live
 - [ ] [[Steve-Tipson]] AI Search Visibility Audit w/c 5 May (£350, accepted 21 Apr)
 - [ ] [[Carmen-MacDougall]] skill swap meeting 24 April 9:15am at The Exchange
 - [ ] [[Agent-Browser]] PoC with KW Bell: invoice OCR workflow proof of concept (cost < £500) -- EvoMX access in progress
 
-**Impact:** Three Mark go-lives + AccXel discovery + Steve Tipson audit + Tonic Phase 1 = consolidation of a signed pipeline into recurring revenue, plus proof of two additional streams (custom AI builds + SEO/GEO audits).
+**Impact:** Three Mark go-lives + AccXel discovery + Steve Tipson audit + Tonic build completion = consolidation of a signed pipeline into recurring revenue, plus proof of two additional streams (custom AI builds + SEO/GEO audits).
 
 ### Should-Hit (By End of June)
 
@@ -160,7 +160,7 @@ Consulting Audit → Uncovers Product Opportunity
 - [ ] Mark operations playbook: repeatable onboarding for next 2-3 clients
 - [ ] Tennis [[grass-veto]] rule implementation (Wimbledon June prep)
 - [ ] Agent Browser Phase 2: Hike keyword strategy workflow live internally
-- [ ] Tonic Phase 2 scoping (post-Trustpilot delivery)
+- [ ] Tonic follow-up scoping (post-build delivery; market_psychology.yaml already a standalone deliverable)
 - [ ] Fred migration to Routines (paused on Cowork, NBA playoffs active)
 
 ### Methodology / System
@@ -196,7 +196,7 @@ Unchanged. Day rate gets us into companies, discovers product opportunities, gen
 Now proven across 5 signed clients across scaffolding, bat surveys, schools flooring, brickwork, and engineering workholding. Setup fee varies £250-500 (calibrating to perceived complexity). £200/mo recurring is the constant. Focus: 6-7 clients by end of 2026.
 
 ### 3. Custom AI Builds Are the New Third Stream
-Tonic's £1,750 fixed-fee build is the first of a potential product category: bespoke Python+Claude integrations for non-Mark use cases. Phasing + "test before quoting" are the new principles surfacing from this work.
+Tonic's £1,750 fixed-fee build is the first of a potential product category: bespoke Python+Claude integrations for non-Mark use cases. The spec evolution (from review scraper to multi-source insight engine) validates the "wedge project" approach -- absorb scope growth on the first build to create reusable methodology (market_psychology.yaml, pain taxonomy framework) for future builds. Principles surfaced: [[test-before-quoting]], [[phase-it-if-dependency-fragile]], [[research-spikes-before-scrapers]].
 
 ### 4. Agent Browser Is the Highest-Ceiling Product
 Unchanged. Viability still depends on KW Bell PoC success + cost efficiency + productisation path beyond Hike.
@@ -215,7 +215,7 @@ The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrat
 | **Mark client churn** | Any client cancels | Monthly touch-base calls; clear reporting; lead quality gates |
 | **Agent Browser PoC fails** | Highest-ceiling product stalls | Scope narrow (invoice OCR); time-box |
 | **Orphaned branches keep recurring** | Wiki drift; lost context | Investigate branch-committing cause in next wiki session; enforce single-branch discipline |
-| **Tonic Phase 1 scope creep** | Build misses w/c 20 Apr window | "Test before quoting" + phasing principles — Trustpilot-only in Phase 1, not Instagram/SASWAVE |
+| **Tonic scope evolution** | Effective day rate drops (~£250/day vs quoted £350/day) | Absorbed as wedge investment. market_psychology.yaml is a standalone deliverable even if agent build stalls. Timeline relaxed ("no rush"). |
 
 ---
 
@@ -281,4 +281,4 @@ Fred migration deferred due to heavy local dependencies (Python model scripts, B
 
 ---
 
-**Updated 2026-04-20 | Think Through AI Strategy Synthesis**
+**Updated 2026-04-21 | Think Through AI Strategy Synthesis**

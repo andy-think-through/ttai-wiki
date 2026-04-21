@@ -279,3 +279,11 @@
   4. Context-gathering fix prioritised over split-brain architecture. Simple fix first.
   5. "Communications officer" framing: remote routine's job is to report, answer questions, receive input, bridge context -- not to execute campaigns directly.
 
+## 2026-04-21 wiki-agent | Scheduled scan #2 (Routines, same-day follow-up)
+- **Sources scanned**: Slack #ttai-employees (100 messages, Apr 16-21); Google Calendar (forward look Apr 22-30); Gmail (30 threads, 7 days); inbox/ (empty).
+- **Pages updated:**
+  - strategy/overview.md -- Propagated Tonic spec redirect (pain taxonomy primary, reviews secondary) to 7 locations in overview that still referenced "Trustpilot phase 1." Updated Tippercrete pipeline status from "awaiting response" to "soft decline, addressable." Fixed footer date. Updated strategic thesis #3 and risk table for Tonic scope evolution.
+- **Pages created:** none
+- **Key finding:** The April 21 ingest run updated tonic-health.md comprehensively but didn't propagate the spec change to overview.md. This run fixed that consistency gap across 7 references. No new information from any external source since the earlier same-day scan.
+- **Forward calendar:** Carmen meeting Fri 24 Apr 9:15am (The Exchange), AccXel AI Audit/discovery day Mon 28 Apr (all-day, Cinderford). Both already in wiki. Week of 5 May: Holmes kickoff + Steve Tipson audit overlap confirmed.
+
