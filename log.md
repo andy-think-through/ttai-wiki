@@ -223,3 +223,26 @@
   6. **Outlook/Entra app-password gotcha** (Mercia operational): mysignins.microsoft.com/security-info only shows sign-in methods for the currently authenticated user; account holder must generate themselves. Explains the Jack-at-Solaas confusion.
 - **Relationship to earlier 2026-04-20 run**: The first run of the day processed ingest/ + Slack bridge and reflected signed contracts (Holmes, Tonic, JDW) + revenue correction. This second run is purely qualitative — insight/principle level, no revenue or status changes. Both runs stack cleanly.
 
+## 2026-04-21 wiki-agent | Scheduled scan (Routines)
+- **Sources scanned**: Slack #ttai-employees (100 messages, Apr 16-21); Google Calendar (7 days, 7 events); Gmail (30 threads, 7 days); inbox/ (no new files).
+- **Pages updated**:
+  - clients/steve-tipson.md -- **ACCEPTED.** Cast Iron Radiator Centre confirmed keen. £350 AI Search Visibility Audit, w/c 5 May. Face-to-face in Coventry w/c 12 May (no extra cost). Paul Brown (end client) and Steve Tipson both confirmed. Full contact details added.
+  - clients/mercia-flooring.md -- Blocker shifted: Zapier was approved but was only a test. Actual need is Manus (Butterfly Effect PTE. LTD.) app approval in Entra. Andy asked for "Allow user consent for apps from verified publishers" setting. Escalated to Martin Neale (senior, Solaas IT). Andy described as "quite urgent."
+  - clients/kw-bell.md -- EvoMX access in progress. Gareth sent system link (20 Apr), Andy attempted login (21 Apr), credentials didn't work. Awaiting resolution. Prerequisite for solution design phase.
+  - clients/tippercrete.md -- Soft decline on CI sample: Danny said "too small a firm" and "jobs a bit far away." Not an opt-out -- two addressable objections. Mark-Lite recommended tighter Coventry-local filter.
+  - clients/holmes-workholding.md -- INV-006 passed to Karen for processing (Tim, 17 Apr). Contact list coming w/c 27 April. Tim accepted May 5 kickoff call.
+  - clients/carmen-macdougall.md -- Skill swap meeting confirmed: Friday 24 April, 9:15am at The Exchange, Houlton. Carmen booked meeting room. Free parking by The Co-op.
+  - clients/tonic-health.md -- Apify free usage exceeded 17 Apr (actors aborted, paid sub needed). INV-005 sent to Sunna 20 Apr. Andy/Sunna catch-up call 21 Apr 9:30am (Gemini notes generated).
+  - strategy/overview.md -- Steve Tipson added to accepted pipeline (£350). Tippercrete updated to "soft decline, addressable." Carmen meeting date added. Mercia risk description updated. Revenue forecast adjusted (+£350 Steve Tipson).
+  - principles/_index.md -- Added Scoping & Delivery Principles section (test-before-quoting, phase-it-if-dependency-fragile).
+  - index.md -- Updated status lines for steve-tipson, mercia-flooring, kw-bell, tippercrete, carmen-macdougall, overview.
+- **Pages created**:
+  - principles/test-before-quoting.md -- Validate dependencies before pricing (from Tonic scoping).
+  - principles/phase-it-if-dependency-fragile.md -- Split scope at dependency boundaries (from Tonic scoping).
+- **Key changes**:
+  1. Steve Tipson audit ACCEPTED -- fifth distinct revenue source converting (after KW Bell, JDW, Tonic, Holmes). Audit w/c 5 May overlaps with Holmes kickoff 5 May -- tight but different work types.
+  2. Mercia blocker is now specifically Manus app approval in Entra, not app passwords. Andy escalated to Martin Neale and requested a settings change that would resolve the pattern permanently.
+  3. KW Bell EvoMX access attempted -- credentials didn't work but the system link is live. Solution design phase advancing.
+  4. Carmen meeting booked -- first face-to-face, potential consulting pipeline expansion via Urban & Civic.
+  5. Two Tonic principles (test-before-quoting, phase-it-if-dependency-fragile) that were noted as "pages not yet written" in the 2026-04-20 log have now been created.
+

@@ -1,6 +1,6 @@
 # Principles Index
 > All principles with origin and applicability.
-> Last updated: 2026-04-20
+> Last updated: 2026-04-21
 
 ## Consulting & Sales Principles (Phase 1)
 
@@ -33,6 +33,13 @@
 | Principle | Origin | Applies To |
 |-----------|--------|------------|
 | [[planning-data-serves-site-trades]] | Mark-Lite campaign analysis (L3 compound eval) | Mark, Mark-Lite, Construction Intelligence opportunity, planning portal monitoring |
+
+## Scoping & Delivery Principles (April 2026)
+
+| Principle | Origin | Applies To |
+|-----------|--------|------------|
+| [[test-before-quoting]] | Tonic Health build scoping (2026-04-16) | Any fixed-price project with external dependencies |
+| [[phase-it-if-dependency-fragile]] | Tonic Health build scoping (2026-04-16) | Any project with reliable + fragile components |
 
 ## Agent Browser Principles (April 2026)
 

@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-20
+Last updated: 2026-04-21
 
 ## Executive Summary
 
@@ -10,7 +10,7 @@ Revenue has de-concentrated significantly in the last two weeks. Q1 invoiced is 
 
 The flywheel is working: consulting uncovers product opportunities, products create recurring revenue, consulting pipeline grows via network effect. Mark-Lite has added a Construction Intelligence tier (£75/mo data feed) as a lower-friction entry point. Employee infrastructure migrated to Claude Code Routines + Slack — Wiki and Mark-Lite operational, Fred pending.
 
-Near-term execution focus is on the **17-28 April convergence window**: Mercia Outlook verification (17 Apr), JDW Mark build (21-25 Apr), AccXel discovery day (28 Apr), with Tonic delivery kicking off w/c 20 April in parallel.
+Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), AccXel discovery day (28 Apr), Tonic delivery in progress, Steve Tipson audit queued for w/c 5 May, Holmes kickoff 5 May. Mercia still blocked on Entra/Manus approval (Solaas IT). KW Bell EvoMX access being resolved.
 
 ---
 
@@ -33,6 +33,7 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
+| **Consulting** | [[Steve-Tipson]] | £350 | Audit w/c 5 May, face-to-face w/c 12 May | **ACCEPTED 21 Apr** -- Cast Iron Radiator Centre, Coventry |
 | **Consulting** | [[AccXel]] | ~£700 | Discovery day 28 April | KW Bell subsidiary, day rate |
 | **Mark recurring** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
 | **Mark recurring** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
@@ -61,8 +62,9 @@ Near-term execution focus is on the **17-28 April convergence window**: Mercia O
 | **Invoiced / signed** | Mercia, JDW, Tonic, Holmes | All Q2 setup/build invoices raised |
 | **Building** | Tonic (w/c 20 Apr), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
 | **Imminent** | AccXel (discovery day 28 Apr) | KW Bell subsidiary |
-| **Warm** | IH Group, Steve Tipson, Tippercrete | Follow-ups scheduled; Tippercrete CI sample delivered |
-| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" | Referral-warm via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
+| **Accepted** | [[Steve-Tipson]] (£350, audit w/c 5 May) | Cast Iron Radiator Centre, Coventry. Face-to-face w/c 12 May. |
+| **Warm** | IH Group, Tippercrete (soft decline, addressable) | IH Group follow-up pending; Tippercrete needs tighter local filter |
+| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]] (meeting 24 Apr), "Other Tim" | Referral-warm via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
 
 ---
 
@@ -141,14 +143,16 @@ Consulting Audit → Uncovers Product Opportunity
 
 - [x] ~~[[JDW-Brickwork]] conversion~~ — DONE 14 April. £500 setup invoiced (TTAI-004 / INV-004). Build week 21-25 April.
 - [x] ~~[[Tonic-Health]] decision~~ — ACCEPTED. £1,750 (INV-005 / INV-003). Build starting w/c 20 April.
-- [ ] [[Mercia-Flooring]] go-live — Outlook/Entra verification outcome (17 Apr) and first school batch live
+- [ ] [[Mercia-Flooring]] go-live — Entra/Manus approval pending with Solaas IT (escalated to Martin Neale 21 Apr)
 - [ ] [[JDW-Brickwork]] Mark build 21-25 April → go-live
 - [ ] [[Tonic-Health]] Phase 1 delivery (Trustpilot) w/c 20 April
 - [ ] [[AccXel]] discovery day 28 April
 - [ ] [[Holmes-Workholding]] kickoff 5 May 10:00 → build 5-7 May → go-live
-- [ ] [[Agent-Browser]] PoC with KW Bell: invoice OCR workflow proof of concept (cost < £500)
+- [ ] [[Steve-Tipson]] AI Search Visibility Audit w/c 5 May (£350, accepted 21 Apr)
+- [ ] [[Carmen-MacDougall]] skill swap meeting 24 April 9:15am at The Exchange
+- [ ] [[Agent-Browser]] PoC with KW Bell: invoice OCR workflow proof of concept (cost < £500) -- EvoMX access in progress
 
-**Impact:** Three Mark go-lives + AccXel discovery + Tonic Phase 1 = consolidation of a signed pipeline into recurring revenue, plus proof of a second product stream (custom AI builds).
+**Impact:** Three Mark go-lives + AccXel discovery + Steve Tipson audit + Tonic Phase 1 = consolidation of a signed pipeline into recurring revenue, plus proof of two additional streams (custom AI builds + SEO/GEO audits).
 
 ### Should-Hit (By End of June)
 
@@ -168,15 +172,16 @@ Consulting Audit → Uncovers Product Opportunity
 
 ## Revenue Forecast (Q2 2026 End)
 
-**Conservative (closes already invoiced + Mercia go-live + AccXel):**
+**Conservative (closes already invoiced + accepted + Mercia go-live + AccXel):**
 - Invoiced already: £3,438.20
+- Steve Tipson audit (accepted): £350
 - AccXel: ~£700
 - Mark recurring on trajectory: £1,300/mo (~£3,900 in Q2 once all live)
-- **Quarterly invoiced trajectory: ~£8,000+**
+- **Quarterly invoiced trajectory: ~£8,400+**
 
 **Optimistic (above + Tonic Phase 2 + IH Group):**
-- Add Tonic Phase 2 + IH Group → additional ~£2,000-3,000
-- **Quarterly invoiced trajectory: ~£10,000-£11,000**
+- Add Tonic Phase 2 + IH Group -> additional ~£2,000-3,000
+- **Quarterly invoiced trajectory: ~£10,400-£11,400**
 
 **ARR trajectory at Q2 end if all Mark clients stable: £15,600/year from Mark alone.**
 
@@ -205,7 +210,7 @@ The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrat
 
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
-| **Mercia Outlook integration slips further** | £200/mo recurring delayed | 17 April verification; if still blocked, consider Gmail fallback |
+| **Mercia Entra/Manus approval slips further** | £200/mo recurring delayed | Escalated to Martin Neale (Solaas senior) 21 Apr; Entra consent settings change requested |
 | **Build convergence window (3 builds in ~2 weeks)** | Quality/attention stretch | Sequence: Tonic kickoff (20 Apr) → JDW build (21-25 Apr) → Holmes kickoff (5 May) — planned separation is tight but workable |
 | **Mark client churn** | Any client cancels | Monthly touch-base calls; clear reporting; lead quality gates |
 | **Agent Browser PoC fails** | Highest-ceiling product stalls | Scope narrow (invoice OCR); time-box |

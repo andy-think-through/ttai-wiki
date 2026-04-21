@@ -1,10 +1,10 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-20
+> Last updated: 2026-04-21
 
 ## Strategy
-- [[overview]] — The 100×100 model: revenue £3,438.20 invoiced Q1, 5 Mark clients signed, Q2 convergence window
+- [[overview]] — The 100×100 model: revenue £3,438.20 invoiced Q1, Steve Tipson audit accepted (£350), 5 Mark clients signed
 - [[opportunities]] — Cross-domain pattern analysis: 10 patterns, 12 actionable opportunities (2 completed 2026-04-12)
 
 ## Methodologies
@@ -25,19 +25,19 @@
 - [[agent-browser]] — Browser agent product (Hike internal + external commercial); Model A + Model B framing added; Hike proposal sent to Bryn 17 Apr
 
 ## Clients
-- [[kw-bell]] — Bell Contracting: audit complete, solution design next
+- [[kw-bell]] — Bell Contracting: audit complete, EvoMX access in progress for solution design
 - [[accxel]] — KW Bell subsidiary: discovery day 28 April
-- [[mercia-flooring]] — Mark agent client: Outlook/Entra verification pending (Solaas IT applied fix 16 Apr, confirming 17 Apr)
+- [[mercia-flooring]] — Mark agent client: blocked on Entra/Manus app approval (Solaas IT escalated 21 Apr)
 - [[holmes-workholding]] — **Mark signed** — £250 setup invoiced (INV-006), build 5-7 May
 - [[mjm-consulting]] — Marketing strategy prospect: competing vs YER
 - [[ih-group]] — Consultancy prospect: via Malcolm, follow-up drafted
 - [[tonic-health]] — **Custom AI build in progress** — £1,750 invoiced (INV-005 / INV-003), Phase 1 Trustpilot w/c 20 April
-- [[carmen-macdougall]] — Workshop/collaboration: skill swap dates offered
+- [[carmen-macdougall]] — Workshop/collaboration: skill swap **meeting booked Fri 24 April 9:15am** at The Exchange
 - [[hawks-scaffolding]] — Mark agent client: first live customer
 - [[midlands-bat-surveys]] — Mark agent client: planning portal monitoring
 - [[jdw-brickwork]] — **Signed Mark client** — £500 setup invoiced (TTAI-004 / INV-004), build 21-25 April; first build to formalise [[mark]] calibration step
-- [[steve-tipson]] — Inbound consulting prospect via Assisted agency: SEO/GEO audit for Cast Iron Radiators
-- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: Warm, CI sample delivered 14 April
+- [[steve-tipson]] — **Accepted** -- AI Search Visibility Audit for Cast Iron Radiator Centre (£350), audit w/c 5 May, face-to-face w/c 12 May
+- [[tippercrete]] — Mark-Lite Warwickshire groundworks prospect: soft decline on CI sample (size/distance objections, addressable)
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
