@@ -287,3 +287,14 @@
 - **Key finding:** The April 21 ingest run updated tonic-health.md comprehensively but didn't propagate the spec change to overview.md. This run fixed that consistency gap across 7 references. No new information from any external source since the earlier same-day scan.
 - **Forward calendar:** Carmen meeting Fri 24 Apr 9:15am (The Exchange), AccXel AI Audit/discovery day Mon 28 Apr (all-day, Cinderford). Both already in wiki. Week of 5 May: Holmes kickoff + Steve Tipson audit overlap confirmed.
 
+## 2026-04-22 wiki-agent | Scheduled scan (Routines)
+- **Sources scanned**: Slack #ttai-employees (100 messages, Apr 16-22); Google Calendar (Apr 15-29, 15 events); Gmail (30 threads, 7 days); Google Drive wiki inbox (2 files, both already processed); GitHub inbox/ (empty).
+- **Pages updated:**
+  - products/mark-lite.md -- 17/04 batch confirmed zero replies at day 5 (first complete zero-response batch since site-trade discovery). Both regions approaching saturation.
+  - strategy/overview.md -- Updated Tippercrete row (Andy hasn't responded yet), Mark-Lite pipeline status (saturating).
+  - index.md -- Mark-Lite summary updated with pipeline saturation signal.
+- **Pages created:** none
+- **Google Drive access confirmed:** Wiki folder, inbox folder, and all files readable via Google Drive MCP connector. wiki-ingest-SKILL-v2.md correctly references Drive sync pathway. No new inbox files on Drive since Apr 21.
+- **Key finding:** Minimal changes since yesterday's comprehensive double scan + ingest run. Main new signal is Mark-Lite pipeline exhaustion: both regions have effectively run out of actionable site-trade prospects. The 17/04 batch zero-response result validates Wiki's earlier observation that Northants groundworks may have hit its ceiling at ~4 warm replies from ~39 firms.
+- **Andy's question answered:** Google Drive access confirmed working. I can search files, read content, and see the full wiki folder structure including inbox. Going forward, checking Drive inbox is part of my standard context sweep.
+

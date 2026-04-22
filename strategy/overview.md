@@ -2,7 +2,7 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-21
+Last updated: 2026-04-22
 
 ## Executive Summary
 
@@ -40,10 +40,10 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
 | **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
 | **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
-| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Soft decline (addressable) | Danny: "too small, too far." Needs tighter Coventry-local filter. |
+| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Soft decline (addressable) | Danny: "too small, too far." Needs tighter Coventry-local filter. Andy hasn't responded yet. |
 | **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
 | **Consulting follow-up** | [[IH-Group]] | Variable | Warm via Malcolm | Follow-up email drafted 2026-04-08 |
-| **Mark-Lite Northants** | Multiple (Tippercrete, SRK) | Varies | Decisions pending | 2026-04-17 to 2026-04-19 cycle |
+| **Mark-Lite Northants** | Multiple | Varies | Pipeline saturating | 17/04 batch zero replies at day 5 (first zero-response batch since site-trade discovery). Both regions approaching saturation. |
 
 ### Recurring Revenue Baseline (Live or Imminent)
 

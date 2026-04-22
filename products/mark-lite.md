@@ -1,7 +1,7 @@
 # Mark-Lite
 
 > Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/mo). v2 Routines prompt complete with safety framework.
-> Last updated: 2026-04-21
+> Last updated: 2026-04-22
 
 ## What Mark-Lite Is
 
@@ -186,8 +186,9 @@ Content: Brief, warm acknowledgement. Does NOT count as a numbered email. Max on
 
 - Weekly planning data feed of relevant projects matched to the subscriber's trade and region
 - No outreach management, no Mark automation -- just the intelligence
-- First live test: 12-firm re-engagement batch sent 13 April (monitoring window ends 18-19 April)
-- Tippercrete is the first warm prospect for CI tier (sample delivered 14 April)
+- First live test: 12-firm re-engagement batch sent 13 April (monitoring window ended 18-19 April)
+- Tippercrete is the first warm prospect for CI tier (sample delivered 14 April; soft-declined 20 April -- size/distance objections, addressable)
+- **17/04 batch result:** 7 prospects (4 Groundworks Email 4 + 3 re-engagement) produced zero replies at day 5 (first complete zero-response batch since site-trade discovery). Both regions approaching saturation for current approach.
 
 ### Two-Tier Funnel Model
 

@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Master catalog of all wiki pages. One-line summary per entry.
-> Last updated: 2026-04-21
+> Last updated: 2026-04-22
 
 ## Strategy
 - [[overview]] — The 100×100 model: revenue £3,438.20 invoiced Q1, Steve Tipson audit accepted (£350), 5 Mark clients signed
@@ -18,7 +18,7 @@
 ## Products
 - [[consulting]] — TTAI's core three-stage consultancy service (Audit → Solution Design → Implementation)
 - [[mark]] — Productised AI sales agent for construction/trades businesses (5 signed clients)
-- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). CI tier (£75/mo). v2 Routines prompt complete with safety framework.
+- [[mark-lite]] — Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). CI tier (£75/mo). v2 Routines prompt complete with safety framework. 17/04 batch zero replies -- pipeline saturating.
 - [[hike-ses]] — Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] — RAG chatbot product for staff knowledge (exploring)
 - [[betting-portfolio]] — AutoStrategy value betting as income stream
