@@ -298,3 +298,10 @@
 - **Key finding:** Minimal changes since yesterday's comprehensive double scan + ingest run. Main new signal is Mark-Lite pipeline exhaustion: both regions have effectively run out of actionable site-trade prospects. The 17/04 batch zero-response result validates Wiki's earlier observation that Northants groundworks may have hit its ceiling at ~4 warm replies from ~39 firms.
 - **Andy's question answered:** Google Drive access confirmed working. I can search files, read content, and see the full wiki folder structure including inbox. Going forward, checking Drive inbox is part of my standard context sweep.
 
+
+## 2026-04-23 wiki-agent | Follow-up (Andy Slack message)
+- Source: Andy's Slack message to Wiki (2026-04-23) re: KW Bell EvoMX credentials
+- Pages updated:
+  - clients/kw-bell.md -- EvoMX access now SECURED. Gareth provided working credentials. Status changed from "access in progress" to "access secured, agent browser validation starting". Next Steps section added: Andy building validate agent browser for EvoMX using Claude for Chrome first, then quoting Gareth if successful. Interaction log entry added for 2026-04-23.
+- Pages created: none
+- Key new information: KW Bell EvoMX credential blocker resolved. The solution design phase prerequisite (hands-on EvoMX access) is now met. Andy's plan: validate the agent browser approach with Claude for Chrome over the next few days, then reach out to Gareth to quote the project if validation succeeds. This is a Model A [[agent-browser]] engagement.
