@@ -1,7 +1,7 @@
 # TTAI Employee Framework
 
 > Universal operating model for Think Through AI's autonomous AI employees. Every employee inherits these traits. Domain-specific behaviours are layered on top via individual SKILL.md files.
-> Last updated: 2026-04-21
+> Last updated: 2026-04-29
 
 ## What This Is
 
@@ -20,6 +20,7 @@ Key architectural decisions:
 - **Slack reporting:** All employees post to #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]].
 - **Connector-first:** Use Slack, Google Drive, Gmail connectors. Computer Use is a fallback, not default. See [[connectors-beat-computer-use]].
 - **Repos as memory:** GitHub repos persist state between ephemeral sessions. See [[repos-are-employee-memory]].
+- **Shared-memory architecture (Cord pattern):** For employees that run in dual-mode (scheduled Routine + persistent Channel Mode), a shared memory folder on Google Drive bridges state between sessions. Canonical state lives in MEMORY.md; per-session events are written to an inbox/ subfolder. Drive connector limitation (create-only, no overwrite) is handled by readers picking the newest MEMORY*.md file. This pattern applies wherever an employee needs both scheduled and real-time modes operating on the same state.
 
 ## Current Employees
 
@@ -28,13 +29,26 @@ Key architectural decisions:
 | **Wiki** | Cross-domain knowledge base maintenance + pattern spotting | Every other day | Routines (live) | wiki/operations/wiki-agent-SKILL.md |
 | **Mark-Lite** | Construction lead generation campaigns + prospect conversion | Daily | Routines (live) | wiki/operations/mark-lite-employee-SKILL.md |
 | **Fred (AutoStrategy)** | Value betting portfolio management + model improvement | Daily | Cowork (paused, migration deferred) | wiki/operations/fred-autostrategy-employee-SKILL.md |
+| **Karen** | PA/Finance/Admin -- pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing | Daily (~08:00am) | Routines (live, launched 23 April 2026) | -- |
+| **Cord** | Manager layer -- morning briefings (sweep Slack/Calendar/Gmail/Drive), triage employee outputs, push back on weak reasoning, escalate to Andy, coordinate between employees, age pending decisions | Daily (~10:00am Routine) + persistent Channel Mode | Routines (live, launched 23 April 2026) + Channel Mode (persistent tmux session via ttai-slack-channel MCP server) | -- |
 
-### Planned Employees (Not Yet Built)
+### Employee Notes
 
-| Employee | Domain | Notes |
-|---|---|---|
-| **Karen** | PA/finance -- email, calendar, Drive. Scheduling, invoicing follow-ups, admin. | Can operate exclusively through cloud connectors. No local file access needed. |
-| **Cord** | Manager layer -- reads all employee reports, coordinates between employees, bridges context between Slack and Claude.ai project conversations. | New architectural pattern: manager above peer employees. Can fire other employees' routines via API. |
+**Karen (PA/Finance/Admin) -- Operational since 23 April 2026:**
+- Platform: Routines, daily (~08:00am)
+- Reports to #ttai-employees via Slack
+- Capabilities: Pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing
+- Day-of-week bug found and fixed (24 April) -- was carrying stale day labels instead of deriving from system date
+- Gmail OAuth dependency -- token expiry blocks chase drafts and inbox review (happened 23-24 April, resolved)
+
+**Cord (Manager) -- Operational since 23 April 2026:**
+- Dual-mode architecture: Routine Cord (cloud, daily ~10:00am briefing sweep) + Channel Cord (local, persistent, real-time via ttai-slack-channel MCP server)
+- Shared memory protocol: cord-memory/ folder on Google Drive with MEMORY.md (canonical state) + inbox/ (per-session event files). Drive connector limitation: create-only, no overwrite -- handled by readers picking newest MEMORY*.md
+- Reports to #ttai-employees
+- Capabilities: Morning briefing (sweep Slack/Calendar/Gmail/Drive), triage employee outputs, push back on weak reasoning, escalate to Andy, coordinate between employees, age pending decisions
+- Escalation framework: Day 0-2 standard bullet, Day 3 "needs decision", Day 5+ top-of-briefing BLOCKING, Day 7 direct ping
+- Three-word reply convention: "Park", "Approve", "Decide Friday" etc.
+- v2 format adopted (decisions-made section, FOR ANDY items, employee health, cross-employee notes)
 
 **Fred migration deferred** (2026-04-21): Heavy local dependencies (Python model scripts on Mac, Betfair browser automation, crypto VPS SSH access). Mark-Lite prioritised instead.
 

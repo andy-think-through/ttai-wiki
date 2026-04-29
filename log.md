@@ -298,3 +298,32 @@
 - **Key finding:** Minimal changes since yesterday's comprehensive double scan + ingest run. Main new signal is Mark-Lite pipeline exhaustion: both regions have effectively run out of actionable site-trade prospects. The 17/04 batch zero-response result validates Wiki's earlier observation that Northants groundworks may have hit its ceiling at ~4 warm replies from ~39 firms.
 - **Andy's question answered:** Google Drive access confirmed working. I can search files, read content, and see the full wiki folder structure including inbox. Going forward, checking Drive inbox is part of my standard context sweep.
 
+## 2026-04-29 wiki-agent | Scheduled scan (Routines)
+- **Sources scanned**: Slack #ttai-employees (100 messages, Apr 22-29); Google Calendar (Apr 22-29, 9 events); Gmail (30 threads, 7 days); Google Drive (10 files incl. Monthly Incomings, Cord memory infrastructure); inbox/ (empty).
+- **Pages updated:**
+  - clients/accxel.md -- **FULL REWRITE.** Status: Customer. Discovery day completed 28 Apr at Cinderford. 13 AI opportunities identified (3 prioritised for day 2: Mark BDM, Bob apprenticeship agent, HubSpot cleanse). INV-007 £788.20 raised. Natalie replied 29 Apr positive. Team contacts added (Charlotte, Dean, Sarah, Naomi, Nicola Bird).
+  - clients/kw-bell.md -- **MAJOR UPDATE.** EvoMX credentials working (23 Apr). Belle v1 signed off (27 Apr, Andy/Gareth catch-up). £3,000 quoted. DOM-selector architecture. Naming strategy unlocked 7-skill expansion pipeline.
+  - clients/carmen-macdougall.md -- Skill swap completed 24 Apr. Follow-up sent 27 Apr. Parked per Cord.
+  - clients/jdw-brickwork.md -- Josh sent BDM email template (23 Apr). Calibration Google Doc sent (27 Apr). Josh's feedback received (28 Apr). Build finalising.
+  - clients/tonic-health.md -- Sample briefs sent to Sunna 28 Apr. Two briefs (illness, fatigue). Three key findings detailed. Awaiting Sunna's feedback on creative direction. INV-005 9d+ outstanding.
+  - clients/holmes-workholding.md -- INV-006 chase sent 29 Apr. Build window narrowed to Wed-Thu 06-07 May (bank holiday + Hike + Away conflicts).
+  - clients/mercia-flooring.md -- Jack applied Entra consent setting 23 Apr. Pete still blocked 24 Apr. 5d+ Solaas silence. Cord drafted chase for Andy to send.
+  - clients/tippercrete.md -- Status changed from Parked to Lead. Cord overruled Wiki's 24 Apr parked call. Andy chased Danny 28 Apr with live ask.
+  - clients/ih-group.md -- Chase #3 sent 23 Apr. Parked by Cord 27 Apr (30+ days, 3 chases).
+  - clients/hawks-scaffolding.md -- Hawks SEO confirmed (£140/mo). 3 Mike McSweeney quotes chased 28 Apr. Related services section added.
+  - products/mark-lite.md -- Mission 2 strategy proposal delivered 24 Apr (Leicestershire + Danny hyper-local + JDW referral). Oakwood Scaffolding "yes" to shortlist. 5d Slack silent flagged.
+  - strategy/overview.md -- **MAJOR UPDATE.** Revenue: £4,226.40 invoiced. Belle £3k verbal. AccXel completed. May projected £10,453. 5 employees operational. Agent Browser thesis validated. Pipeline shifted from "close deals" to "deliver builds". Revenue forecast revised up (£13k-£18k quarterly).
+  - operations/employee-framework.md -- Karen + Cord moved from Planned to Operational. Cord dual-mode architecture documented. Karen capabilities listed. 5-employee table.
+  - index.md -- All status lines refreshed. Belle-agent product added. Bumped date.
+- **Pages created:**
+  - products/belle-agent.md -- First commercial Agent Browser deployment. KW Bell EvoMX invoice OCR. DOM-selector architecture. £3,000 + TBD retainer. Naming strategy. Model A framing.
+- **Inbox:** empty (no new files).
+- **Key changes:**
+  1. AccXel discovery day completed -- biggest single-day pipeline expansion since JDW/Tonic conversion. 13 opportunities with 3 prioritised. Natalie's "already in love with Mark" signals strong multi-product follow-through.
+  2. Belle v1 signed off -- validates Agent Browser as a commercial product, not just a PoC. DOM-selector architecture means margins are better than Hike visual pattern. "Naming as strategy" is a reusable principle (agent-as-employee framing).
+  3. Revenue step-change -- £4,226.40 invoiced + £3,000 Belle verbal + ~£1,500 AccXel day 2 pipeline. May projection £10,453 (from Monthly Incomings sheet). Annual salary trajectory now £125,436 including Hike.
+  4. Employee infrastructure mature -- 5 employees operational (Wiki, Mark-Lite, Karen, Cord, Fred-paused). Cord's shared-memory protocol (MEMORY.md + inbox/) is a new architecture pattern for cross-session AI state. Karen fixed day-of-week bug within 24h of launch.
+  5. Pipeline shifted from sales to delivery -- 5 Must-Hit items completed in one week. May is a delivery month (Belle build, JDW go-live, Holmes build, Steve Tipson audit, AccXel day 2, Tonic feedback loop).
+  6. Mark-Lite 5d Slack silent -- flagged by Cord. Either mid-rework or runtime issue. Mission 2 proposal (Leicestershire expansion) awaiting Andy's decision.
+  7. Mercia remains the longest-running blocker (Solaas IT, 5d+ silent after Pete still failing). Cord drafted chase.
+

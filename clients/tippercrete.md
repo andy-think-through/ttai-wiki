@@ -1,7 +1,7 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire (Coventry CV2). Contact: Daniel Fordham. Status: Warm -- soft decline on CI sample (size/distance objections, addressable).
-> Last updated: 2026-04-21
+> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire (Coventry CV2). Contact: Daniel Fordham. Status: Lead -- live ask (Cord overruled "parked" status 24 Apr; keep as Lead).
+> Last updated: 2026-04-29
 
 ## Lead Profile
 
@@ -10,7 +10,7 @@
 - **Trade:** Groundworks
 - **Region:** Warwickshire (Coventry CV2)
 - **Size:** Small (~5 employees)
-- **Status:** Warm -- soft decline on CI sample. Two addressable objections: projects too big and too far from Coventry. Not an opt-out -- Danny engaged, gave real feedback, was friendly.
+- **Status:** Lead -- live ask. Cord overruled Wiki's "parked" status from 24 Apr; this is NOT parked. Two addressable objections remain: projects too big and too far from Coventry. Not an opt-out -- Danny engaged, gave real feedback, was friendly.
 
 ## CI Sample Feedback (2026-04-20)
 
@@ -54,6 +54,7 @@ Danny replied to the re-sent CI sample: "Can see it now. I don't think its for m
 | 2026-04-14 | CI sample delivered -- 6 Warwickshire groundworks projects |
 | 2026-04-20 | Danny said he didn't receive sample. Andy re-sent leads directly in email body. |
 | 2026-04-20 | Danny replied: "Can see it now. I don't think its for me i am only a small firm and jobs are a bit far away too. Ta m8" -- soft decline, not opt-out. |
+| 2026-04-28 | Andy chased Danny: "Did the resend last Monday land OK? No reply so just want to check it didn't get caught the same way. Happy to keep these coming weekly if useful, or knock it on the head if the format isn't right." Live ask, not parked. |
 
 ## Links
 

@@ -1,7 +1,7 @@
 # JDW Brickwork
 
-> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build scheduled 21–25 April 2026. Build is the first to formalise the **calibration step** (test batch before go-live).
-> Last updated: 2026-04-20
+> CONVERTED 2026-04-14. Brickwork subcontractor. Contact: Josh Warren. Setup fee £500 invoiced (TTAI-004); Mark build in **finalise** phase. Build is the first to formalise the **calibration step** (test batch before go-live).
+> Last updated: 2026-04-29
 
 ## Lead Profile
 
@@ -63,6 +63,10 @@ JDW Brickwork is a small brickwork subcontractor in Northamptonshire. Typical pr
 - **14 April at 9am:** Discovery meeting with Josh — **DONE, converted**. Follow-up email + £500 setup invoice sent. Josh confirmed proceeding.
 - **21–25 April 2026:** Build week — Mark variant tailored for brickwork subcontractors targeting buyers/QSs at main contractors / developers.
 - **Early build week — Calibration step (NEW, formalised here):** Send a test batch of 5–10 leads to Josh for trade-fit, tier-fit and contact-quality feedback **before** go-live. Use Josh's reply to retune trade tagging, size filters and contact-type preferences. First time this step has been explicitly scoped — now being adopted as a [[mark]] onboarding default.
+- **23 April:** Josh sent his old BDM outreach email template (06:18) -- useful voice input for the Mark build.
+- **27 April:** Calibration doc sent to Josh as a Google Doc link (thread: "Mark -- Calibration Batch for Review").
+- **28 April:** Josh replied to calibration thread (12:50) with attachment containing calibration feedback. Andy replied: "Brilliant, thanks Josh. I'll take a look at this tomorrow and finalise the Mark build this week."
+- **Build status:** Now in the **finalise** phase -- Andy reviewing Josh's calibration feedback and completing the Mark build this week.
 
 ## Build Notes (Josh's Mark Variant)
 
@@ -104,6 +108,16 @@ Mark needs to cover the full range rather than locking to any one tier.
 - [[mark-lite-daily-outreach-northants-v2]] — Email workflow he received
 - [[email-infrastructure]] — Email domain warm-up + infrastructure he'd benefit from
 - [[mercia-flooring]] — Same domain warm-up pattern (personal email → mark@ handoff)
+
+## Interaction Log
+
+| Date | Summary |
+|------|---------|
+| 2026-04-13 | Initial outreach via [[mark-lite]] Northamptonshire campaign |
+| 2026-04-14 | Discovery meeting at Costa Coffee, Northampton. Josh converted -- follow-up email + £500 setup invoice sent. |
+| 2026-04-23 | Josh sent his old BDM outreach email template (06:18) -- useful voice input for the Mark build. |
+| 2026-04-27 | Calibration doc sent to Josh as Google Doc link (thread: "Mark -- Calibration Batch for Review"). |
+| 2026-04-28 | Josh replied (12:50) with calibration feedback attachment. Andy replied: "Brilliant, thanks Josh. I'll take a look at this tomorrow and finalise the Mark build this week." |
 
 ## Sources
 

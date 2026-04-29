@@ -1,7 +1,7 @@
 # Mark-Lite
 
 > Direct-sales lead generation service where Andy sells Mark's output (pre-found construction leads) directly to tradespeople. Time-bounded campaigns by region; current focus: Warwickshire (v3) and Northamptonshire (v2). Now includes Construction Intelligence tier (£75/mo). v2 Routines prompt complete with safety framework.
-> Last updated: 2026-04-22
+> Last updated: 2026-04-29
 
 ## What Mark-Lite Is
 
@@ -65,10 +65,11 @@ This is a **tactical, time-bounded engagement** rather than an ongoing retainer.
 - Tender portal search mandatory for Electrical, Roofing, HVAC, Scaffolding (don't appear in planning data)
 
 **Current Lead:**
-- **Josh Warren (JDW Brickwork)** — Inbound conversion from campaign. Discovery meeting booked: Tuesday 14 April 2026, 9am, Costa Coffee Riverside Retail Park Northampton. Confirmation sent with pricing (£250-£500 setup, £200/month ongoing) + light prep guidance
+- **Josh Warren (JDW Brickwork)** -- Inbound conversion from campaign. Discovery meeting booked: Tuesday 14 April 2026, 9am, Costa Coffee Riverside Retail Park Northampton. Confirmation sent with pricing (£250-£500 setup, £200/month ongoing) + light prep guidance. Calibration doc reviewed by Josh -- feedback received 28 April.
+- **Oakwood Scaffolding (Paul Saunders)** -- Replied 26 April "yes" to weekly small-jobs shortlist. New warm prospect converting from Northants campaign.
 
 **Other Warm Reply:**
-- **Brian Kelly (Hawk Drainage)** — Warm response to planning application lead
+- **Brian Kelly (Hawk Drainage)** -- Warm response to planning application lead
 
 ## Campaign Performance Analysis (April 2026)
 
@@ -250,6 +251,22 @@ Mark-Lite v2 prompt completed with comprehensive safety framework. GitHub repo c
 - **Contact rate target:** 50%+ of leads should have named decision-maker emails
 - **LinkedIn only for personal profiles:** Skip firm company pages (no connection requests possible)
 - **All emails are drafts:** Gmail MCP creates drafts; prospects review and hit send manually
+
+## Mission 2 Strategy Proposal (Delivered 24 April via Slack)
+
+Three options evaluated for post-campaign next move:
+
+- **Option A: Geographic expansion** -- Leicestershire recommended. Close to Rugby, strong construction activity.
+- **Option B: Hyper-local small residential test** -- For Danny/Tippercrete. Coventry CV1-CV6 postcode area.
+- **Option C: Referral network** -- Via JDW Josh Warren.
+- **Recommendation:** A + B in parallel, C as opportunistic.
+- **Status:** Awaiting Andy's decision (APPROVE / REDIRECT / HOLD).
+
+## Operational Status (April 2026)
+
+- **Oakwood Scaffolding (Paul Saunders)** replied 26 April "yes" to weekly small-jobs shortlist. New warm prospect converting from Northants campaign.
+- **Slack silence:** Mark-Lite has been 5 days Slack silent since 24 April (last post). Cord flagged as potential runtime issue on 29 April. Andy edited mark-lite.md on 28 April which may indicate mid-rework.
+- **JDW calibration feedback:** Josh Warren reviewed calibration doc and sent feedback on 28 April.
 
 ## Prospects for Next Expansion
 

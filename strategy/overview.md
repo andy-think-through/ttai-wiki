@@ -2,15 +2,15 @@
 
 **Where Think Through AI is right now. The view from 10,000 feet.**
 
-Last updated: 2026-04-22
+Last updated: 2026-04-29
 
 ## Executive Summary
 
-Revenue has de-concentrated significantly in the last two weeks. Q1 invoiced is now **£3,438.20** — up from £938.20 on 2026-04-10. KW Bell has dropped from ~73% of invoiced revenue to ~20% as JDW (Mark, TTAI-004 / INV-004), Tonic (custom build, INV-005 / INV-003), and Holmes (Mark, INV-006) have all signed and been invoiced. Three live or imminent Mark clients now represent **£600/mo recurring baseline** (+£500/mo if Bat Surveys counted separately). The first AutoStrategy rule ([[predicted-loser-rule]]) has been formalised at 18/18 — a methodological milestone independent of revenue. Agent Browser KW Bell PoC remains the biggest unproven bet.
+Revenue has stepped up significantly. Total invoiced is now **£4,226.40** (adding AccXel INV-007 £788.20 to prior £3,438.20). KW Bell's **Belle agent has been signed off at £3,000** -- the first commercial Agent Browser deployment, validating the highest-ceiling product thesis. AccXel discovery day completed 28 April with 13 AI opportunities identified and Natalie's enthusiastic response. Five autonomous employees are now operational (Wiki, Mark-Lite, Karen, Cord, Fred-paused).
 
-The flywheel is working: consulting uncovers product opportunities, products create recurring revenue, consulting pipeline grows via network effect. Mark-Lite has added a Construction Intelligence tier (£75/mo data feed) as a lower-friction entry point. Employee infrastructure migrated to Claude Code Routines + Slack — Wiki and Mark-Lite operational, Fred pending.
+The flywheel is accelerating: KW Bell audit -> Belle agent (£3k) + AccXel referral (£788 + ~£1,500 pipeline). Tonic custom build nearing completion with sample briefs sent. JDW calibration feedback received -- Mark build finalising. The consulting pipeline has diversified into four distinct engagement types: AI ops audit (KW Bell), discovery day (AccXel), custom build (Tonic), SEO/GEO audit (Steve Tipson).
 
-Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), AccXel discovery day (28 Apr), Tonic delivery in progress, Steve Tipson audit queued for w/c 5 May, Holmes kickoff 5 May. Mercia still blocked on Entra/Manus approval (Solaas IT). KW Bell EvoMX access being resolved.
+Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build finalising, Steve Tipson audit w/c 5 May, Holmes Mark build Wed-Thu 06-07 May (window narrowed). AccXel day 2 (solution design for 3 priorities) due early May. Mercia still blocked on Entra/Manus (Solaas IT 5d+ silent). May income projected at **£10,453** per Monthly Incomings sheet.
 
 ---
 
@@ -20,30 +20,33 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 
 | Stream | Client | Invoice | Amount | Status |
 |--------|--------|---------|--------|--------|
-| **Consulting** | [[KW-Bell]] | — | £688.20 | Audit complete, solution design proposed |
-| **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Outlook verification pending |
-| **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Build 21-25 April |
-| **Custom build** | [[Tonic-Health]] | INV-005 / INV-003 | £1,750 | Build in progress -- spec redirected 21 Apr (pain taxonomy primary, reviews secondary). Days 1-2 done, 3-5 remaining. Timeline relaxed. |
-| **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | Kickoff 5 May 10:00, build 5-7 May |
-| **Total Invoiced** | — | — | **£3,438.20** | **Cash in / receivable** |
+| **Consulting** | [[KW-Bell]] | -- | £688.20 | Audit complete; Belle signed off |
+| **Consulting** | [[AccXel]] | INV-007 | £788.20 | Discovery day completed 28 Apr. 13 opportunities, 3 prioritised for day 2. |
+| **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Entra/Manus still blocked (Solaas 5d+ silent) |
+| **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Calibration feedback received. Build finalising. |
+| **Custom build** | [[Tonic-Health]] | INV-005 | £1,750 | Sample briefs sent to Sunna 28 Apr. Awaiting feedback. INV-005 9d+ outstanding. |
+| **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | INV-006 chase sent 29 Apr. Build window Wed-Thu 06-07 May. |
+| **Total Invoiced** | -- | -- | **£4,226.40** | **Cash in / receivable** |
 
-**Concentration collapse:** KW Bell was ~73% of invoiced; now ~20%. The revenue base has tripled in scope and spread across four domains (consulting, Mark setup ×3, custom build).
+**Revenue diversification:** Six distinct clients across four product types. KW Bell now ~16% of invoiced. AccXel is the sixth invoiced client.
 
 ### Active Proposals & Pipeline (Next 30-90 Days)
 
 | Stream | Client | Amount | Timeline | Notes |
 |--------|--------|--------|----------|-------|
+| **Agent Browser** | [[KW-Bell]] / [[Belle-Agent]] | £3,000 | May build start | **SIGNED OFF 27 Apr** -- first commercial Agent Browser deployment. Monthly retainer TBD. |
+| **Consulting** | [[AccXel]] | ~£1,500 | Day 2 early May | Solution design for 3 priorities (Mark BDM, Bob apprenticeship agent, HubSpot cleanse) |
 | **Consulting** | [[Steve-Tipson]] | £350 | Audit w/c 5 May, face-to-face w/c 12 May | **ACCEPTED 21 Apr** -- Cast Iron Radiator Centre, Coventry |
-| **Consulting** | [[AccXel]] | ~£700 | Discovery day 28 April | KW Bell subsidiary, day rate |
-| **Mark recurring** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire |
+| **Mark recurring** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire. Hawks SEO confirmed (£140/mo). |
 | **Mark recurring** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
 | **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
 | **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
 | **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
-| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Soft decline (addressable) | Danny: "too small, too far." Needs tighter Coventry-local filter. Andy hasn't responded yet. |
+| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Lead (live ask) | Andy chased Danny 28 Apr. Cord overruled Wiki's "parked" -- keeping as Lead. |
+| **Mark-Lite** | Oakwood Scaffolding (Paul Saunders) | £75/mo CI or £200/mo Mark | Warm | Paul said "yes" to weekly small-jobs shortlist (26 Apr). Northants. |
 | **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
-| **Consulting follow-up** | [[IH-Group]] | Variable | Warm via Malcolm | Follow-up email drafted 2026-04-08 |
-| **Mark-Lite Northants** | Multiple | Varies | Pipeline saturating | 17/04 batch zero replies at day 5 (first zero-response batch since site-trade discovery). Both regions approaching saturation. |
+| **Consulting follow-up** | [[IH-Group]] | Variable | Parked (27 Apr) | 3 chases sent, 30+ days as Lead. Parked by Cord. |
+| **Mark-Lite** | Mission 2 | Varies | Proposal delivered | Leicestershire expansion + Danny hyper-local test. Awaiting Andy's decision. |
 
 ### Recurring Revenue Baseline (Live or Imminent)
 
@@ -59,12 +62,12 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 
 | Stage | Clients | Notes |
 |-------|---------|-------|
-| **Invoiced / signed** | Mercia, JDW, Tonic, Holmes | All Q2 setup/build invoices raised |
-| **Building** | Tonic (in progress, timeline relaxed), JDW (21-25 Apr), Holmes (5-7 May) | Three builds converging in April-May window |
-| **Imminent** | AccXel (discovery day 28 Apr) | KW Bell subsidiary |
-| **Accepted** | [[Steve-Tipson]] (£350, audit w/c 5 May) | Cast Iron Radiator Centre, Coventry. Face-to-face w/c 12 May. |
-| **Warm** | IH Group, Tippercrete (soft decline, addressable) | IH Group follow-up pending; Tippercrete needs tighter local filter |
-| **Pipeline** | [[MJM-Consulting]], [[Carmen-MacDougall]] (meeting 24 Apr), "Other Tim" | Referral-warm via [[Malcolm-Freeman]], [[Gareth-Hunt]] |
+| **Invoiced / signed** | KW Bell, AccXel, Mercia, JDW, Tonic, Holmes | Six clients invoiced. Belle £3k verbal. |
+| **Building** | Tonic (briefs sent, awaiting feedback), JDW (finalising), Holmes (Wed-Thu 06-07 May), Belle (training data gathering) | Four builds in various stages |
+| **Accepted** | [[Steve-Tipson]] (£350, audit w/c 5 May), AccXel day 2 (~£1,500) | Cast Iron + AccXel solution design |
+| **Warm** | Tippercrete (Lead, live ask), Oakwood Scaffolding (yes to shortlist) | Both Mark-Lite prospects |
+| **Parked** | [[IH-Group]] (3 chases, 30d), [[Carmen-MacDougall]] (skill swap done, owes AI session) | Per Cord 27 Apr |
+| **Pipeline** | [[MJM-Consulting]], "Other Tim", Mike McSweeney (3 open quotes) | Referral-warm |
 
 ---
 
@@ -79,13 +82,15 @@ Near-term execution: JDW Mark build (21-25 Apr), Carmen skill swap (24 Apr), Acc
 | [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns; CI tier £75/mo | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
 | **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python + Claude API. Spec evolved: multi-source insight engine with pain taxonomy as primary creative input. |
 | [[Hike-SES]] | Directorship income | Retained + contractual visibility | Contractual | Hike SEO client base (~2,000) |
-| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD | NBA, Tennis (formalised rule), Snooker, Darts, IPL, Crypto paper |
+| [[Belle-Agent]] | First build | DOM-selector agent, per-client | £3,000 + TBD retainer | [[KW-Bell]] -- invoice OCR in EvoMX. First Model A deployment. |
+| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£38.43 YTD (tracker) | NBA, Tennis, Snooker. Crypto park recommended (-16.8%). |
 
 ### Building Products
 
 | Product | Status | Target | Timeline |
 |---------|--------|--------|----------|
-| [[Agent-Browser]] | Discovery complete, Phase 1 built | KW Bell invoice OCR + Hike internal | MVP by June; KW Bell PoC ongoing |
+| [[Agent-Browser]] | Thesis validated via Belle | KW Bell invoice OCR + Hike internal | Belle v1 signed off; DOM-selector cheaper than Hike visual pattern |
+| [[Belle-Agent]] | Building | KW Bell EvoMX invoice OCR | £3,000 quoted, training data being gathered |
 | [[Knowledge-Assistant]] | Exploring | RAG chatbot for staff knowledge | Discovery phase; no live prospects |
 
 ---
@@ -118,10 +123,11 @@ Consulting Audit → Uncovers Product Opportunity
 ```
 
 **The Loop Right Now:**
-1. [[KW-Bell]] audit → [[Agent-Browser]] opportunity + AccXel referral (discovery 28 Apr)
-2. Mark-Lite campaigns → JDW conversion (first inbound → Mark sign-up cycle completed)
-3. [[Holmes-Workholding]] signing → "Other Tim" referral path + AI consulting audit prospect
-4. [[Tonic-Health]] custom build → new product stream (fixed-fee AI build, not productised Mark)
+1. [[KW-Bell]] audit -> [[Belle-Agent]] signed off (£3k) + AccXel referral -> AccXel discovery day -> 13 opportunities -> ~£1,500 day 2 pipeline
+2. Mark-Lite campaigns -> JDW conversion -> calibration feedback loop -> Mark build finalising
+3. [[Holmes-Workholding]] signing -> "Other Tim" referral path + AI consulting audit prospect
+4. [[Tonic-Health]] custom build -> sample briefs delivered -> new product stream validated
+5. [[AccXel]] discovery -> "Mark" for apprenticeship provider -> cross-pollination from KW Bell Mark product
 
 ---
 
@@ -141,18 +147,20 @@ Consulting Audit → Uncovers Product Opportunity
 
 ### Must-Hit (By End of May)
 
-- [x] ~~[[JDW-Brickwork]] conversion~~ — DONE 14 April. £500 setup invoiced (TTAI-004 / INV-004). Build week 21-25 April.
-- [x] ~~[[Tonic-Health]] decision~~ — ACCEPTED. £1,750 (INV-005 / INV-003). Build starting w/c 20 April.
-- [ ] [[Mercia-Flooring]] go-live — Entra/Manus approval pending with Solaas IT (escalated to Martin Neale 21 Apr)
-- [ ] [[JDW-Brickwork]] Mark build 21-25 April → go-live
-- [ ] [[Tonic-Health]] build completion (Days 3-5 remaining -- pain taxonomy engine + creative layer + integration). Timeline relaxed by Sunna.
-- [ ] [[AccXel]] discovery day 28 April
-- [ ] [[Holmes-Workholding]] kickoff 5 May 10:00 → build 5-7 May → go-live
-- [ ] [[Steve-Tipson]] AI Search Visibility Audit w/c 5 May (£350, accepted 21 Apr)
-- [ ] [[Carmen-MacDougall]] skill swap meeting 24 April 9:15am at The Exchange
-- [ ] [[Agent-Browser]] PoC with KW Bell: invoice OCR workflow proof of concept (cost < £500) -- EvoMX access in progress
+- [x] ~~[[JDW-Brickwork]] conversion~~ -- DONE 14 April. £500 setup invoiced. Calibration feedback received 28 Apr. Build finalising.
+- [x] ~~[[Tonic-Health]] decision~~ -- ACCEPTED. £1,750 invoiced. Sample briefs sent to Sunna 28 Apr.
+- [x] ~~[[AccXel]] discovery day~~ -- COMPLETED 28 April. 13 opportunities. Natalie replied positive. INV-007 £788.20 raised.
+- [x] ~~[[Carmen-MacDougall]] skill swap~~ -- COMPLETED 24 April. Parked -- Andy owes practical AI session.
+- [x] ~~[[Agent-Browser]] KW Bell PoC~~ -- Belle v1 SIGNED OFF 27 April. £3,000 quoted. DOM-selector architecture validated.
+- [ ] [[Mercia-Flooring]] go-live -- Entra/Manus still blocked. Solaas 5d+ silent after Pete reported still failing 24 Apr.
+- [ ] [[JDW-Brickwork]] Mark go-live -- finalising build post-calibration feedback
+- [ ] [[Tonic-Health]] build completion -- awaiting Sunna's feedback on sample briefs. Still needs Slack webhook, Notion access.
+- [ ] [[Holmes-Workholding]] kickoff 5 May (conflicts with Hike OOO) -> build Wed-Thu 06-07 May
+- [ ] [[Steve-Tipson]] AI Search Visibility Audit w/c 5 May (£350)
+- [ ] [[AccXel]] day 2 -- solution design for Mark BDM + Bob apprenticeship agent + HubSpot cleanse (~£1,500)
+- [ ] [[Belle-Agent]] build -- training data from Gareth/Payton, then initial £3,000 build
 
-**Impact:** Three Mark go-lives + AccXel discovery + Steve Tipson audit + Tonic build completion = consolidation of a signed pipeline into recurring revenue, plus proof of two additional streams (custom AI builds + SEO/GEO audits).
+**Impact:** Five Must-Hit items completed in one week (AccXel, Carmen, Belle, JDW calibration, Tonic briefs). Pipeline has shifted from "close deals" to "deliver builds". May is a delivery month.
 
 ### Should-Hit (By End of June)
 
@@ -172,18 +180,23 @@ Consulting Audit → Uncovers Product Opportunity
 
 ## Revenue Forecast (Q2 2026 End)
 
-**Conservative (closes already invoiced + accepted + Mercia go-live + AccXel):**
-- Invoiced already: £3,438.20
+**Conservative (invoiced + accepted + Belle + AccXel day 2):**
+- Invoiced already: £4,226.40
+- Belle build (verbal): £3,000
 - Steve Tipson audit (accepted): £350
-- AccXel: ~£700
+- AccXel day 2: ~£1,500
 - Mark recurring on trajectory: £1,300/mo (~£3,900 in Q2 once all live)
-- **Quarterly invoiced trajectory: ~£8,400+**
+- **Quarterly invoiced trajectory: ~£13,000+**
 
-**Optimistic (above + Tonic Phase 2 + IH Group):**
-- Add Tonic Phase 2 + IH Group -> additional ~£2,000-3,000
-- **Quarterly invoiced trajectory: ~£10,400-£11,400**
+**Optimistic (above + Belle retainer + Tonic Phase 2 + Mike McSweeney bundle):**
+- Add Belle monthly retainer (TBD, target pre-commitment before v1 ships)
+- Add Mike McSweeney bundle (3 quotes = £1,100 one-off + £200/mo)
+- Add Tonic Phase 2
+- **Quarterly invoiced trajectory: ~£16,000-£18,000**
 
-**ARR trajectory at Q2 end if all Mark clients stable: £15,600/year from Mark alone.**
+**May projection (per Monthly Incomings sheet): £10,453** including Hike AB build (£3,000), KW Bell (£3,000), AccXel (£1,500), Cast Iron (£350), Holmes (£450), JDW/Mercia ongoing.
+
+**ARR trajectory at Q2 end if all Mark clients stable: £15,600/year from Mark alone. With Belle retainer, potentially £20,000+/year.**
 
 ---
 
@@ -198,8 +211,8 @@ Now proven across 5 signed clients across scaffolding, bat surveys, schools floo
 ### 3. Custom AI Builds Are the New Third Stream
 Tonic's £1,750 fixed-fee build is the first of a potential product category: bespoke Python+Claude integrations for non-Mark use cases. The spec evolution (from review scraper to multi-source insight engine) validates the "wedge project" approach -- absorb scope growth on the first build to create reusable methodology (market_psychology.yaml, pain taxonomy framework) for future builds. Principles surfaced: [[test-before-quoting]], [[phase-it-if-dependency-fragile]], [[research-spikes-before-scrapers]].
 
-### 4. Agent Browser Is the Highest-Ceiling Product
-Unchanged. Viability still depends on KW Bell PoC success + cost efficiency + productisation path beyond Hike.
+### 4. Agent Browser Is the Highest-Ceiling Product -- NOW VALIDATED
+Belle v1 signed off 27 April. DOM-selector architecture means most enterprise SaaS targets are cheaper to build than Hike's visual pattern (which earns complexity only because of cross-origin iframes). "Naming as strategy" is the sleeper insight -- "Belle" shifted Gareth from buying software to hiring an employee, unlocking a 7-skill expansion pipeline. Every future agent build should get a name early. First Model A deployment (AI installed inside client systems, sold per-client).
 
 ### 5. Betting Is Genuinely Passive AND Proven Methodology
 The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrategy paper-trade-to-formalisation pipeline. Rules developed here (and methods like "don't bet the predicted loser even with apparent edge") have cross-domain analogs in consulting pipeline management and Mark client selection.
@@ -211,9 +224,9 @@ The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrat
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
 | **Mercia Entra/Manus approval slips further** | £200/mo recurring delayed | Escalated to Martin Neale (Solaas senior) 21 Apr; Entra consent settings change requested |
-| **Build convergence window (3 builds in ~2 weeks)** | Quality/attention stretch | Sequence: Tonic kickoff (20 Apr) → JDW build (21-25 Apr) → Holmes kickoff (5 May) — planned separation is tight but workable |
+| **May delivery density** | 4+ builds in 2 weeks (Belle, JDW go-live, Holmes, AccXel day 2, Steve Tipson audit) | Sequence: JDW finalise (this week) -> Steve Tipson audit (w/c 5 May) -> Holmes build (06-07 May) -> Belle + AccXel day 2 (early-mid May) |
 | **Mark client churn** | Any client cancels | Monthly touch-base calls; clear reporting; lead quality gates |
-| **Agent Browser PoC fails** | Highest-ceiling product stalls | Scope narrow (invoice OCR); time-box |
+| **Belle build overruns** | First named agent -- reputation risk with Gareth | Cord flagged: set boundary date + Karen tracks. Pre-commitment retainer number needed. |
 | **Orphaned branches keep recurring** | Wiki drift; lost context | Investigate branch-committing cause in next wiki session; enforce single-branch discipline |
 | **Tonic scope evolution** | Effective day rate drops (~£250/day vs quoted £350/day) | Absorbed as wedge investment. market_psychology.yaml is a standalone deliverable even if agent build stalls. Timeline relaxed ("no rush"). |
 
@@ -265,20 +278,24 @@ The index ([[index]]) lists all pages by category.
 
 ### Autonomous Employees (Routines + Slack)
 
-TTAI runs three autonomous AI employees via [[claude-code-routines]]:
+TTAI runs five autonomous AI employees via [[claude-code-routines]]:
 
-| Employee | Status | Platform |
-|----------|--------|----------|
-| Wiki | Operational | Routines (migrated 2026-04-15) |
-| Mark-Lite | v2 prompt complete, awaiting deployment | Routines (v2 safety framework, repo created) |
-| Fred | Paused -- migration deferred | Cowork (heavy local dependencies) |
-| Karen (planned) | Not yet built | PA/finance -- email, calendar, Drive |
-| Cord (planned) | Not yet built | Manager layer -- coordinates between employees |
+| Employee | Status | Platform | Cadence |
+|----------|--------|----------|---------|
+| Wiki | Operational | Routines | Every other day |
+| Mark-Lite | Operational (5d Slack silent -- possible runtime issue) | Routines | Daily |
+| Karen | **Operational (launched 23 Apr)** | Routines | Daily ~08:00am |
+| Cord | **Operational (launched 23 Apr)** | Routines (daily) + Channel Mode (persistent tmux) | Daily ~10:00am + real-time |
+| Fred | Paused -- migration deferred | Cowork | Daily (when active) |
 
-All employees report to Slack #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]] (Railway free tier). Total infrastructure cost: ~£0.
+All employees report to Slack #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]] (Railway free tier). Total infrastructure cost: ~£0 (Anthropic Max plan £150/mo is Andy's personal subscription).
 
-Fred migration deferred due to heavy local dependencies (Python model scripts, Betfair browser automation, crypto VPS SSH). Mark-Lite v2 prompt completed with trust ladder, kill switch, experiment gating, Mode 2 classification -- awaiting context-gathering fix before deployment.
+**Cord dual-mode architecture:** Routine Cord (cloud, daily briefing -- sweeps Slack/Calendar/Gmail/Drive) + Channel Cord (local, persistent via tmux -- real-time conversation). Shared memory via cord-memory/ folder on Google Drive (MEMORY.md canonical state + inbox/ event files). New escalation framework: aging items from standard bullet (day 0-2) to BLOCKING (day 5+) to direct ping (day 7).
+
+**Karen capabilities:** Pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing. Day-of-week bug found and fixed (24 Apr).
+
+**Mark-Lite 5d Slack silent** since 24 Apr. Cord flagged as potential runtime issue. Andy may be mid-rework (edited mark-lite.md 28 Apr).
 
 ---
 
-**Updated 2026-04-21 | Think Through AI Strategy Synthesis**
+**Updated 2026-04-29 | Think Through AI Strategy Synthesis**

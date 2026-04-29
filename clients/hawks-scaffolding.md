@@ -1,7 +1,7 @@
 # Hawks Scaffolding
 
 > Warwickshire scaffolding contractor (Mike McSweeney). First live [[mark]] customer; v2 workflow with 7 council portals + PlanIt + developer/contractor news. Strategic loss-leader pricing at £500 baseline.
-> Last updated: 2026-04-08
+> Last updated: 2026-04-29
 
 ## Client Profile
 
@@ -151,11 +151,23 @@ If Andy takes on another trades client in Warwickshire (e.g., brickwork, drainag
 - Open to feedback and workflow refinements
 - Direct with Andy on what is/isn't working in leads sent
 
+## Related Services (Mike McSweeney)
+
+Mike McSweeney also owns [[midlands-bat-surveys]]. Three additional quotes are open with Mike as of 28 April:
+- **Bats Website Build** -- £600 quoted (Midlands Bat Surveys website)
+- **Hawks/Bats Mark ongoing** -- £200/mo combined (on top of Hawks SEO below)
+- **Bats Stannp upgrade** -- £300 quoted (homeowner letter add-on)
+
+Andy chased all three on 28 April 07:17. Awaiting reply.
+
+**Hawks SEO ongoing** -- Steve (at Hawks) confirmed they want to proceed with SEO work (£140/mo). Andy confirmed he will start work (21 April).
+
 ## Links
 
-- [[mark]] — Managed service model
-- [[email-infrastructure]] — Email validation + domain management
-- [[planit-api]] — Planning data source
+- [[mark]] -- Managed service model
+- [[midlands-bat-surveys]] -- Same owner (Mike McSweeney)
+- [[email-infrastructure]] -- Email validation + domain management
+- [[planit-api]] -- Planning data source
 
 ## Sources
 

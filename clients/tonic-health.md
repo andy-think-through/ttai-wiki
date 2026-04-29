@@ -1,14 +1,14 @@
 # Tonic Health
 
 > Tonic Health: UK vitamin/supplement brand. Custom AI ad creative agent build in progress -- spec evolved after 21 April client call. Days 1-2 complete, Days 3-5 remaining. No rush (Sunna).
-> Last updated: 2026-04-21
+> Last updated: 2026-04-29
 
 ## Overview
 - **Company:** Tonic Nutrition Ltd (Tonic Health)
 - **Shortname:** Tonic Health
 - **Product(s):** Custom build (ad creative agent), potential [[knowledge-assistant]]
 - **Status:** Build in progress -- Days 1-2 complete, spec redirected after client call
-- **Revenue:** £1,750 invoiced (INV-005, 5 days @ £350/day). Effective day rate now ~£250/day due to scope growth (absorbed as wedge-project investment).
+- **Revenue:** £1,750 invoiced (INV-005, 5 days @ £350/day, 9+ days outstanding as of 29 Apr). Effective day rate now ~£250/day due to scope growth (absorbed as wedge-project investment).
 - **Build spend to date:** $6.57 Apify + $10.38 Anthropic = ~£13 total
 - **Registered office (from July 2024):** The Courtyard, Shoreham Road, Upper Beeding, Steyning, West Sussex, BN44 3TN
 - **Audience:** 1.5M+ followers across platforms, 50M+ monthly organic views; Channel 4 podcast live.
@@ -57,6 +57,23 @@ Competitors are capturing the exact language Tonic's strategy is built around --
 - **"They grow out of it" is the #1 competitor** -- not another supplement brand. Most common advice in 5/7 pain areas is normalisation and patience.
 - **The real buyer is the anxious parent, not the health-optimising parent.** Supplements are a "doing something" purchase driven by parental guilt, not a "fixing something" purchase driven by child symptoms.
 
+### Sample Briefs Sent (28 April)
+Andy sent two sample briefs to Sunna on 28 April with a detailed email explaining the journey from research to creative output. The two briefs target pain areas where the supplement bridge is natural: frequent illness and fatigue.
+
+The email explains three key findings that shaped the briefs:
+1. "The real competitor isn't another brand. It's 'they grow out of it.' Parents default to doing nothing."
+2. "Supplements only come up naturally in 2 of 7 pain areas; frequent illness and fussy eating."
+3. "The real buyer is the parent, not the child... parents buy supplements because they need to feel they've done something"
+
+Briefs use verbatim parent wording from research and speak to the parent's emotional reality (not the child's symptoms).
+
+Awaiting Sunna's feedback on creative direction and brief format.
+
+### Still Needed from Sunna
+- Slack webhook (for agent notifications)
+- Notion access (for output doc)
+- Slack invite for ad-inspo channel
+
 ### Decisions Made
 - **Don't build Reddit/Mumsnet scrapers:** Manual research spikes delivered more value in 20 minutes than a scraper would in 6 months. Quarterly manual refresh instead.
 - **Andy covers all API costs during build,** Sunna covers ongoing. Credential handover to Sunna's accounts at end of Day 4.
@@ -80,6 +97,7 @@ Competitors are capturing the exact language Tonic's strategy is built around --
 | 2026-04-18 | Day 2 build complete. 950 reviews extracted. Pillar distribution analysed. brain_focus at 0.2% is genuine data signal. Claude Code worktree gotcha caught. |
 | 2026-04-20 | INV-005 sent to Sunna. Andy made a good start on the build over the weekend. |
 | 2026-04-21 | **Spec redirected after Sunna call.** Data sources expanded (forums), competitor set expanded (5 new DTC brands), creative layer reversed (pain taxonomy primary, reviews secondary). Config split (brands.yaml vs competitors.yaml). Extra days absorbed in £1,750 fee. Two forum research spikes produced the most valuable deliverable: market_psychology.yaml pain taxonomy. "They grow out of it" identified as #1 competitor. Real buyer = anxious parent, not health-optimising parent. Timeline relaxed ("no rush, side hobby"). |
+| 2026-04-28 | Andy sent two sample briefs to Sunna targeting frequent illness and fatigue -- pain areas where the supplement bridge is natural. Detailed email explaining the three key findings that shaped the briefs. Briefs use verbatim parent wording, speak to parent's emotional reality. Awaiting Sunna's feedback on creative direction and brief format. Still need from Sunna: Slack webhook, Notion access, Slack invite for ad-inspo channel. |
 
 ## Links
 - [[knowledge-assistant]] -- Product: RAG-based staff knowledge chatbot
