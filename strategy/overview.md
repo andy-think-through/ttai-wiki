@@ -22,8 +22,8 @@ Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build fina
 |--------|--------|---------|--------|--------|
 | **Consulting** | [[KW-Bell]] | -- | £688.20 | Audit complete; Belle signed off |
 | **Consulting** | [[AccXel]] | INV-007 | £788.20 | Discovery day completed 28 Apr. 13 opportunities, 3 prioritised for day 2. |
-| **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Entra/Manus still blocked (Solaas 5d+ silent) |
-| **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Calibration feedback received. Build finalising. |
+| **Mark setup** | [[Mercia-Flooring]] | INV-002 | £250 | Entra/Manus still blocked. Andy chased Solaas again 29 Apr. Pete sent w/c 4 May postcodes -- outreach proceeding via workaround. |
+| **Mark setup** | [[JDW-Brickwork]] | TTAI-004 / INV-004 | £500 | Calibration applied, geography tightened. Near go-live. |
 | **Custom build** | [[Tonic-Health]] | INV-005 | £1,750 | Sample briefs sent to Sunna 28 Apr. Awaiting feedback. INV-005 9d+ outstanding. |
 | **Mark setup** | [[Holmes-Workholding]] | INV-006 | £250 | INV-006 chase sent 29 Apr. Build window Wed-Thu 06-07 May. |
 | **Total Invoiced** | -- | -- | **£4,226.40** | **Cash in / receivable** |
@@ -36,7 +36,7 @@ Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build fina
 |--------|--------|--------|----------|-------|
 | **Agent Browser** | [[KW-Bell]] / [[Belle-Agent]] | £3,000 | May build start | **SIGNED OFF 27 Apr** -- first commercial Agent Browser deployment. Monthly retainer TBD. |
 | **Consulting** | [[AccXel]] | ~£1,500 | Day 2 early May | Solution design for 3 priorities (Mark BDM, Bob apprenticeship agent, HubSpot cleanse) |
-| **Consulting** | [[Steve-Tipson]] | £350 | Audit w/c 5 May, face-to-face w/c 12 May | **ACCEPTED 21 Apr** -- Cast Iron Radiator Centre, Coventry |
+| **Consulting** | [[Steve-Tipson]] | £350 | Audit w/c 5 May, face-to-face w/c 12 May | **ACCEPTED 21 Apr** -- Cast Iron Radiator Centre, Coventry. **STATUS CONFLICT:** Karen says progress (verbal confirm 21.04), Cord says park (Andy 27.04). TTAI Workflow shows C.I.Rads May 7+14. Unresolved -- needs Andy. |
 | **Mark recurring** | [[Hawks-Scaffolding]] | £200/mo recurring | Live since Feb | First customer, strategic loss-leader, exclusive Warwickshire. Hawks SEO confirmed (£140/mo). |
 | **Mark recurring** | [[Midlands-Bat-Surveys]] | £500/mo recurring | Live (Mike McSweeney) | Planning portal variant, two-region operation |
 | **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
@@ -224,7 +224,7 @@ The 2026-04-16 formalisation of [[predicted-loser-rule]] validates the AutoStrat
 
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
-| **Mercia Entra/Manus approval slips further** | £200/mo recurring delayed | Escalated to Martin Neale (Solaas senior) 21 Apr; Entra consent settings change requested |
+| **Mercia Entra/Manus approval slips further** | £200/mo recurring delayed | Escalated to Martin Neale (Solaas senior) 21 Apr; Andy chased again 29 Apr. Pete still blocked. Outreach proceeding via manual workaround (Pete sent w/c 4 May postcodes). |
 | **May delivery density** | 4+ builds in 2 weeks (Belle, JDW go-live, Holmes, AccXel day 2, Steve Tipson audit) | Sequence: JDW finalise (this week) -> Steve Tipson audit (w/c 5 May) -> Holmes build (06-07 May) -> Belle + AccXel day 2 (early-mid May) |
 | **Mark client churn** | Any client cancels | Monthly touch-base calls; clear reporting; lead quality gates |
 | **Belle build overruns** | First named agent -- reputation risk with Gareth | Cord flagged: set boundary date + Karen tracks. Pre-commitment retainer number needed. |
@@ -283,9 +283,9 @@ TTAI runs five autonomous AI employees via [[claude-code-routines]]:
 
 | Employee | Status | Platform | Cadence |
 |----------|--------|----------|---------|
-| Wiki | Operational | Routines | Every other day |
+| Wiki | **Operational. v2 prompt deployed 29 Apr -- log rotation added.** | Routines | Every other day |
 | Mark-Lite | **Paused** (cron empty, not scheduled -- Andy confirmed 29 Apr) | Routines | Unscheduled |
-| Karen | **Operational (launched 23 Apr)** | Routines | Daily ~08:00am |
+| Karen | **Operational (launched 23 Apr). v4 deployed 29 Apr -- timeout fix working. Ad-Hoc routine created.** | Routines | Daily ~08:00am + on-demand |
 | Cord | **Operational (launched 23 Apr)** | Routines (daily) + Channel Mode (persistent tmux) | Daily ~10:00am + real-time |
 | Fred | Paused -- migration deferred | Cowork | Daily (when active) |
 

@@ -38,8 +38,11 @@ Key architectural decisions:
 - Platform: Routines, daily (~08:00am)
 - Reports to #ttai-employees via Slack
 - Capabilities: Pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing
-- **Prompt v2 (29 Apr):** Cord updated Karen's live prompt via RemoteTrigger API. Two edits: (1) step 4 changed from "Read the workflow" to "Read AND maintain the workflow sheet" -- Monthly Incomings is source of truth, TTAI Workflow mirrors it; (2) pipeline-updates rule changed from "add new row" to "append a dated line to existing client's notes cell" (format: DD.MM.YY - what happened).
+- **Prompt v4 deployed (29 Apr):** Fixes state-file timeout. Three changes: (1) state file write moved from step 12 to step 9 (before reporting); (2) state file radically slimmed -- action-items-only, 15KB ceiling, no sheet mirrors; (3) Drive upload failure fallback (STATE CARRY-FORWARD to Slack). **First v4 run completed successfully** -- state file wrote without timeout. Confirmed working.
+- **Karen Ad-Hoc routine created (29 Apr):** id `trig_01MqRMHVAzxzM2ASijWHcG4N`, no cron, run-only. Closes the Cord-to-Karen latency loop (was 22-hour wait). Read-only on state file (no race with daily Karen). Cord updates TODAY'S INSTRUCTION section then triggers run.
+- Prompt v2 edits (29 Apr, now in v4): (1) "Read AND maintain the workflow sheet" -- Monthly Incomings is source of truth, TTAI Workflow mirrors it; (2) pipeline-updates rule: append dated line to existing client's notes cell (format: DD.MM.YY - what happened).
 - Created new TTAI Workflow sheet (id: `1DOdoqtHG0yn2SvTUYa70Yl8OGnMChpvAyynMY4FaRbs`) with April preserved + May 1-27 from Monthly Incomings. Old sheet flagged for deletion.
+- **INV-008 Midlands Bat Surveys £500** surfaced by Karen (29 Apr) -- 50 days un-invoiced. Cord approved raising it.
 - Day-of-week bug found and fixed (24 April) -- was carrying stale day labels instead of deriving from system date
 - Gmail OAuth dependency -- token expiry blocks chase drafts and inbox review (happened 23-24 April, resolved)
 

@@ -28,7 +28,7 @@
 ## Clients
 - [[kw-bell]] -- Bell Contracting: Belle v1 signed off (£3k), EvoMX working. First Agent Browser deployment. 7-skill expansion pipeline. Jason Bell (CFO) intro 28 Apr.
 - [[accxel]] -- **COMPLETED** discovery day 28 Apr. 13 AI opportunities. INV-007 £788.20. Natalie replied positive 29 Apr.
-- [[mercia-flooring]] -- Mark agent client: blocked on Entra/Manus. Pete still failing 24 Apr. Solaas 5d+ silent.
+- [[mercia-flooring]] -- Mark agent client: Entra/Manus still blocked (Andy chased Solaas again 29 Apr). Pete sent w/c 4 May postcodes -- outreach proceeding via workaround.
 - [[holmes-workholding]] -- **Mark signed** -- INV-006 £250 (chase sent 29 Apr). Build window Wed-Thu 06-07 May.
 - [[mjm-consulting]] -- Marketing strategy prospect: competing vs YER
 - [[ih-group]] -- **Parked** (27 Apr per Cord). 3 chases, 30+ days, no reply.
@@ -36,7 +36,7 @@
 - [[carmen-macdougall]] -- **Parked** -- skill swap completed 24 Apr. Andy owes practical AI session.
 - [[hawks-scaffolding]] -- Mark agent client: first live customer. Hawks SEO confirmed (£140/mo). 3 Mike McSweeney quotes open.
 - [[midlands-bat-surveys]] -- Mark agent client: planning portal monitoring
-- [[jdw-brickwork]] -- **Mark client** -- calibration feedback received 28 Apr. Build finalising. First [[mark]] calibration step.
+- [[jdw-brickwork]] -- **Mark client** -- calibration applied, geography tightened 29 Apr. Near go-live. First [[mark]] calibration step.
 - [[steve-tipson]] -- **Accepted** -- AI Search Visibility Audit for Cast Iron Radiator Centre (£350), audit w/c 5 May
 - [[tippercrete]] -- Mark-Lite prospect: **Parked indefinitely** (Andy corrected 29 Apr -- soft-close misread as lead).
 
@@ -82,7 +82,7 @@
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
 - [[browser-agent-arch]] — Claude Code -> Computer Use -> Min browser architecture pattern
-- [[employee-framework]] -- Universal employee operating model (5 employees: Wiki, Mark-Lite, Fred, Karen, Cord). Mark-Lite paused, Fred paused. Cord has RemoteTrigger API access. Karen v2 prompt (workflow maintain + pipeline append). Trust ladder, Mode 2 classification, experiment gating.
+- [[employee-framework]] -- Universal employee operating model (5 employees: Wiki, Mark-Lite, Fred, Karen, Cord). Mark-Lite paused, Fred paused. Cord has RemoteTrigger API access. **Karen v4 deployed + working** (state file timeout fix). Karen Ad-Hoc routine created. Wiki v2 prompt deployed (log rotation). Trust ladder, Mode 2 classification, experiment gating.
 - [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail

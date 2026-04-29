@@ -66,7 +66,8 @@ JDW Brickwork is a small brickwork subcontractor in Northamptonshire. Typical pr
 - **23 April:** Josh sent his old BDM outreach email template (06:18) -- useful voice input for the Mark build.
 - **27 April:** Calibration doc sent to Josh as a Google Doc link (thread: "Mark -- Calibration Batch for Review").
 - **28 April:** Josh replied to calibration thread (12:50) with attachment containing calibration feedback. Andy replied: "Brilliant, thanks Josh. I'll take a look at this tomorrow and finalise the Mark build this week."
-- **Build status:** Now in the **finalise** phase -- Andy reviewing Josh's calibration feedback and completing the Mark build this week.
+- **29 April:** Andy emailed Josh (09:58) confirming calibration updates applied. Main changes: tightened geography (dropped Cambridgeshire and wider East Midlands), updated email templates based on Josh's BDM email, ready for final build. Subject: "Email templates + email access (almost ready to go live!)"
+- **Build status:** Near-complete. Calibration applied, geography tightened, templates updated. Awaiting final go-live.
 
 ## Build Notes (Josh's Mark Variant)
 
@@ -118,6 +119,7 @@ Mark needs to cover the full range rather than locking to any one tier.
 | 2026-04-23 | Josh sent his old BDM outreach email template (06:18) -- useful voice input for the Mark build. |
 | 2026-04-27 | Calibration doc sent to Josh as Google Doc link (thread: "Mark -- Calibration Batch for Review"). |
 | 2026-04-28 | Josh replied (12:50) with calibration feedback attachment. Andy replied: "Brilliant, thanks Josh. I'll take a look at this tomorrow and finalise the Mark build this week." |
+| 2026-04-29 | Andy emailed Josh: calibration updates applied, geography tightened, templates updated. "Almost ready to go live." |
 
 ## Sources
 

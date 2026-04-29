@@ -26,7 +26,11 @@ Andy has asked Jack to change Entra settings to "Allow user consent for apps fro
 
 **5+ days silence from Solaas** after Pete's 24 Apr report. Karen flagged on 29 Apr: "Mercia / Solaas -- 5 days silent after Pete reported still failing." Cord drafted a follow-up chase to Jack/Martin specifically about Manus, cc'ing Pete -- left as Gmail draft for Andy to send.
 
-**Still blocked. Go-live further delayed.** Gmail send-as workaround remains in reserve if Solaas IT verification fails. Seasonal pipeline runs Jan--July; every week of delay eats into the selling window.
+**29 April (19:16):** Andy sent a second chase to Jack, cc'ing Martin and Pete: "Pete confirmed on Friday he's still hitting the 'need admin approval' message when connecting third-party apps to his Outlook, so the Entra setting hasn't taken effect yet." Entra/Manus still unresolved.
+
+**29 April (14:02):** Pete emailed Andy with postcode priorities for w/c 4th May: CV1-CV35, CV47 starred as priorities. Andy acknowledged. This suggests Mercia outreach is proceeding (Pete actively sending targeting data) even while the Manus integration remains blocked -- likely Andy will send emails directly on Pete's behalf until the Entra issue resolves.
+
+**Still blocked on Manus integration. But outreach proceeding via workaround.** Gmail send-as or manual sending by Andy appears to be the interim path. Seasonal pipeline runs Jan--July; every week of delay on automation eats into the window, but leads are flowing.
 
 **Outlook / Entra app-password gotcha (caught 15 Apr):** Jack at Solaas IT attempted to generate an app password on Pete's behalf by logging in as himself. `mysignins.microsoft.com/security-info` only shows sign-in methods for whoever is currently authenticated -- so Jack saw his own account. Pete must generate the app password himself while logged in as Pete. Worth flagging on any future Entra/Microsoft 365 account set-up: "account holder must generate, not IT".
 
@@ -37,6 +41,7 @@ Andy has asked Jack to change Entra settings to "Allow user consent for apps fro
 ## Interaction Log
 | Date | Summary |
 |------|---------|
+| 2026-04-29 | Andy chased Solaas again (19:16) -- Pete still hitting admin approval. Pete sent w/c 4 May postcode priorities (CV1-CV35, CV47). Outreach proceeding via workaround despite Manus blocker. |
 | 2026-04-24 | Pete emailed (05:23) -- still getting "Need admin approval" when trying to connect 3rd party apps. Jack's consent setting fix didn't resolve it. 5+ days silence from Solaas follows. Karen flagged 29 Apr. Cord drafted follow-up chase to Jack/Martin re Manus, cc'ing Pete (Gmail draft for Andy to send). Still blocked; go-live further delayed. |
 | 2026-04-23 | Jack replied saying he applied the Entra consent setting ("Enterprise apps -> Consent and permissions"). Andy replied asking if Jack also approved the specific Manus app (Butterfly Effect PTE. LTD.). |
 | 2026-04-21 | Jack approved Zapier in Entra admin centre (was just a test). Andy clarified: need Manus (Butterfly Effect PTE. LTD.) approved, not Zapier. Also asked Jack to enable "Allow user consent for apps from verified publishers" in Entra settings. Martin Neale cc'd as escalation. Pete also tried connecting his email to ChatGPT -- also blocked. Andy: "This is quite urgent now as we're behind schedule." |
