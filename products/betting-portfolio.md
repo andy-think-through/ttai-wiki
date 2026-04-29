@@ -16,7 +16,7 @@ Andy runs **AutoStrategy**, a systematic value betting approach across multiple 
 | [[Snooker]] | Live | +£3.00 | Tertiary domain; smallest volume |
 | Darts | Paper | N/A | Methodology developed; not actively betting |
 | Horse Racing | Parked | N/A | Research phase; awaiting market conditions |
-| Crypto | Parked | N/A | Speculative domain; awaiting strategy refinement |
+| Crypto | **Parked indefinitely** | -16.8% | Multi-pair stop-loss exits below backtest. VPS deleted 29 Apr. |
 
 **Total Portfolio P&L: +£49.86** (actual cash, not theoretical). Previously +£47.43 as of Apr 8. Betfair balance: £31.53 (as of Apr 6).
 
@@ -95,11 +95,12 @@ Andy runs **AutoStrategy**, a systematic value betting approach across multiple 
 
 ### Crypto ([[Crypto]])
 
-**Status:** Parked (awaiting strategy refinement)
+**Status:** Parked indefinitely (2026-04-29)
 
 - **Edge Source:** Market inefficiency in alts; technical analysis + fundamental disparities
-- **Why Parked:** Volatile market; need clearer rules before deploying capital
-- **Future:** May become live if thesis solidifies
+- **Result:** -16.8% multi-pair paper trading. Stop-loss exits systematically below backtest.
+- **Why Parked:** Paper trading disproved the backtest edge. VPS (DigitalOcean 159.65.18.20) deleted 29 Apr. Logs saved.
+- **Principle validated:** [[phantom-value]] -- apparent edge was structural illusion, not real mispricing
 
 ## Portfolio Management
 

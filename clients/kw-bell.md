@@ -12,6 +12,7 @@
 
 ## Key Contacts
 - Gareth Hunt -- Finance Director -- ghunt@kwbell.co.uk
+- Jason Bell -- CFO -- introduced to Andy 28 Apr, ran through 3-4 post-Belle projects
 
 ## Current Status
 Audit complete. Belle v1 signed off. KW Bell is a housing developer in Gloucestershire; Gareth was a referral from the leadership training course. The core pain point is Evolution MX OCR processing supplier invoices at ~50% error rate, forcing the finance team to manually verify on a split screen -- the biggest time drain in their workflow.
@@ -24,6 +25,15 @@ Audit complete. Belle v1 signed off. KW Bell is a housing developer in Glouceste
 
 **Proposed Solution:** Browser-based AI agent to auto-correct OCR errors. Claude for Chrome as POC; Computer Use API for production. Evolution MX is cloud-hosted with no public API docs and network-locked access, so direct integration isn't viable.
 
+**Belle 7-Skill Expansion Pipeline** (from 27 Apr catch-up + 28 Apr Jason intro):
+1. Invoice triage v1 -- clean-match auto-Submit, needs-judgement to Query (IN BUILD)
+2. Multi-line allocation reasoning -- semantic line matching, exclusions, price divergence (v2)
+3. Older Evo extension -- PO dispatch checks, "step before" detection (v2/v3)
+4. Statement checking + reconciliation -- 200-250 suppliers
+5. Duplicate posting / wrong-supplier detection
+6. Plant module workflows (Gareth raised)
+7. CFO-level workflows -- TBC after Jason Bell intro (28 Apr)
+
 **Also referred:** AccXel (see [[accxel]]). Andy mentioned potentially popping in the day after the AccXel event.
 
 ## Interaction Log
@@ -34,6 +44,7 @@ Audit complete. Belle v1 signed off. KW Bell is a housing developer in Glouceste
 | 2026-04-21 | Andy attempted login -- credentials from Gareth not working. Awaiting fix. |
 | 2026-04-23 | EvoMX credentials confirmed working (Andy told Wiki via Slack) |
 | 2026-04-27 | Andy/Gareth catch-up call 13:30--14:00. Belle v1 signed off. Phased training strategy aligned. Gareth to coordinate training data with Payton and team. £3,000 quoted. |
+| 2026-04-28 | Andy met Jason Bell (CFO). Jason ran through 3-4 projects post-Belle -- plant module, CFO-level workflows. Expands pipeline beyond Gareth's finance team scope. |
 
 ## Links
 - [[accxel]] -- referred by Gareth Hunt

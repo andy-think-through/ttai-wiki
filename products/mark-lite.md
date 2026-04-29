@@ -264,9 +264,10 @@ Three options evaluated for post-campaign next move:
 
 ## Operational Status (April 2026)
 
-- **Oakwood Scaffolding (Paul Saunders)** replied 26 April "yes" to weekly small-jobs shortlist. New warm prospect converting from Northants campaign.
-- **Slack silence:** Mark-Lite has been 5 days Slack silent since 24 April (last post). Cord flagged as potential runtime issue on 29 April. Andy edited mark-lite.md on 28 April which may indicate mid-rework.
-- **JDW calibration feedback:** Josh Warren reviewed calibration doc and sent feedback on 28 April.
+- **Routine paused:** Mark-Lite cron expression is empty (not scheduled). Andy confirmed 29 Apr: no further sales capacity in May, so deliberately turned off.
+- **Repurpose under discussion:** Andy and Cord discussed repurposing Mark-Lite as "Mark Ops" -- an employee that helps build and run Mark for existing customers (tracker monitoring, warm-lead flagging, reply drafting, calibration support) rather than selling to new ones. Cord proposed a detailed shape; Andy has not yet decided. See Slack 29 Apr ~12:55.
+- **Oakwood Scaffolding (Paul Saunders)** replied 26 April "yes" to weekly small-jobs shortlist. New warm prospect from Northants campaign. No follow-up yet (routine paused).
+- **JDW calibration feedback:** Josh Warren reviewed calibration doc and sent feedback on 28 April. Andy sent templates + email access email 29 Apr. Build finalising.
 
 ## Prospects for Next Expansion
 

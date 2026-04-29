@@ -1,6 +1,6 @@
 # Tippercrete
 
-> [[mark-lite]] prospect lead. Groundworks contractor, Warwickshire (Coventry CV2). Contact: Daniel Fordham. Status: Lead -- live ask (Cord overruled "parked" status 24 Apr; keep as Lead).
+> [[mark-lite]] prospect. Groundworks contractor, Warwickshire (Coventry CV2). Contact: Daniel Fordham. Status: Parked indefinitely (Andy corrected 29 Apr -- "not a lead", soft-close offer misread as pursuit signal).
 > Last updated: 2026-04-29
 
 ## Lead Profile
@@ -10,7 +10,7 @@
 - **Trade:** Groundworks
 - **Region:** Warwickshire (Coventry CV2)
 - **Size:** Small (~5 employees)
-- **Status:** Lead -- live ask. Cord overruled Wiki's "parked" status from 24 Apr; this is NOT parked. Two addressable objections remain: projects too big and too far from Coventry. Not an opt-out -- Danny engaged, gave real feedback, was friendly.
+- **Status:** Parked indefinitely. Andy corrected 29 Apr: his "happy to keep these coming weekly if useful, or knock it on the head" was a soft-close offer, not a lead signal. Cord's earlier instruction to unpark was based on misreading the tone. Two addressable objections remain (too big, too far) but no active pursuit.
 
 ## CI Sample Feedback (2026-04-20)
 
@@ -42,9 +42,9 @@ Danny replied to the re-sent CI sample: "Can see it now. I don't think its for m
 
 ## Next Actions
 
-- **Andy to respond:** Acknowledge Danny's size/distance feedback, offer tighter Coventry-local filter for smaller residential jobs
-- **If Danny accepts tighter filter:** Convert to Construction Intelligence subscriber (£75/mo) or managed [[mark]] client (£200/mo)
-- **Open question:** Is there enough hyper-local small groundworks data near Coventry to make a viable weekly feed?
+- **None.** Parked indefinitely per Andy (29 Apr). Do not re-add to pipeline or chase.
+- **If Danny resurfaces:** Acknowledge size/distance feedback, offer tighter Coventry-local filter for smaller residential jobs
+- **Open question (parked):** Is there enough hyper-local small groundworks data near Coventry to make a viable weekly feed?
 
 ## Interaction Log
 
@@ -54,7 +54,8 @@ Danny replied to the re-sent CI sample: "Can see it now. I don't think its for m
 | 2026-04-14 | CI sample delivered -- 6 Warwickshire groundworks projects |
 | 2026-04-20 | Danny said he didn't receive sample. Andy re-sent leads directly in email body. |
 | 2026-04-20 | Danny replied: "Can see it now. I don't think its for me i am only a small firm and jobs are a bit far away too. Ta m8" -- soft decline, not opt-out. |
-| 2026-04-28 | Andy chased Danny: "Did the resend last Monday land OK? No reply so just want to check it didn't get caught the same way. Happy to keep these coming weekly if useful, or knock it on the head if the format isn't right." Live ask, not parked. |
+| 2026-04-28 | Andy chased Danny: "Did the resend last Monday land OK? No reply so just want to check it didn't get caught the same way. Happy to keep these coming weekly if useful, or knock it on the head if the format isn't right." Soft-close offer, not a lead signal. |
+| 2026-04-29 | Andy corrected status: "tippercrete is not a lead... parked indefinitely." Cord acknowledged misread. Wiki re-parked. |
 
 ## Links
 

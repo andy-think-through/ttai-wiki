@@ -327,3 +327,25 @@
   6. Mark-Lite 5d Slack silent -- flagged by Cord. Either mid-rework or runtime issue. Mission 2 proposal (Leicestershire expansion) awaiting Andy's decision.
   7. Mercia remains the longest-running blocker (Solaas IT, 5d+ silent after Pete still failing). Cord drafted chase.
 
+## 2026-04-29 wiki-agent | Scheduled scan #2 (post-Cord-conversation corrections)
+- **Sources scanned**: Slack #ttai-employees (100 messages, same-day continuation -- Andy/Cord conversation 11:24-13:15); Google Calendar (forward look Apr 29-May 10); Gmail (30 threads, 7 days); Google Drive (10 files incl. Cord Channel inbox, Karen v2 prompt, TTAI Workflow new sheet, Monthly Incomings).
+- **Pages updated:**
+  - clients/tippercrete.md -- **RE-PARKED.** Andy explicitly corrected 29 Apr: "tippercrete is not a lead... parked indefinitely." His "happy to keep these coming weekly" was a soft-close offer, not a lead signal. Cord acknowledged misread. Status reverted from Lead to Parked.
+  - domains/crypto.md -- **FULL REWRITE.** Parked indefinitely. -16.8% multi-pair result. DigitalOcean droplet 159.65.18.20 deleted 29 Apr ~10:55 BST. Paper trading logs saved. [[phantom-value]] principle validated.
+  - products/betting-portfolio.md -- Crypto row updated from "awaiting strategy refinement" to "Parked indefinitely, -16.8%, VPS deleted."
+  - clients/accxel.md -- Added Natalie's 29 Apr priority list: HubSpot inbox/data hygiene, database cleanse, EPA submissions, apprenticeship uploads. Nicola Bird cc'd going forward.
+  - clients/kw-bell.md -- Added Jason Bell (CFO) intro 28 Apr. Added full 7-skill Belle expansion pipeline list (invoice triage through CFO-level workflows). Fixes broken cross-ref flagged by Cord.
+  - products/mark-lite.md -- Routine paused (cron empty, not scheduled). Andy confirmed no sales capacity in May. Repurpose to "Mark Ops" under discussion with Cord. Oakwood + JDW updates noted as unactioned pending decision.
+  - operations/employee-framework.md -- Cord: RemoteTrigger API access documented. Karen: v2 prompt (workflow maintain + pipeline append-to-cell) applied via API. Mark-Lite: paused status added. Fred: crypto VPS deletion noted.
+  - strategy/overview.md -- Tippercrete reverted to Parked. Crypto parked. Mark-Lite paused (not runtime issue). Cord RemoteTrigger noted. Belle 7-skill pipeline noted.
+  - index.md -- Status lines refreshed for tippercrete, crypto, mark-lite, kw-bell, betting-portfolio, employee-framework.
+- **Pages created:** none
+- **Inbox:** empty (no new files).
+- **Key changes:**
+  1. Two Andy corrections applied: Tippercrete re-parked (soft-close misread), Crypto parked indefinitely (VPS deleted).
+  2. Mark-Lite silence explained -- cron empty (deliberately unscheduled), not runtime issue. Andy has no sales capacity in May. Repurpose to "Mark Ops" (build support + customer monitoring) under discussion.
+  3. Cord can now update live routine prompts via RemoteTrigger API -- used to apply Karen v2 prompt edits (workflow maintain, pipeline append-to-cell pattern). Significant operational capability.
+  4. KW Bell 7-skill expansion pipeline documented: invoice triage (in build) through CFO-level workflows. Jason Bell (CFO) met 28 Apr, opening scope beyond Gareth's finance team.
+  5. AccXel day 2 scope now specific: Natalie prioritised HubSpot/data hygiene, EPA, apprenticeship uploads.
+  6. Forward calendar: Bank Holiday Mon 4 May, Andy/Tim 10:00 Tue 5 May (conflicts with Hike OOO), Holmes build Wed-Thu 6-7 May, Andy Away Fri 8-Sun 10 May. Tight delivery window.
+

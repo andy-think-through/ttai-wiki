@@ -18,15 +18,15 @@
 ## Products
 - [[consulting]] -- TTAI's core three-stage consultancy service (Audit -> Solution Design -> Implementation)
 - [[mark]] -- Productised AI sales agent for construction/trades businesses (5 signed clients)
-- [[mark-lite]] -- Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). CI tier (£75/mo). Mission 2 proposal delivered (Leicestershire expansion). 5d Slack silent.
+- [[mark-lite]] -- Andy selling Mark's output directly to tradespeople (Warwickshire + Northants). CI tier (£75/mo). **Routine paused** (cron empty). Repurpose to "Mark Ops" under discussion.
 - [[hike-ses]] -- Search Everywhere Strategy documents for Hike SEO clients
 - [[knowledge-assistant]] -- RAG chatbot product for staff knowledge (exploring)
-- [[betting-portfolio]] -- AutoStrategy value betting as income stream. Crypto park recommended (-16.8%).
+- [[betting-portfolio]] -- AutoStrategy value betting as income stream. **Crypto parked indefinitely** (-16.8%, VPS deleted 29 Apr).
 - [[agent-browser]] -- Browser agent product (Hike internal + external commercial); Model A + Model B framing. Belle validates thesis.
 - [[belle-agent]] -- **NEW** First commercial Agent Browser: KW Bell invoice OCR in EvoMX. DOM-selector architecture. £3,000 signed off 27 Apr.
 
 ## Clients
-- [[kw-bell]] -- Bell Contracting: Belle v1 signed off (£3k), EvoMX working. First Agent Browser deployment.
+- [[kw-bell]] -- Bell Contracting: Belle v1 signed off (£3k), EvoMX working. First Agent Browser deployment. 7-skill expansion pipeline. Jason Bell (CFO) intro 28 Apr.
 - [[accxel]] -- **COMPLETED** discovery day 28 Apr. 13 AI opportunities. INV-007 £788.20. Natalie replied positive 29 Apr.
 - [[mercia-flooring]] -- Mark agent client: blocked on Entra/Manus. Pete still failing 24 Apr. Solaas 5d+ silent.
 - [[holmes-workholding]] -- **Mark signed** -- INV-006 £250 (chase sent 29 Apr). Build window Wed-Thu 06-07 May.
@@ -38,7 +38,7 @@
 - [[midlands-bat-surveys]] -- Mark agent client: planning portal monitoring
 - [[jdw-brickwork]] -- **Mark client** -- calibration feedback received 28 Apr. Build finalising. First [[mark]] calibration step.
 - [[steve-tipson]] -- **Accepted** -- AI Search Visibility Audit for Cast Iron Radiator Centre (£350), audit w/c 5 May
-- [[tippercrete]] -- Mark-Lite prospect: **Lead** (Cord overruled parked). Andy chased Danny 28 Apr.
+- [[tippercrete]] -- Mark-Lite prospect: **Parked indefinitely** (Andy corrected 29 Apr -- soft-close misread as lead).
 
 ## People
 - [[malcolm-freeman]] — Oxygen Elements, BNI Master Connector
@@ -82,7 +82,7 @@
 - [[email-infrastructure]] — Gmail/Outlook setup across Mark variants and Mark-Lite outreach
 - [[planit-api]] — Planning portal monitoring for Midlands Bat Surveys
 - [[browser-agent-arch]] — Claude Code -> Computer Use -> Min browser architecture pattern
-- [[employee-framework]] -- Universal employee operating model (5 employees: Wiki, Mark-Lite, Fred, Karen, Cord). All operational except Fred (paused). Trust ladder, Mode 2 classification, experiment gating. Cord shared-memory protocol.
+- [[employee-framework]] -- Universal employee operating model (5 employees: Wiki, Mark-Lite, Fred, Karen, Cord). Mark-Lite paused, Fred paused. Cord has RemoteTrigger API access. Karen v2 prompt (workflow maintain + pipeline append). Trust ladder, Mode 2 classification, experiment gating.
 - [[wiki-agent-SKILL]] — Wiki: Knowledge Curator job spec (Routines)
 - [[fred-autostrategy-employee-SKILL]] — Fred: AutoStrategy Portfolio Manager job spec (Cowork, migration pending)
 - [[fred-decision-log]] — Fred's append-only reasoning audit trail
@@ -95,7 +95,7 @@
 - [[snooker]] — Live, first real-money bets, +£3.00, WC Qualifier gap
 - [[darts]] — Floor event liquidity confirmed at £13-54 with 8-10% spreads; practically untradeable. Fill-rate test before parking.
 - [[efl-championship]] — Parked: calibration discovery, awaiting third OOS season
-- [[crypto]] — Paper trading, -1.06% combined, review due April 24
+- [[crypto]] — **Parked indefinitely**. -16.8% multi-pair. VPS deleted 29 Apr.
 - [[horse-racing]] — Concluded: no edge, data leakage lesson
 - [[football-corners]] — Parked: domain-level ceiling, derivative market lesson
 - [[t20-cricket-ipl]] — Queued: excellent market structure (£68K, 0.5% spreads), toss-window edge thesis, IPL season live

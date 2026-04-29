@@ -42,11 +42,20 @@ INV-007 raised for £788.20 (2 days + travel: 1 on-site + 1 research day).
 12. Turnitin grade extraction and folder management (Lucy and Sarah)
 13. PowerPoint tone-of-voice converter (Lucy and Sarah)
 
+### Natalie's 29 Apr Priority List (from reply)
+
+Natalie's email specifically highlighted these as build priorities (in her words: "streamline our processes and create so many efficiencies"):
+- **HubSpot inbox management / data hygiene** -- missing fields before firing into Bud
+- **Database cleanse** -- deduping, addresses, dead contacts
+- **EPA submissions** -- registering students on 3rd-party websites
+- **Apprenticeship service** -- manual uploads to gov
+- Nicola Bird cc'd on correspondence going forward
+
 ### Next Steps
 - Set up mark@accxel.co.uk for inbox warming
 - Apprenticeship service login + Loom walkthrough from Dean
 - HubSpot access (work out if Mark needs his own seat)
-- Andy to deliver day 2 (solution design, scoping, costs for 3 priorities) by early next week
+- Andy to deliver day 2 (solution design, scoping, costs for 3 priorities) -- scheduled for early May per workflow
 
 ## Interaction Log
 | Date | Summary |

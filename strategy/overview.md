@@ -42,7 +42,7 @@ Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build fina
 | **Mark recurring** | [[Mercia-Flooring]] | £200/mo recurring | Pending Outlook verification | Schools outreach, seasonal Jan-July |
 | **Mark recurring** | [[JDW-Brickwork]] | £200/mo | From build completion (late Apr) | First Mark-Lite → Mark conversion |
 | **Mark recurring** | [[Holmes-Workholding]] | £200/mo | From build completion (May) | First Mark focused on engineering tools manufacturer |
-| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | Lead (live ask) | Andy chased Danny 28 Apr. Cord overruled Wiki's "parked" -- keeping as Lead. |
+| **Mark-Lite/CI** | [[Tippercrete]] | £75/mo (CI) or £200/mo (Mark) | **Parked indefinitely** | Andy corrected 29 Apr: soft-close offer, not a lead signal. |
 | **Mark-Lite** | Oakwood Scaffolding (Paul Saunders) | £75/mo CI or £200/mo Mark | Warm | Paul said "yes" to weekly small-jobs shortlist (26 Apr). Northants. |
 | **Consulting (future)** | "Other Tim" (Holmes referral) | TBD | Discussed | Consulting AI audit + possible second Mark opportunity |
 | **Consulting follow-up** | [[IH-Group]] | Variable | Parked (27 Apr) | 3 chases sent, 30+ days as Lead. Parked by Cord. |
@@ -65,7 +65,8 @@ Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build fina
 | **Invoiced / signed** | KW Bell, AccXel, Mercia, JDW, Tonic, Holmes | Six clients invoiced. Belle £3k verbal. |
 | **Building** | Tonic (briefs sent, awaiting feedback), JDW (finalising), Holmes (Wed-Thu 06-07 May), Belle (training data gathering) | Four builds in various stages |
 | **Accepted** | [[Steve-Tipson]] (£350, audit w/c 5 May), AccXel day 2 (~£1,500) | Cast Iron + AccXel solution design |
-| **Warm** | Tippercrete (Lead, live ask), Oakwood Scaffolding (yes to shortlist) | Both Mark-Lite prospects |
+| **Warm** | Oakwood Scaffolding (yes to shortlist) | Mark-Lite prospect |
+| **Parked** | [[Tippercrete]] (Andy corrected 29 Apr) | Soft-close misread as lead |
 | **Parked** | [[IH-Group]] (3 chases, 30d), [[Carmen-MacDougall]] (skill swap done, owes AI session) | Per Cord 27 Apr |
 | **Pipeline** | [[MJM-Consulting]], "Other Tim", Mike McSweeney (3 open quotes) | Referral-warm |
 
@@ -79,11 +80,11 @@ Near-term execution: Tonic briefs awaiting Sunna's feedback, JDW Mark build fina
 |---------|--------|-------|---------|------------------|
 | [[Consulting]] | Active | Day rate £300-350 | Variable | [[KW-Bell]], [[AccXel]], [[IH-Group]], [[MJM-Consulting]], [[Carmen-MacDougall]], "Other Tim" (prospective) |
 | [[Mark]] | Active, 5 signed/live | £250-500 setup + £200/mo | £1,300/mo at full ramp | Hawks (live), Bat Surveys (live), Mercia (pending Outlook), JDW (building 21-25 Apr), Holmes (building 5-7 May) |
-| [[Mark-Lite]] | Active, 2 regions | Time-bounded campaigns; CI tier £75/mo | Varies | Warwickshire (26 firms), Northants (39 firms), daily outreach runs |
+| [[Mark-Lite]] | **Paused** | Time-bounded campaigns; CI tier £75/mo | Varies | Routine unscheduled (cron empty). Andy has no sales capacity in May. Repurpose to "Mark Ops" under discussion. |
 | **Custom AI build (Tonic)** | New stream | Fixed-fee + ongoing | £1,750 one-off + TBD | [[Tonic-Health]] — Python + Claude API. Spec evolved: multi-source insight engine with pain taxonomy as primary creative input. |
 | [[Hike-SES]] | Directorship income | Retained + contractual visibility | Contractual | Hike SEO client base (~2,000) |
-| [[Belle-Agent]] | First build | DOM-selector agent, per-client | £3,000 + TBD retainer | [[KW-Bell]] -- invoice OCR in EvoMX. First Model A deployment. |
-| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£38.43 YTD (tracker) | NBA, Tennis, Snooker. Crypto park recommended (-16.8%). |
+| [[Belle-Agent]] | First build | DOM-selector agent, per-client | £3,000 + TBD retainer | [[KW-Bell]] -- invoice OCR in EvoMX. First Model A deployment. 7-skill expansion pipeline. |
+| [[Betting-Portfolio]] | Passive income | Value betting (AutoStrategy) | +£49.86 YTD (tracker) | NBA, Tennis, Snooker. **Crypto parked indefinitely** (-16.8%, VPS deleted 29 Apr). |
 
 ### Building Products
 
@@ -283,18 +284,18 @@ TTAI runs five autonomous AI employees via [[claude-code-routines]]:
 | Employee | Status | Platform | Cadence |
 |----------|--------|----------|---------|
 | Wiki | Operational | Routines | Every other day |
-| Mark-Lite | Operational (5d Slack silent -- possible runtime issue) | Routines | Daily |
+| Mark-Lite | **Paused** (cron empty, not scheduled -- Andy confirmed 29 Apr) | Routines | Unscheduled |
 | Karen | **Operational (launched 23 Apr)** | Routines | Daily ~08:00am |
 | Cord | **Operational (launched 23 Apr)** | Routines (daily) + Channel Mode (persistent tmux) | Daily ~10:00am + real-time |
 | Fred | Paused -- migration deferred | Cowork | Daily (when active) |
 
 All employees report to Slack #ttai-employees. Andy replies are routed via [[ttai-slack-bridge]] (Railway free tier). Total infrastructure cost: ~£0 (Anthropic Max plan £150/mo is Andy's personal subscription).
 
-**Cord dual-mode architecture:** Routine Cord (cloud, daily briefing -- sweeps Slack/Calendar/Gmail/Drive) + Channel Cord (local, persistent via tmux -- real-time conversation). Shared memory via cord-memory/ folder on Google Drive (MEMORY.md canonical state + inbox/ event files). New escalation framework: aging items from standard bullet (day 0-2) to BLOCKING (day 5+) to direct ping (day 7).
+**Cord dual-mode architecture:** Routine Cord (cloud, daily briefing -- sweeps Slack/Calendar/Gmail/Drive) + Channel Cord (local, persistent via tmux -- real-time conversation). Shared memory via cord-memory/ folder on Google Drive (MEMORY.md canonical state + inbox/ event files). New escalation framework: aging items from standard bullet (day 0-2) to BLOCKING (day 5+) to direct ping (day 7). **RemoteTrigger API** (discovered 29 Apr): Cord can list, update, and trigger all routines (Karen, Wiki, Mark-Lite, Fred) via the Anthropic Routines API -- same endpoints as claude.ai/code/routines web UI.
 
 **Karen capabilities:** Pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing. Day-of-week bug found and fixed (24 Apr).
 
-**Mark-Lite 5d Slack silent** since 24 Apr. Cord flagged as potential runtime issue. Andy may be mid-rework (edited mark-lite.md 28 Apr).
+**Mark-Lite paused** -- cron expression empty, routine not scheduled. Andy confirmed 29 Apr: no sales capacity in May. Repurpose to "Mark Ops" (build support + customer monitoring) under discussion with Cord.
 
 ---
 

@@ -38,19 +38,28 @@ Key architectural decisions:
 - Platform: Routines, daily (~08:00am)
 - Reports to #ttai-employees via Slack
 - Capabilities: Pipeline tracking, invoice monitoring, Gmail draft creation, workflow sheet management, bookkeeping updates, expense filing
+- **Prompt v2 (29 Apr):** Cord updated Karen's live prompt via RemoteTrigger API. Two edits: (1) step 4 changed from "Read the workflow" to "Read AND maintain the workflow sheet" -- Monthly Incomings is source of truth, TTAI Workflow mirrors it; (2) pipeline-updates rule changed from "add new row" to "append a dated line to existing client's notes cell" (format: DD.MM.YY - what happened).
+- Created new TTAI Workflow sheet (id: `1DOdoqtHG0yn2SvTUYa70Yl8OGnMChpvAyynMY4FaRbs`) with April preserved + May 1-27 from Monthly Incomings. Old sheet flagged for deletion.
 - Day-of-week bug found and fixed (24 April) -- was carrying stale day labels instead of deriving from system date
 - Gmail OAuth dependency -- token expiry blocks chase drafts and inbox review (happened 23-24 April, resolved)
 
 **Cord (Manager) -- Operational since 23 April 2026:**
 - Dual-mode architecture: Routine Cord (cloud, daily ~10:00am briefing sweep) + Channel Cord (local, persistent, real-time via ttai-slack-channel MCP server)
 - Shared memory protocol: cord-memory/ folder on Google Drive with MEMORY.md (canonical state) + inbox/ (per-session event files). Drive connector limitation: create-only, no overwrite -- handled by readers picking newest MEMORY*.md
+- **RemoteTrigger API access (discovered 29 Apr):** Channel Cord can list, update, and trigger routines via the Anthropic Routines API (`/v1/code/triggers`). Used to update Karen's live prompt. Same access for Wiki, Mark-Lite, Fred. Auth is in-process OAuth.
 - Reports to #ttai-employees
-- Capabilities: Morning briefing (sweep Slack/Calendar/Gmail/Drive), triage employee outputs, push back on weak reasoning, escalate to Andy, coordinate between employees, age pending decisions
+- Capabilities: Morning briefing (sweep Slack/Calendar/Gmail/Drive), triage employee outputs, push back on weak reasoning, escalate to Andy, coordinate between employees, age pending decisions, **update live routine prompts via API**
 - Escalation framework: Day 0-2 standard bullet, Day 3 "needs decision", Day 5+ top-of-briefing BLOCKING, Day 7 direct ping
 - Three-word reply convention: "Park", "Approve", "Decide Friday" etc.
 - v2 format adopted (decisions-made section, FOR ANDY items, employee health, cross-employee notes)
+- Dropped-reply pattern: long tool-heavy turns cause Cord to forget final `reply` step. Self-imposed rule set 29 Apr.
 
-**Fred migration deferred** (2026-04-21): Heavy local dependencies (Python model scripts on Mac, Betfair browser automation, crypto VPS SSH access). Mark-Lite prioritised instead.
+**Mark-Lite -- Paused (29 April 2026):**
+- Cron expression empty -- routine is not scheduled. Andy confirmed no sales capacity in May.
+- Repurpose under discussion: "Mark Ops" role (build support + customer monitoring) rather than lead-gen.
+- Oakwood Scaffolding warm reply and JDW calibration feedback remain unactioned pending decision.
+
+**Fred migration deferred** (2026-04-21): Heavy local dependencies (Python model scripts on Mac, Betfair browser automation, crypto VPS SSH access). Mark-Lite prioritised instead. Crypto VPS now deleted (29 Apr).
 
 ---
 
