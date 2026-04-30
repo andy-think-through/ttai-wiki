@@ -1,7 +1,7 @@
 # Mark
 
-> Productised AI lead-finding agent for trades and service businesses. Automates discovery, qualification, and outreach across email and planning portal monitoring. Managed service model at £200-£500 setup + £200/month ongoing.
-> Last updated: 2026-04-20
+> Productised AI lead-finding agent for trades and service businesses. Automates discovery, qualification, and outreach across email and planning portal monitoring. Managed service model: productised (£250-£500 setup + £200/month) for small subcontractors; bespoke pricing for larger clients.
+> Last updated: 2026-04-30
 
 ## What Mark Does
 
@@ -51,6 +51,8 @@ This split keeps credit costs reasonable (weekly heavy lifting) while maintainin
 
 ## Service Model & Pricing
 
+### Productised (Small Subcontractors)
+
 - **Setup:** £250–£500 one-time
   - Integration of client email account (Gmail or Outlook)
   - Initial prospect list research + enrichment
@@ -63,6 +65,12 @@ This split keeps credit costs reasonable (weekly heavy lifting) while maintainin
   - Daily-to-weekly outreach (depends on client)
   - Tracker management + reporting
   - Optimisation based on reply feedback
+
+### Bespoke (Larger SMEs / Training Providers)
+
+For clients with expanded scope beyond standard local trade outreach, Mark is priced as a bespoke build. First bespoke engagement: [[accxel]] (apprenticeship training provider, ~1,000-employer database, HubSpot routing, national outreach).
+
+Bespoke indicators: existing CRM integration (not Google Sheets), multiple outreach channels, database larger than typical trade prospect list, sector-specific compliance requirements.
 
 **Exclusivity:** Client-specific agreements possible (e.g., Hawks Scaffolding has exclusive scaffolding in Warwickshire)
 
@@ -163,8 +171,9 @@ Every new Mark build now includes a **calibration step** in the early part of th
 | [[hawks-scaffolding]] | Live | Managed | £200 | First customer; v2 build; exclusive Warwickshire scaffolding |
 | [[mercia-flooring]] | Go-live pending (Outlook verify 17 Apr) | Managed | £200 | Schools outreach; seasonal Jan-July; fix reported by Solaas IT 16 Apr |
 | [[midlands-bat-surveys]] | Live | Managed | £500 | Planning portal variant; eco firms as targets; two region IDs |
-| [[jdw-brickwork]] | Signed — build 21-25 Apr | Managed | £200 | First Mark-Lite → Mark conversion; £500 setup (INV-004); brickwork variant targets buyers/QSs at main contractors |
+| [[jdw-brickwork]] | Near go-live | Managed | £200 | First Mark-Lite → Mark conversion; £500 setup (INV-004); brickwork variant targets buyers/QSs at main contractors; calibration applied 29 Apr |
 | [[holmes-workholding]] | Signed — build 5-7 May | Managed | £200 | Third paying Mark client; £250 setup (INV-006); precision-engineering vertical; kickoff 5 May 10:00 |
+| [[accxel]] | Build May (bespoke) | Bespoke | TBD | First bespoke Mark; ~1,000-employer database; HubSpot routing; national + local outreach; mark@accxel.co.uk warming needed |
 | Mark-Lite (Warwickshire) | Live | Time-bounded | N/A | 26-firm campaign; post-Warwickshire learnings |
 | Mark-Lite (Northamptonshire) | Live | Time-bounded | N/A | 39-firm campaign; v2 improvements |
 

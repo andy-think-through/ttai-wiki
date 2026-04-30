@@ -27,7 +27,7 @@
 
 ## Clients
 - [[kw-bell]] -- Bell Contracting: Belle v1 signed off (£3k), EvoMX working. First Agent Browser deployment. 7-skill expansion pipeline. Jason Bell (CFO) intro 28 Apr.
-- [[accxel]] -- **COMPLETED** discovery day 28 Apr. 13 AI opportunities. INV-007 £788.20. Natalie replied positive 29 Apr.
+- [[accxel]] -- Audit day complete 28 Apr. 3 projects locked for solution design (Mark May, Bob + HubSpot cleanse June). Bespoke pricing. £2.5k double-lock problem, ~1k employer database. INV-007 £788.20.
 - [[mercia-flooring]] -- Mark agent client: Entra/Manus still blocked (Andy chased Solaas again 29 Apr). Pete sent w/c 4 May postcodes -- outreach proceeding via workaround.
 - [[holmes-workholding]] -- **Mark signed** -- INV-006 £250 (chase sent 29 Apr). Build window Wed-Thu 06-07 May.
 - [[mjm-consulting]] -- Marketing strategy prospect: competing vs YER
@@ -68,6 +68,8 @@
 - [[planning-data-serves-site-trades]] — Planning portal leads work for site trades, not supply-chain trades
 - [[trust-the-agent-not-dom]] — Visual browser agent beats custom DOM scripts for complex UIs
 - [[platform-mapping-compounds]] — First feature costs days, subsequent features cost hours (Hike: 24-day estimate → 1–2 hours for 20 features)
+- [[ai-as-more-staff]] — Pitch AI as virtual employees within existing systems, not system overhaul (AccXel audit)
+- [[naming-agents-lands-well]] — Human names for agents create shared vocabulary and make automation memorable (AccXel, KW Bell)
 - [[trust-ladder-over-binary-trust]] — Graduate autonomy through stages for external-facing employees
 - [[classify-before-acting]] — Classify inbound messages before acting (Mode 2 pattern)
 - [[belt-and-braces-safety]] — Keep redundant safety mechanisms at different layers
